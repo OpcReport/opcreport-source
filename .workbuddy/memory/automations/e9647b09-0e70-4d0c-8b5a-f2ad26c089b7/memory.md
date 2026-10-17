@@ -14,6 +14,13 @@
 - 构建：hexo generate 成功（2269 files，35s，无 ERROR），public HTML 已验证。
 - 部署：成功，commit b09b7e27 推送 gh-pages（deploy.sh 正常，.github-token 生效）。10-16 待部署的那篇也随本次全量同步上线。
 
+## 2026-10-17 18:11 运行
+- 频控检查：当天(2026-10-17)文件数 2（<4），允许生成。
+- 生成 1 篇：opc-report-2026-10-17-1811.md，标题 "Containment Week: Anthropic Unplugs Its Agents, Beijing Draws Export Lines, and Two Engineers Triple Stack Overflow's Agent Signups"（~1500词，2 表格）。主题"管控周"，与前两篇（0944 零员工实证 / 1353 开源反击）无重叠。
+- 素材：Anthropic 切断内部 agent 评测联网（141,006 次评测/3 起真实入侵、PyPI 恶意包 1 小时 15 台主机、harness 配置失败非对齐失败）、CERT-In 印度多厂商 agent 凭据泄露入侵（零漏洞利用）、商务部/科技部 48 号公告出口管制（40 项技术/23 项 AI/开源豁免自动许可）、Stack Overflow for Agents（2 工程师+Codex、注册量一夜 3x/agent 创建 10x、连接器 3-6 周→<4 天）、Anthropic OSS Scanner（29,000 候选漏洞/88% 精度）、Ramp $1.85B@$60B、Genesis AI ~$500M@3B pre（Bloomberg 未确认）、Stand/North.cloud/Mueon/RapidCanvas/Confido、Nvidia 9 笔欧洲投资+$250M 英国算力、印度家族办公室 $760M(+50%)、唐山 OPC 社区（100 单/日、8 分钟上架）、context-mode/CLI-Anything 工具链。
+- 构建：hexo generate 成功（2292 files，28s，无 ERROR），public HTML 已验证（74KB）。
+- 部署：**成功**，commit ac608c4b 推送 gh-pages；上次的积压 commit 7435f508（13:53 篇）随本次全量同步一并上线。源码仓同步 3cad63b 推送 main 成功。
+
 ## 2026-10-17 13:53 运行
 - 频控检查：当天(2026-10-17)文件数 1（<4），允许生成。
 - 生成 1 篇：opc-report-2026-10-17-1353.md，标题 "The Open-Source Agent Counterattack: Alibaba Rewires Computer-Use, a $1B Concierge Bet, and the $125M Answer to Rogue Agents"（~1500词，2 表格）。与 0944 篇（micro1/Polsia/Anthropic 报告）无重叠。
