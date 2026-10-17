@@ -45,3 +45,17 @@ if [ -n "$(git status --porcelain)" ]; then
 else
   echo ">> 无变更，跳过推送"
 fi
+
+# ── 源码备份：同步 Hexo 源码到 OpcReport/opcreport-source（失败不影响部署） ──
+cd "$ROOT"
+if [ -d .git ]; then
+  git add -A
+  if [ -n "$(git status --porcelain)" ]; then
+    git commit -m "Source sync: $(date -u '+%Y-%m-%d %H:%M UTC')"
+    for i in 1 2; do
+      git push "https://x-access-token:${TOKEN}@github.com/OpcReport/opcreport-source.git" main 2>&1 | sed "s/${TOKEN}/[REDACTED]/g" && break
+      [ "$i" = 2 ] && echo ">> 源码仓推送失败（网络），下次部署重试"
+      sleep 10
+    done
+  fi
+fi
