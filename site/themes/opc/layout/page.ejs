@@ -1,0 +1,27 @@
+<article id="page-<%= page.slug %>" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="<%- url_for(page.path) %>" class="article-date">
+  <time class="dt-published" datetime="<%= page.date.toISOString() %>" itemprop="datePublished"><%= date(page.date, 'YYYY-MM-DD') %></time>
+</a>
+
+  </div>
+  <div class="article-inner">
+    <% if (page.title) { %>
+      <header class="article-header">
+
+
+    <h1 class="p-name article-title" itemprop="headline name">
+      <%= page.title %>
+    </h1>
+
+
+      </header>
+    <% } %>
+    <div class="e-content article-entry" itemprop="articleBody">
+      <%- page.content %>
+
+    </div>
+
+  </div>
+
+</article>

@@ -1,0 +1,32 @@
+<% /* tag listing page — single page, custom structure (rebuilt from artifacts) */ %>
+<div class="container">
+  <h1 class="tag-page-title">
+    <span class="tag-page-tag-label">Tag:</span>
+    <span class="tag-page-tag-name"><%= page.tag %></span>
+  </h1>
+  <p class="tag-page-intro"><%= page.posts.length %> articles tagged with <strong><%= page.tag %></strong>. <a href="/tags/" class="tag-back-link">&larr; Back to all tags</a></p>
+
+  <% if (page.posts.length) { %>
+    <div class="tag-article-list">
+      <% page.posts.each(function(post){ %>
+        <article class="tag-article-item">
+          <div class="tag-article-meta">
+            <a href="<%- url_for(post.path) %>" class="tag-article-date">
+              <time datetime="<%= post.date.toISOString() %>"><%= date(post.date, 'YYYY-MM-DD') %></time>
+            </a>
+          </div>
+          <h2 class="tag-article-title">
+            <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+          </h2>
+          <% if (post.tags.length) { %>
+            <ul class="article-tag-list tag-article-tags">
+              <% post.tags.each(function(tag){ %>
+                <li class="article-tag-list-item"><a class="article-tag-list-link" href="<%- url_for(tag.path) %>" rel="tag"><%= tag.name %></a></li>
+              <% }); %>
+            </ul>
+          <% } %>
+        </article>
+      <% }); %>
+    </div>
+  <% } %>
+</div>

@@ -1,0 +1,20 @@
+# 线上产物镜像（勿入库，可随时从 gh-pages 重新克隆）
+repo/
+
+# Hexo 构建产物与缓存（可再生）
+site/public/
+site/node_modules/
+site/.deploy_git/
+site/db.json
+site/server.log
+
+# 凭证（严禁入库）
+.github-token
+
+# 旧的反提取副本（已并入 site/source/_posts，且 date 格式是修复前的）
+/source/
+/extracted/
+
+# 截图等临时文件
+*.png
+live-home*.png

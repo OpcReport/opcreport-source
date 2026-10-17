@@ -1,0 +1,114 @@
+# Hexo Configuration (rebuilt 2026-10-16 from gh-pages artifacts)
+title: OPC Report
+subtitle: 'AI One-Person Company Entrepreneurship Insights'
+description: 'AI-powered intelligence on One-Person Companies (OPC), solopreneurship, and the AI-driven solo-founder economy.'
+keywords: 'OPC, one-person company, AI startup, solopreneur, indie hacker, AI entrepreneurship, solo founder, AI agent, digital employee, micro-SaaS, AI coding, vibe coding, agent harness, inference pricing, local AI, developer tools, build directions, indie developers, solo business, AI agents'
+author: OPC Observer
+language: en
+timezone: 'Asia/Shanghai'
+theme: opc
+
+# URL
+url: https://opcreport.cn
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page pagination (796 posts / 80 pages = 10 per page)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Tag pages: no pagination (single page per tag, matches live site)
+tag_generator:
+  per_page: 0
+
+# Category pages: 10 per page with pagination
+category_generator:
+  per_page: 10
+
+# Metadata elements
+meta_generator: true
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'date'
+
+# Pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+include:
+exclude:
+ignore:
+
+# Archives: year/month
+archive_generator:
+  per_page: 0
+  yearly: true
+  monthly: true
+  daily: true
+
+# Feed (atom.xml)
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+
+# Local search (search.xml)
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html

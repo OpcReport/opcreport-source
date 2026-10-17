@@ -1,0 +1,43 @@
+# OPC Report theme config (landscape-derived custom)
+menu:
+  Home: /
+  Start Here: /start-here/
+  Browse: /dates/
+  Archives: /archives
+  Tags: /tags
+  About: /about/
+  Privacy: /privacy/
+  Contact: /contact/
+
+# Github repo link in sub-nav
+github_link: https://github.com/OpcReport/OpcReport.github.io
+
+# Site identity
+logo: /images/logo.png
+favicon: /favicon.png
+site_name: OPC Report
+twitter_site: '@opcreport'
+author_url: https://opcreport.cn/about/
+
+# GA4
+ga4_id: G-92GE48C3Y0
+
+# Busuanzi base offset (frozen counts at domain cutover from opcreport.github.io)
+busuanzi:
+  pv_base: 5737
+  uv_base: 5271
+  articles: 796
+
+# Donation
+donate:
+  address: 'TSA1q55N3UZhztmFybchZXnNouqQSTcshp'
+  qr: /images/donation-usdt.jpg
+
+# Tag cloud collapse button text
+tagcloud_toggle: '展开看全部'
+
+# Footer
+footer_copyright: 'AI-powered insights on One-Person Company entrepreneurship'
+
+# Long description (home meta / og / JSON-LD WebSite)
+home_description: 'OPC Report is a daily English-language intelligence publication tracking the one-person company economy, AI solopreneurship, indie AI startups, and the tools building the solo-founder economy. Each report synthesizes same-day developments into actionable analysis with named sources and specific numbers for independent developers and solopreneurs. 460+ reports archived since June 2026.'

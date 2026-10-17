@@ -1,0 +1,90 @@
+<footer id="footer">
+
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      <div class="visitor-card">
+        <span class="vc-item">
+          <span id="busuanzi_value_site_pv" class="vc-num">0</span>
+          <span class="vc-label">Total Views</span>
+        </span>
+        <span class="vc-item">
+          <span id="busuanzi_value_site_uv" class="vc-num">0</span>
+          <span class="vc-label">Visitors</span>
+        </span>
+        <span class="vc-item">
+          <span class="vc-num"><%= site.posts.length %></span>
+          <span class="vc-label">Articles</span>
+        </span>
+      </div>
+
+      <div class="donate-section">
+        <h3 class="donate-title">Support OPC Report</h3>
+        <p class="donate-subtitle">If these insights help your solo-founder journey, consider buying us a coffee.</p>
+        <div class="donate-body">
+          <div class="donate-qr-wrap">
+            <img src="<%= theme.donate.qr %>" alt="USDT TRC20 Donation QR Code" class="donate-qr">
+          </div>
+          <div class="donate-info">
+            <p class="donate-info-label">USDT (TRC20) Address</p>
+            <p class="donate-info-value" id="donate-address"><%= theme.donate.address %></p>
+            <button type="button" class="donate-copy-btn" id="donate-copy-btn" onclick="(function(btn){var addr=document.getElementById('donate-address').innerText;navigator.clipboard&&navigator.clipboard.writeText(addr).then(function(){btn.innerText='Copied!';btn.classList.add('copied');setTimeout(function(){btn.innerText='Copy Address';btn.classList.remove('copied')},2000)})})(this)"><span class="fa fa-clipboard"></span>Copy Address</button>
+            <p class="donate-warn">Scan the QR code or copy the address above. Only send USDT on the TRC20 (Tron) network. Sending other tokens or using other networks may result in permanent loss.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer-author">&copy; <%= new Date().getFullYear() %> <a href="<%= config.url %>/"><%= config.title %></a> · <%= theme.footer_copyright %></p>
+      <p class="footer-author">Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> · <a href="/atom.xml">RSS Feed</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="https://github.com/OpcReport/OpcReport.github.io" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Busuanzi base offset: busuanzi counts per-URL, so after moving to the
+// custom domain the counter restarts at zero. BSZ_BASE carries over the
+// final counts of opcreport.github.io (frozen at domain cutover).
+// Re-query right before cutover deploy:
+//   curl -H "Referer: https://opcreport.github.io/" "https://busuanzi.ibruce.info/busuanzi?jsonpCallback=x"
+window.BSZ_BASE = { pv: <%= theme.busuanzi.pv_base %>, uv: <%= theme.busuanzi.uv_base %> };
+(function() {
+  var ids = { busuanzi_value_site_pv: window.BSZ_BASE.pv, busuanzi_value_site_uv: window.BSZ_BASE.uv };
+
+  // Old domain: keep original behaviour (show N/A if busuanzi fails to load)
+  if (!/(^|\.)opcreport\.cn$/.test(location.hostname)) {
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        var uv = document.getElementById('busuanzi_value_site_uv');
+        var pv = document.getElementById('busuanzi_value_site_pv');
+        if (uv && (uv.innerText === '0' || uv.innerText === '')) {
+          uv.innerText = '—';
+          pv.innerText = '—';
+        }
+      }, 5000);
+    });
+    return;
+  }
+
+  // New domain: add the frozen base on top of the fresh busuanzi count
+  var timer = setInterval(function() {
+    var allDone = true;
+    for (var id in ids) {
+      var el = document.getElementById(id);
+      if (!el || el.dataset.bszOffset) continue;
+      var val = parseInt(el.innerText.replace(/,/g, ''), 10);
+      if (isNaN(val) || val < 1) { allDone = false; continue; } // busuanzi not loaded yet
+      el.dataset.bszOffset = '1';
+      el.innerText = (val + ids[id]).toLocaleString('en-US');
+    }
+    if (allDone) clearInterval(timer);
+  }, 400);
+
+  // Fallback on new domain: if busuanzi fails to load, show frozen base counts
+  setTimeout(function() {
+    clearInterval(timer);
+    for (var id in ids) {
+      var el = document.getElementById(id);
+      if (el && !el.dataset.bszOffset) el.innerText = ids[id].toLocaleString('en-US');
+    }
+  }, 8000);
+})();
+</script>

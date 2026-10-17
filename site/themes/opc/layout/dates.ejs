@@ -1,0 +1,152 @@
+<%
+/* dates (Browse by Date) page — rendered by custom generator */
+var days = page.local_data.days;
+var posts_json = page.local_data.posts_json;
+%>
+<div class="container dates-page">
+  <h1 class="dates-title">Browse by Date</h1>
+  <p class="dates-intro">Pick any date to see all reports published that day. Click a title to read the full report.</p>
+
+  <div class="dates-controls">
+    <div class="dates-field">
+      <label for="date-picker" class="dates-label">Select date</label>
+      <input type="date" id="date-picker" class="dates-input" list="available-dates" />
+      <datalist id="available-dates">
+        <% days.forEach(function(d){ %>
+          <option value="<%= d.date %>"><%= d.count %> report<%= d.count === 1 ? '' : 's' %></option>
+        <% }); %>
+      </datalist>
+    </div>
+    <div class="dates-field">
+      <label class="dates-label">Quick jump</label>
+      <div class="dates-quick">
+        <button type="button" class="dates-quick-btn" data-offset="0">Today</button>
+        <button type="button" class="dates-quick-btn" data-offset="-1">Yesterday</button>
+        <button type="button" class="dates-quick-btn" data-offset="-2">2 days ago</button>
+        <button type="button" class="dates-quick-btn" data-offset="-7">A week ago</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="dates-summary">
+    <span id="dates-summary-text" class="dates-summary-text">Showing: all reports (newest first)</span>
+    <button type="button" id="dates-reset" class="dates-reset-btn" style="display:none;">Show all</button>
+  </div>
+
+  <div id="dates-results" class="dates-results">
+    <!-- Rendered by JS -->
+  </div>
+
+  <div id="dates-empty" class="dates-empty" style="display:none;">
+    No reports published on the selected date. Try another date.
+  </div>
+
+  <details class="dates-all-dates">
+    <summary>All available dates (<%= days.length %> days)</summary>
+    <div class="dates-all-grid">
+      <% days.forEach(function(d){ %>
+        <button type="button" class="dates-date-pill" data-date="<%= d.date %>"><%= d.date %> <span class="dates-pill-count">(<%= d.count %>)</span></button>
+      <% }); %>
+    </div>
+  </details>
+</div>
+
+<script id="dates-posts-data" type="application/json">
+<%- posts_json %>
+</script>
+
+<script>
+(function(){
+  var data = JSON.parse(document.getElementById('dates-posts-data').textContent);
+  var results = document.getElementById('dates-results');
+  var empty = document.getElementById('dates-empty');
+  var summary = document.getElementById('dates-summary-text');
+  var resetBtn = document.getElementById('dates-reset');
+  var picker = document.getElementById('date-picker');
+
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
+    });
+  }
+
+  function render(items, filterDate){
+    if (!items.length){
+      results.innerHTML = '';
+      empty.style.display = 'block';
+      summary.textContent = 'No reports on ' + filterDate;
+      resetBtn.style.display = 'inline-flex';
+      return;
+    }
+    empty.style.display = 'none';
+    var html = items.map(function(p){
+      var tagsHtml = (p.tags && p.tags.length)
+        ? '<ul class="article-tag-list tag-article-tags">' +
+          p.tags.map(function(t){
+            return '<li class="article-tag-list-item"><span class="article-tag-list-link-static">' + escapeHtml(t) + '</span></li>';
+          }).join('') + '</ul>'
+        : '';
+      return '' +
+        '<article class="tag-article-item dates-item">' +
+          '<div class="tag-article-meta">' +
+            '<span class="tag-article-date">' + p.date + ' · ' + p.time + ' UTC</span>' +
+          '</div>' +
+          '<h2 class="tag-article-title">' +
+            '<a href="' + p.path + '">' + escapeHtml(p.title) + '</a>' +
+          '</h2>' +
+          tagsHtml +
+        '</article>';
+    }).join('');
+    results.innerHTML = '<div class="tag-article-list">' + html + '</div>';
+    summary.textContent = filterDate
+      ? (items.length + ' report' + (items.length === 1 ? '' : 's') + ' on ' + filterDate)
+      : ('Showing all ' + items.length + ' reports (newest first)');
+    resetBtn.style.display = filterDate ? 'inline-flex' : 'none';
+  }
+
+  function filterByDate(dateStr){
+    if (!dateStr){
+      render(data, null);
+      return;
+    }
+    var filtered = data.filter(function(p){ return p.date === dateStr; });
+    filtered.sort(function(a, b){ return a.time < b.time ? 1 : -1; });
+    render(filtered, dateStr);
+  }
+
+  picker.addEventListener('change', function(){
+    filterByDate(picker.value);
+  });
+
+  resetBtn.addEventListener('click', function(){
+    picker.value = '';
+    render(data, null);
+  });
+
+  // Quick-jump buttons
+  document.querySelectorAll('.dates-quick-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var offset = parseInt(btn.getAttribute('data-offset'), 10);
+      var d = new Date();
+      d.setDate(d.getDate() + offset);
+      var iso = d.toISOString().substring(0, 10);
+      picker.value = iso;
+      filterByDate(iso);
+    });
+  });
+
+  // Date pills in collapsible list
+  document.querySelectorAll('.dates-date-pill').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var d = btn.getAttribute('data-date');
+      picker.value = d;
+      filterByDate(d);
+      // Scroll to top of results
+      document.querySelector('.dates-page').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Initial render: all posts
+  render(data, null);
+})();
+</script>

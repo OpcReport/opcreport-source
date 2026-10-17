@@ -1,0 +1,15 @@
+<%
+/* All Tags page — rendered by custom generator */
+var tags = page.local_data.tags;
+var tag_count = page.local_data.tag_count;
+var post_count = page.local_data.post_count;
+%>
+<div class="container">
+  <h1>All Tags</h1>
+  <p class="tag-page-intro"><%= tag_count %> tags across <%= post_count %> articles. Browse by topic.</p>
+  <div class="tag-page-cloud">
+      <% tags.forEach(function(t){ %>
+        <a href="/tags/<%= t.slug %>/"><%= t.name %> <span class="tag-count">(<%= t.count %>)</span></a>
+      <% }); %>
+    </div>
+</div>

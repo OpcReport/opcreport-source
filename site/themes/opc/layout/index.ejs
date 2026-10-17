@@ -1,0 +1,61 @@
+<% page.posts.each(function(post){ %>
+    <article id="post-<%= post.slug %>" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="<%- url_for(post.path) %>" class="article-date">
+  <time class="dt-published" datetime="<%= post.date.toISOString() %>" itemprop="datePublished"><%= date(post.date, 'YYYY-MM-DD') %></time>
+</a>
+    <% if (post.categories && post.categories.length) { %>
+  <div class="article-category">
+    <% post.categories.each(function(cat, i){ if (i > 0) { %>&#9656;<% } %><a class="article-category-link" href="<%- url_for(cat.path) %>"><%= cat.name %></a><% }); %>
+  </div>
+  <% } %>
+
+  </div>
+  <div class="article-inner">
+    <% if (post.title) { %>
+      <header class="article-header">
+
+
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="<%- url_for(post.path) %>"><%= post.title %></a>
+    </h1>
+
+
+      </header>
+    <% } %>
+    <div class="e-content article-entry" itemprop="articleBody">
+      <% var plain = post.content.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim(); %>
+        <p class="article-excerpt">
+          <%= plain.length > 300 ? plain.substring(0, 300) + '…' : plain %>
+        </p>
+
+    </div>
+      <p class="article-more-link">
+        <a href="<%- url_for(post.path) %>#more">Read Full Report</a>
+      </p>
+
+    <footer class="article-footer">
+      <a data-url="<%= config.url %>/<%= post.path %>" data-id="<%= post.slug %>" data-title="<%= post.title %>" class="article-share-link"><span class="fa fa-share">Share</span></a>
+
+
+
+  <ul class="article-tag-list" itemprop="keywords"><% post.tags.each(function(tag){ %><li class="article-tag-list-item"><a class="article-tag-list-link" href="<%- url_for(tag.path) %>" rel="tag"><%= tag.name %></a></li><% }); %></ul>
+
+    </footer>
+  </div>
+
+</article>
+<% }); %>
+
+
+
+
+
+
+
+
+  <% if (page.total > 1) { %>
+  <nav id="page-nav">
+    <%- paginator({ prev_text: '&laquo; Prev', next_text: 'Next &raquo;', mid_size: 2, escape: false }) %>
+  </nav>
+  <% } %>
