@@ -9,8 +9,11 @@ var posts_json = page.local_data.posts_json;
 
   <div class="dates-controls">
     <div class="dates-field">
-      <label for="date-picker" class="dates-label">Select date</label>
-      <input type="date" id="date-picker" class="dates-input" list="available-dates" />
+      <label for="date-display" class="dates-label">Select date</label>
+      <div class="dates-input-wrap">
+        <input type="text" id="date-display" class="dates-input" placeholder="YYYY-MM-DD" list="available-dates" autocomplete="off" spellcheck="false" />
+        <input type="date" id="date-picker" class="dates-input dates-input-native" aria-hidden="true" tabindex="-1" />
+      </div>
       <datalist id="available-dates">
         <% days.forEach(function(d){ %>
           <option value="<%= d.date %>"><%= d.count %> report<%= d.count === 1 ? '' : 's' %></option>
@@ -51,6 +54,12 @@ var posts_json = page.local_data.posts_json;
   </details>
 </div>
 
+<style>
+  .dates-input-wrap { position: relative; display: inline-block; }
+  .dates-input-wrap .dates-input { cursor: pointer; }
+  .dates-input-native { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; pointer-events: none; border: none; background: none; }
+</style>
+
 <script id="dates-posts-data" type="application/json">
 <%- posts_json %>
 </script>
@@ -63,6 +72,17 @@ var posts_json = page.local_data.posts_json;
   var summary = document.getElementById('dates-summary-text');
   var resetBtn = document.getElementById('dates-reset');
   var picker = document.getElementById('date-picker');
+  var display = document.getElementById('date-display');
+
+  // Visible text input <-> hidden native picker sync (locale-independent placeholder)
+  function syncDisplay() { display.value = picker.value || ''; }
+  display.addEventListener('click', function(){
+    try { if (typeof picker.showPicker === 'function') picker.showPicker(); } catch (e) {}
+  });
+  display.addEventListener('input', function(){
+    var v = display.value.trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(v)) { picker.value = v; filterByDate(v); }
+  });
 
   function escapeHtml(s){
     return String(s).replace(/[&<>"']/g, function(c){
@@ -115,11 +135,13 @@ var posts_json = page.local_data.posts_json;
   }
 
   picker.addEventListener('change', function(){
+    syncDisplay();
     filterByDate(picker.value);
   });
 
   resetBtn.addEventListener('click', function(){
     picker.value = '';
+    display.value = '';
     render(data, null);
   });
 
@@ -131,6 +153,7 @@ var posts_json = page.local_data.posts_json;
       d.setDate(d.getDate() + offset);
       var iso = d.toISOString().substring(0, 10);
       picker.value = iso;
+      display.value = iso;
       filterByDate(iso);
     });
   });
@@ -140,6 +163,7 @@ var posts_json = page.local_data.posts_json;
     btn.addEventListener('click', function(){
       var d = btn.getAttribute('data-date');
       picker.value = d;
+      display.value = d;
       filterByDate(d);
       // Scroll to top of results
       document.querySelector('.dates-page').scrollIntoView({ behavior: 'smooth', block: 'start' });

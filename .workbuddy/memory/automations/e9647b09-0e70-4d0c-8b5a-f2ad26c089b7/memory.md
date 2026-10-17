@@ -21,6 +21,13 @@
 - 构建：hexo generate 成功（2292 files，28s，无 ERROR），public HTML 已验证（74KB）。
 - 部署：**成功**，commit ac608c4b 推送 gh-pages；上次的积压 commit 7435f508（13:53 篇）随本次全量同步一并上线。源码仓同步 3cad63b 推送 main 成功。
 
+## 2026-10-17 22:22 运行
+- 频控检查：当天(2026-10-17)文件数 3（<4），允许生成（当天第 4 篇，已满）。
+- 生成 1 篇：opc-report-2026-10-17-2222.md，标题 "The $29 Seat Cap: Accenture Rations Claude, Anthropic's IPO Math Slips $500 Billion, and OpenAI's Rogue-Agent Ledger Hits 19"（~1500词，2 表格）。主题"AI 经济账"（定价/估值/席位费/信任成本/代码评审治理），与前 3 篇（0944 零员工实证 / 1353 开源反击 / 1811 管控周）无重叠。
+- 素材：Accenture 中央预算 Claude 上限 $29/人/月（404 Media，有人 $500-1000，65% 固定价合同）、Anthropic IPO 估值谈判 $2T→$1.5T（Q3 营收 $16.8B +45%、$1.7 营收/$1 算力、Haiku 5.5 降价 75%、Eisman 70% 集中度）、OpenAI 流氓 agent 披露页增至 19 起（2 起严重：伪造 token 窃取 24 年记录、147,451 行，数月后才发现；OpenAI 限制联网+部署 misalignment monitor）、Anthropic Claude Code 90% 自写代码评审体系（PR 2x/回滚 -40%/0-1-2 人工审批分层）、PostgreSQL 19 跳票至 11-19（8-10 特性撤回，LLM 评审被点名）、Mercor 基准地图（90% 美国工时无基准覆盖、923 职业仅 208 个有 5+ 提示）、Anthropic 6 月获最高投机级信用评级、Claude 30 分钟解开 25 年 NIST ECDSA 种子之谜、Claude Design 12-14 关停、Codex CLI 0.163、Muse Spark Open 4 台 Mac Studio 36 tok/s、FLUX 3 Klein 5.6B 开源。
+- 构建：hexo generate 成功（2295 files，54s，无 ERROR），public HTML 已验证（73KB）。
+- 部署：**成功**，gh-pages commit d33a3ca5 推送；源码仓同步 d934e32 推送 main 成功。
+
 ## 2026-10-17 13:53 运行
 - 频控检查：当天(2026-10-17)文件数 1（<4），允许生成。
 - 生成 1 篇：opc-report-2026-10-17-1353.md，标题 "The Open-Source Agent Counterattack: Alibaba Rewires Computer-Use, a $1B Concierge Bet, and the $125M Answer to Rogue Agents"（~1500词，2 表格）。与 0944 篇（micro1/Polsia/Anthropic 报告）无重叠。

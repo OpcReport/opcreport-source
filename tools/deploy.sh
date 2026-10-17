@@ -36,11 +36,18 @@ MSYS2_ARG_CONV_EXCL="*" robocopy "$(cygpath -w "$PUBLIC")" "$(cygpath -w "$DEPLO
 # GitHub Pages Jekyll 开关：Hexo 产物需要保留 .nojekyll
 touch "$DEPLOY/.nojekyll" 2>/dev/null || true
 
-# 变更才提交推送
-if [ -n "$(git status --porcelain)" ]; then
-  git add -A
-  git commit -m "Deploy: $(date -u '+%Y-%m-%d %H:%M UTC') auto content update"
-  git push origin gh-pages 2>&1 | sed "s/${TOKEN}/[REDACTED]/g"
+# 变更或有未推送提交才操作
+AHEAD=$(git rev-list --count origin/gh-pages..HEAD 2>/dev/null || echo 0)
+if [ -n "$(git status --porcelain)" ] || [ "$AHEAD" != "0" ]; then
+  if [ -n "$(git status --porcelain)" ]; then
+    git add -A
+    git commit -m "Deploy: $(date -u '+%Y-%m-%d %H:%M UTC') auto content update"
+  fi
+  for p in 1 2 3; do
+    if git push origin gh-pages 2>&1 | sed "s/${TOKEN}/[REDACTED]/g"; then break; fi
+    [ "$p" = 3 ] && echo ">> 警告：gh-pages 推送未成功，下次部署重试"
+    sleep 15
+  done
   echo ">> 部署完成: $(git log -1 --format='%h %ad %s' --date=format:'%Y-%m-%d %H:%M')"
 else
   echo ">> 无变更，跳过推送"
