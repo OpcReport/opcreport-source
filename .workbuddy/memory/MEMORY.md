@@ -30,6 +30,11 @@
 - GSC: 490 未索引（"已发现-尚未编入索引"）/ 315 已索引；原因 = 高频同质化（8月峰值日 25 篇）+ 9-28 断更 + 归档薄页稀释抓取预算
 - 策略：≤4 篇/天（09/13/17/21 点自动化）、每篇有增量信息、重点文章 GSC 手动提交；断更恢复后索引会逐步回升
 
+## 源码仓（2026-10-17 闭环）
+- Hexo 源码在 OpcReport/opcreport-source（GitHub，main 分支，重建版非原始源码）。deploy.sh 每次部署后自动同步源码提交。
+- 本地根目录即 git 仓；.gitignore 严排 .github-token，/source/ 锚定根目录防误伤 site/source/。
+- README.md 记录了重建来源与构建注意事项。
+
 ## 待办
 
-- 等 OpcReport 账号 GitHub token → 配置部署闭环（automation 部署环节）
+- 等 OpcReport 账号 GitHub token → 配置部署闭环（automation 部署环节）【已完成 2026-10-16】
