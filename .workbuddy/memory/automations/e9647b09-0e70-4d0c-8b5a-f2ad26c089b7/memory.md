@@ -34,3 +34,10 @@
 - 素材：阿里 Tongyi-MAI 开源 OpenGCUA/MAI-Gym（OSWorld-v2 +19.6、8 模型、20k 并行 RL、19.4x token 效率差）、Instinct $1B@$10B（Sequoia/Benchmark/Coatue，现实世界 concierge agent）、Nous Research $90M B 轮@$1.5B（Nvidia/Samsung/YC）、Zenity $125M C 轮（agent 安全，总收入 $185M）、Workday 收购 C1.ai、ServiceNow AI Passport、Xbow $40K 算力挖出 Chrome 3 零日链、OpenAI 官方 skill 仓幻觉域名供应链风险、Elorian Glimpse、bigarrow、Cal AI $30M 分发案例、TrustMRR 独立开发者基率（中位 $145 MRR 等）、8 州诉 OpenAI、Anthropic 控制台 100x 扣款 bug。
 - 构建：hexo generate 成功（2289 files，1.2min，无 ERROR），public HTML 已验证。
 - 部署：**失败**。deploy.sh 两次 + 直接 push 一次，共 3 次推送均遇 github.com 连接重置/超时（本地网络问题）。commit 7435f508 已本地提交在 .deploy_git（gh-pages ahead 1），下次部署随全量同步自动上线。源码仓同步同样推送失败（main 77fae51 本地已提交）。
+
+## 2026-10-18 08:59 运行
+- 频控检查：当天(2026-10-18)文件数 0，允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-10-18-0900.md，标题 "The 10 Percent Coupon: Blackstone Prices Anthropic's Compute Habit, OpenAI Stops Billing Your Idle Agents, and a $2,399 Laptop Joins the Fight"（~1500词，2 表格）。主题"AI 算力成本重定价"（债务市场/空闲计费/本地硬件/独立开发者收入实证），与前 4 篇（2222 经济账/1811 管控/1353 开源反击/0944 零员工）无重叠。
+- 素材：Anthropic 北极星计划 $60B（黑石 $9B 次级债 10% 票息、博通担保、1.5GW TPU、vs Big Sky 8.5%、BB 指数 7%）、Volta $5B 杠杆贷款（基准+650bps/95美分/银行只承销 $1.3B/3.6万块 GPU）、OpenAI Agents API 停收空闲沙箱费+快照恢复（Anthropic 报告 agent 80% 会话空闲）、NVIDIA RTX Spark 笔记本 $2,399/128GB 开售、DeepSeek V4.1-Flash-1017 开源权重（HN 667 分）、独立开发者案例（Stella $300K MRR、Payout $80K、Launch Fast $30K、GeoGames $40K、AI 衣橱夫妻档 $10K MRR/删步骤创新）、机器人 $48B YTD、人形机器人 H1 3.6万台/前五全中国企业、Mastercard-BVNK 稳定币平台、Yelp/Delta/JPM/Schwab 封锁 agent。
+- 构建：hexo generate 成功（2300 files，26s，无 ERROR），public/opc-report-2026-10-18-0900/index.html 已验证（76KB）。
+- 部署：**成功**，gh-pages commit 4c82ad40 推送（中途一次 connection reset 重试后成功）；源码仓同步 abb901a 推送 main 成功。
