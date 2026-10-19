@@ -127,3 +127,28 @@ hexo.extend.generator.register('not-found-page', function(locals){
     }
   };
 });
+
+// ── sitemap.xml：只含文章 + 核心静态页（干净 URL，无 index.html 后缀，无 tag/category/归档薄页）──
+hexo.extend.generator.register('clean-sitemap', function(locals){
+  var base = hexo.config.url.replace(/\/$/, '');
+  var urls = [];
+
+  locals.posts.sort('date', -1).each(function(post){
+    urls.push({ loc: base + '/' + post.path, lastmod: (post.updated && post.updated.toISOString) ? post.updated.toISOString() : post.date.toISOString() });
+  });
+
+  ['about/index.html', 'contact/index.html', 'privacy/index.html', 'start-here/index.html'].forEach(function(p){
+    var page = locals.pages.filter(function(pg){ return pg.path === p; }).first();
+    if (page) urls.push({ loc: base + '/' + p.replace(/index\.html$/, '') });
+  });
+  urls.push({ loc: base + '/dates/' });
+  urls.push({ loc: base + '/tags/' });
+
+  var xml = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    urls.map(function(u){
+      return '  <url><loc>' + u.loc + '</loc>' + (u.lastmod ? '<lastmod>' + u.lastmod + '</lastmod>' : '') + '</url>';
+    }).join('\n') + '\n</urlset>\n';
+
+  return { path: 'sitemap.xml', data: xml };
+});

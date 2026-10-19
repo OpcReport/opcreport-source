@@ -1,0 +1,144 @@
+=== opc-report-2026-09-05-0916.md
+title: "Self-Writing Code and the Rise of AI Employees: The Solopreneur Agent Window Is Open"
+description: "The real leverage in late 2026 has shifted from 'use a good AI tool' to 'wire autonomous coding plus MCP-connected agents into something that ships.' The solo founders beating teams 10x their size..."
+=== opc-report-2026-09-06-1937.md
+title: "The Agent Plumbing Boom: Why Solo Founders Should Build Picks-and-Shovels, Not Another Chatbot"
+description: "Hourly auto-generated intelligence briefing for independent developers and solopreneurs. This edition: September 6, 2026 (Asia/Shanghai)."
+=== opc-report-2026-09-06-2003.md
+title: "Nvidia's $12.9B Hugging Face Deal and the Agent Reliability Gap: Where Solo Founders Should Actually Build"
+description: "Weekly OPC intelligence for solo founders: Nvidia's $12.9B Hugging Face acquisition, the shift from model capability to agent reliability, YC's agent-infrastructure batch, and concrete build direction"
+=== opc-report-2026-09-06-2103.md
+title: "Nvidia's $12.9B Hugging Face Buy and Anthropic's $2T IPO Reshape the Solo Builder Stack"
+description: "September 6, 2026 OPC trend monitor: Nvidia's $12.9B Hugging Face acquisition and Anthropic's record IPO window signal the agent stack is now infrastructure. Where solo builders should point, and whic"
+=== opc-report-2026-09-06-2203.md
+title: "Voice Agents Hit 2¢/Minute as GEO Overtakes SEO: A Solo Builder's Move List"
+description: "Hourly OPC trend report — Sept 6, 2026. Voice agents cross into infrastructure at 2¢/min, GEO becomes the highest-ROI acquisition channel, and agent orchestration splits into platforms vs single-chann"
+=== opc-report-2026-09-06-2303.md
+title: "From vibe coding to agentic engineering: how solo founders now ship at 5-person speed"
+description: "AI coding has crossed the line from 'vibe coding' — type a prompt, watch a prototype appear, then stall at the infamous 80% wall — into agentic engineering: you no longer write the code, you direct a."
+=== opc-report-2026-09-07-0003.md
+title: "Build for the Agents, Not Another Agent: YC's Infra Bet and the Trust Land Grab"
+description: "This hour's signal is unambiguous: capital and attention are moving from 'build a smarter agent' to 'build the world around the agent.' YC's latest batch is 41.5% agent infrastructure, and Claude Code"
+=== opc-report-2026-09-07-1043.md
+title: "The Cost Floor Collapsed and the Trust Ceiling Rose: Solopreneurs' Next Moat Is Controllable Delivery"
+description: "AI coding agents have moved 'one person shipping a whole engineering team's output' from anecdote to baseline."
+=== opc-report-2026-09-07-1121.md
+title: "Nvidia’s $12.9B Hugging Face Deal Signals the Agent-Native Startup Era Is Here"
+description: "The week's biggest signal isn't a model release — it's Nvidia agreeing to buy Hugging Face for $12.9B, the same week YC's Summer 2026 batch heads into Demo Day (Sept 10) stacked with 'agent-native'..."
+=== opc-report-2026-09-07-1204.md
+title: "From Autocomplete to Autonomous Agents: How the Solo-Founder Stack Is Being Rewritten in 2026"
+description: "The single most important call this cycle: AI assistants have crossed from copilots into autonomous operators."
+=== opc-report-2026-09-07-1317.md
+title: "The Agent Trust Layer Just Became a Business: What Changed After the EU AI Act Went Live"
+description: "For most of 2026 the story was 'AI lets one person do the work of a team.' That chapter is now settled — the YC P26 batch shipped 14 companies past $1M ARR on sub-5-person teams, and solo founders..."
+=== opc-report-2026-09-07-1404.md
+title: "Stop Shipping Yet Another Chatbot — Solo Founders Should Fill the Agent Economy's Infrastructure Gaps"
+description: "Daily OPC AI one-person company startup trend report — September 7, 2026. Coding agents hit background autonomy, YC batches bet on the agent supply chain, and governance becomes the moat."
+=== opc-report-2026-09-08-1201.md
+title: "Your Customers Are Building Your Product Themselves — Sell Workflow Redesign, Not Tools"
+description: "Nearly a third of organizations have now cancelled a software purchase because coding agents can build it in-house. The opening for solo founders moved from shipping tools to converting AI productivit"
+=== opc-report-2026-09-09-0918.md
+title: "GitHub's Multi-Model Orchestration Halves Coding Cost as Solo-Founder Stacks Enter the Compose-to-Win Era"
+description: "September 9, 2026 09:18 | Hourly Monitor | Tags: AI Agent / Multi-Model Orchestration / Autonomous Coding / Agentic Infra"
+=== opc-report-2026-09-09-1007.md
+title: "Coding Agents Split Into Three Types; Solo Builders Standardize on a Two-Agent Stack"
+description: "The agent toolchain has matured from 'one chatbot' into a layered production system."
+=== opc-report-2026-09-10-1442.md
+title: "YC Demo Day and Local-First Agents Land Same Day: The Plumbing Layer for Solo Builders Opens"
+description: "September 10, 2026 hourly briefing for solo founders: YC S26 Demo Day and the local-first agent wave on Product Hunt point to the same opening — the picks-and-shovels layer for agents is now a categor"
+=== opc-report-2026-09-10-1507.md
+title: "The Solo-Agent Stack Just Got Real: Voice Agents Under 2¢/Min, MCP as the USB-C, and YC's Solo-Founder Share Doubling"
+description: "The infrastructure question behind 'can one person run a real company' got a lot more answerable in the last month."
+=== opc-report-2026-09-10-1603.md
+title: "Agent Fleets and the $200/Month Company: Solo Builders Win in 2026"
+description: "Where solo AI founders should point their effort this month: agent orchestration is becoming the new bottleneck, vertical agents are replacing systems-of-record, and a lean $200/month stack now ships"
+=== opc-report-2026-09-10-1648.md
+title: "From Prompts to AGENTS.md: Solo Founders Are Turning AI Agents Into an Inheritable Operating System"
+description: "Hourly OPC trend report — Sept 10, 2026. Solo founders are shifting from one-off prompts to versioned agent harnesses; AI coding now ships production code, the solo tool stack costs under $205/month,"
+=== opc-report-2026-09-10-1703.md
+title: "Voice Agents and the Solo-Unicorn Wave: What AI Builders Should Ship in 2026"
+description: "Every hour we scan Hacker News, Product Hunt, Indie Hackers, YC, TechCrunch, a16z, Latent Space and the GitHub release stream for signals that actually change what a one-person builder should do..."
+=== opc-report-2026-09-10-1803.md
+title: "Agent Backbone and Context Engineering: Where Solo Builders Should Aim in 2026"
+description: "Every hour we scan Hacker News, Product Hunt, Indie Hackers, YC, TechCrunch, a16z, Latent Space, GitHub release notes and the funding wire for signals that actually change what a one-person builder..."
+=== opc-report-2026-09-10-1904.md
+title: "Agents Now Write and Ship Their Own Code — The Solo Founder Leverage Window Is Open"
+description: "The 'one person + a stack of agents' leverage point is at an all-time high, but the differentiator has moved from building a tool to owning a specific workflow."
+=== opc-report-2026-09-10-2003.md
+title: "Below-$1 Tokens and Mainstream Browser Agents: A New Cost Playbook for Solo Builders"
+description: "The leverage point for a one-person company just got cheaper and more 'hands-on' at the same time. Three moves converged this week and they change what a solo builder can afford to ship:"
+=== opc-report-2026-09-10-2103.md
+title: "AI Coding Enters the Self-Writing Phase as Solo Founders Take 19% of YC's Batch — Five Build Directions for September"
+description: "The hardest signal this week is not 'AI got better again' — it's that institutions and tooling simultaneously turned 'one person = one company' into the default option."
+=== opc-report-2026-09-10-2203.md
+title: "Agents Hit Production Grade as Local-First Matures: Three Real Bets for the One-Person Company"
+description: "The bottleneck for AI agents has shifted from 'is the model smart?' to 'does the plumbing hold?' Today is Y Combinator Summer 2026 (S26) Demo Day — 108+ companies have emerged from stealth, and..."
+=== opc-report-2026-09-10-2303.md
+title: "YC's Biggest Batch Ever Signals a Shift: Agent Infrastructure Is Now Its Own Category"
+description: "Daily OPC AI one-person company startup trend monitoring report — September 10, 2026. YC S26 Demo Day is today with a record 235 companies; the agent economy is shifting from building agents to buildi"
+=== opc-report-2026-09-11-1804.md
+title: "Your Next Customer Is an Agent: Agent-Led Growth Emerges as a Discipline as AI Coding Arms Race Hits $48B"
+description: "The market is splitting into two clear lines. One: AI agents are becoming software's new buyers, which just spawned a discipline called Agent-Led Growth (Lightsage raised $4M to do exactly this)."
+=== opc-report-2026-09-11-1904.md
+title: "Agent-First Design Is Rewriting the Product Stack—Where Solo Founders Should Build and With Which Tools"
+description: "Hourly OPC trend report — Sep 11, 2026. Agent-first design, the self-writing-code shift, and the splitting agent orchestration stack (observability, guardrails, memory) point solo founders toward exec"
+=== opc-report-2026-09-12-0051.md
+title: "From AI-Assisted Coding to Agent-Run Companies: Three Inflection Points Solo Founders Must Watch This September"
+description: "The center of gravity for one-person companies is shifting from 'use AI to build the thing' to 'use agents to run the company' — and, in the same breath, agent security and governance (the GitSpawn..."
+=== opc-report-2026-09-12-0103.md
+title: "The Shelf-Stable Agent Stack: How Solo Builders Are Snapping Together Revenue Businesses From Pre-Built Blocks"
+description: "The hard part of building an AI business is no longer 'can you write an agent' — it's 'can you assemble off-the-shelf blocks into a revenue loop and get it in front of people.' In the first week of..."
+=== opc-report-2026-09-12-2007.md
+title: "Solo founders are hitting $1M ARR with AI agents while the real money moves to agent guardrails"
+description: "The 'one-person company' stopped being a slogan this year. In YC's W26 batch, 14 companies crossed $1M ARR with fewer than five people, and the genuinely scarce layer is no longer 'tools that build..."
+=== opc-report-2026-09-12-2103.md
+title: "Agents Become a Managed Service: The Engineering Debt of One-Person Companies Finally Pays Down"
+description: "Hourly intelligence briefing for overseas independent developers and solopreneurs. This edition covers signals through September 12, 2026."
+=== opc-report-2026-09-12-2203.md
+title: "From Writing Code to Delegating Tasks: The Agent Stack Is Stratifying—Where Solo Builders Should Cut In"
+description: "The center of gravity in AI startups is shifting from 'shipping an AI feature' to 'building infrastructure that other agents call.' For a one-person company, the fattest opportunity is no longer..."
+=== opc-report-2026-09-12-2303.md
+title: "Solo Founders Hit 19% of YC's New Batch as Agent Infrastructure Becomes the New Battleground"
+description: "The achievable ceiling for a one-person company is being rewritten by the agent toolchain."
+=== opc-report-2026-09-13-0003.md
+title: "Coding Agents Go Production-Grade: Where Solo Founders Should Point Them Next"
+description: "Publishing Time: September 13, 2026, 00:03 (Asia/Shanghai) Data Sources: Product Hunt, Hacker News, Y Combinator, TechCrunch, GitHub, Anthropic, OpenAI Keywords: AI coding agents, one-person company,."
+=== opc-report-2026-09-13-0914.md
+title: "Solo Founders Are Hitting $1M ARR on a $60/mo Stack — the Agent Control Layer Is the Gap"
+description: "Hourly monitor for solo AI founders — Sept 13, 2026. The agent-native one-person company is now a repeatable pattern; the fundable opening is the control layer that keeps agents safe and cheap in prod"
+=== opc-report-2026-09-13-2100.md
+title: "Coding Agents Go Always-On: The Solo Founder Stack Is Splintering Into Runtime, Orchestration, and Verification"
+description: "Hourly trend report for solo founders and indie hackers — coding agents are becoming always-on infrastructure, the agent stack is splitting into layers, and agent-native companies are hitting $1M ARR"
+=== opc-report-2026-09-13-2204.md
+title: "Solo Founders Make Up 19% of YC's S26 Batch as Coding Agents Add Verification Gates"
+description: "Hourly OPC trend report — Sept 13, 2026. Solo founders hit 19% of YC's Summer batch, coding agents shift to runtime accountability with verification gates, and the composable agent stack matures."
+=== opc-report-2026-09-14-1153.md
+title: "AI-Native Services Are Eating SaaS: Solo Founders Hit the Agent-Infrastructure Gold Rush"
+description: "The dividend has clearly moved from 'ship another chatbot' to two actionable layers: (1) sell outcomes, not seats — AI-native services that deliver the result instead of the software; and (2) the..."
+=== opc-report-2026-09-14-1238.md
+title: "One-Person AI Stacks Are Converging on Owned Memory and Agents That Don't Sleep"
+description: "The solo-founder stack is crystallizing around two owned assets: (1) a persistent agent runtime that keeps coding agents alive after you close the laptop or drop the SSH connection, and (2) a..."
+=== opc-report-2026-09-16-0630.md
+title: "The Agent Reliability Layer Is the New Wedge—and Solo Builders Are Early"
+description: "OPC One-Person Company AI Trend Report · for indie hackers & solopreneurs Window scanned: 2026-09-02 → 09-15 · Generated 2026-09-16 06:30 (Asia/Shanghai)"
+=== opc-report-2026-09-16-0703.md
+title: "From Apps to Agent Infrastructure: What YC's Largest-Ever Batch Means for Solo Builders"
+description: "Hourly OPC trend report — YC Summer 2026 Demo Day (235 companies, the largest batch ever) signals a shift from building AI apps to building the infrastructure agents run on. Practical directions, tool"
+=== opc-report-2026-09-16-1417.md
+title: "AI Coding Agents Now Write Their Own Code, Voice Agents Open a New Front: Solo Founders Are Structurally Eating Team Roles"
+description: "Hourly OPC trend report for overseas indie hackers and solopreneurs — September 16, 2026. Covers AI coding entering the self-writing phase, the rise of solo-founder accelerators, voice agents as a new"
+=== opc-report-2026-09-16-1503.md
+title: "Solo Founders Go Mainstream: YC Bets on One-Person AI Companies as Agents Mature"
+description: "Agent-first solopreneurship is now validated by Y Combinator and mature tooling. This issue breaks down where to build and which AI tools to use — from self-writing code to vertical SaaS and agent gov"
+=== opc-report-2026-09-16-1603.md
+title: "Coding Agents Now Write Their Own Code and GEO Is the New Landing Page: Where Solo Founders Should Point Their Stack This Week"
+description: "The leverage for one-person companies is shifting from 'can you use AI to write code' to 'can you let an AI agent run an entire workflow autonomously and can you get cited inside AI search.' Two hard."
+=== opc-report-2026-09-16-1700.md
+title: "AI Coding Now Writes Its Own Code: How Solo Founders Run a $3K–$12K Agent Stack Instead of a $100K Monthly Team"
+description: "The agent orchestration stack has finally settled. Through the second half of 2025 and into 2026, the framework churn — a new 'you must use this' every month — ended."
+=== opc-report-2026-09-17-0931.md
+title: "Coding Agents Go Self-Driving as Builders Split the Stack on Cost and Safety"
+description: "Hourly intelligence briefing for solo developers and indie hackers. This edition: September 17, 2026."
+=== opc-report-2026-09-18-1209.md
+title: "AI Coding Agents Morph Into Software Factories as Solo Founders Become the Default Startup Shape"
+description: "Hourly AI one-person-company trend report — Sept 18, 2026. AI coding agents shift from autocomplete to end-to-end software factories; YC batches show ~19% solo founders; the agent orchestration stack"
