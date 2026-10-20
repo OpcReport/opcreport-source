@@ -70,6 +70,12 @@
 - 部署：**成功**，gh-pages commit 68bc5ad0d 一次推送成功；源码仓同步 09b2902 推送 main 成功。
 - 备注：系统时钟与注入时间差 8h（bash 显示 10-18 20:29，注入为 10-19 04:28 GMT+8），本次以注入时间为准命名/写 date。
 
+## 2026-10-20 10:15 运行
+- 频控检查：当天(2026-10-20)文件数 0，允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-10-20-1015.md，标题 "OpenAI $30B at $1.4T, DHS DeepSeek Ban, Tenstorrent $1.5B"（~1500词，2 表格）。主题"资本抢跑周"（OpenAI $30B 抢在 Anthropic 11 月 IPO 前 / DHS DeepSeek 采购禁令含第三方条款 / Tenstorrent $1.5B@$6.2B + Etched $40-50B 收购意向 / 垂直 agent pre-seed 波 / YC W26 17% solo / AgentaOS $9.5K MRR 案例）。与前 6 篇无重叠（Anthropic 5% 基金/OpenAI 人形等 1400 篇已用素材避开）。
+- 构建：hexo generate 生成 2326 文件（2.13min），public HTML 已验证（74KB，标题正确）。**注意：安全中心新拦截 site/db.json 写入（EPERM）**，导致无增量缓存全量重建、归档/标签全页更新，git add 变慢。
+- 部署：deploy.sh 前台运行两次被 SIGTERM（git add ~3000 文件超时），改后台运行（task 9HZbc6）后完成。结果见下次运行记录补记。
+
 ## 2026-10-19 09:05 运行
 - 频控检查：当天(2026-10-19)文件数 2（<4），允许生成（当天第 3 篇）。
 - 生成 1 篇：opc-report-2026-10-19-0905.md，标题 "The Great Recount: A $105B Duopoly Gets Audited, GPU Rents Slide 70 Percent, and an Open-Source Pendant Doubles to $10M ARR"（~1500词，2 表格）。主题"大清点/降温审计"（State of AI 2026 年报 / 营收预期差+GPU 租金通缩 / AI4AI 与从零训练垂直基础模型融资 / Omi 开源硬件），与当天 0018（工具击穿/价格战）、0429（验证层）及此前各篇无重叠；Stella/Payout 等案例 0900 已用过未再引用。
