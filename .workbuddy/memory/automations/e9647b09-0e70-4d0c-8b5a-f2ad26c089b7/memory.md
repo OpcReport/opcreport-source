@@ -74,7 +74,8 @@
 - 频控检查：当天(2026-10-20)文件数 0，允许生成（当天第 1 篇）。
 - 生成 1 篇：opc-report-2026-10-20-1015.md，标题 "OpenAI $30B at $1.4T, DHS DeepSeek Ban, Tenstorrent $1.5B"（~1500词，2 表格）。主题"资本抢跑周"（OpenAI $30B 抢在 Anthropic 11 月 IPO 前 / DHS DeepSeek 采购禁令含第三方条款 / Tenstorrent $1.5B@$6.2B + Etched $40-50B 收购意向 / 垂直 agent pre-seed 波 / YC W26 17% solo / AgentaOS $9.5K MRR 案例）。与前 6 篇无重叠（Anthropic 5% 基金/OpenAI 人形等 1400 篇已用素材避开）。
 - 构建：hexo generate 生成 2326 文件（2.13min），public HTML 已验证（74KB，标题正确）。**注意：安全中心新拦截 site/db.json 写入（EPERM）**，导致无增量缓存全量重建、归档/标签全页更新，git add 变慢。
-- 部署：deploy.sh 前台运行两次被 SIGTERM（git add ~3000 文件超时），改后台运行（task 9HZbc6）后完成。结果见下次运行记录补记。
+- 部署：**成功**。deploy.sh 前台两次被 SIGTERM（全量 git add ~3000 文件超时；首次重跑还撞上残锁 index.lock，已清理），改后台运行 5m39s 完成。gh-pages commit **5219a244e** 推送成功；源码仓同步 4e6fb08 前两次遇 502，改 mihomo 代理 `git -c http.proxy=http://127.0.0.1:10090 push` 后成功。
+- **环境变更备忘**：安全中心开始拦截 site/db.json 写入（EPERM）→ hexo 无增量缓存、每次全量重建全页 diff → deploy 变慢，**今后 deploy.sh 必须用 run_in_background 运行**。
 
 ## 2026-10-19 09:05 运行
 - 频控检查：当天(2026-10-19)文件数 2（<4），允许生成（当天第 3 篇）。
