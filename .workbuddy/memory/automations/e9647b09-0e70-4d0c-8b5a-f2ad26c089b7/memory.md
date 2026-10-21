@@ -1,5 +1,12 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-21 11:12 运行
+- 频控检查：当天(2026-10-21)文件数 1（0925 篇 Daytona/Arda/ASI 执行层融资，<4），允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-10-21-1112.md，标题 "Today AI $200M, TraceWeave On-Device Agents: The Personal AI Layer"（65 字符，~1500词，2 表格）。主题「个人 AI 层与端侧 Agent」，与当天 0925 篇（执行层融资）错开；Anthropic 5% 基金仅取最新增量细节（fund 结构/IPO 时间/Schmidt 持股对比）作背景段，未作主题。
+- 素材：Today AI 累计 >$2 亿融资（前 Teambition 创始人/前字节豆包 PC 端负责人齐俊元，IDG/腾讯/五源/蚂蚁/红杉中国/传音/同歌创投/上海交大菡源资产，3 月天使轮阶跃星辰+IDG，全球版 9-8/中国版 9-24，三壁垒=主动服务/记忆/跨设备）、TraceWeave ₩3B seed @₩30B pre（Mirae Asset 领投/NAVER D2SF，Phase-TITAN post-Transformer，1M token 0.04GB vs Transformer KV cache 数十 GB，手机 CPU 纯本地多步 agent，RULER/BFCL 内部基准，付费汽车数据 PoC，NVIDIA Inception Top 20，2025-10 成立 ETH/Google/KAIST）、Anthropic Public Benefit Fund 5% 股份（~20% public good、$200M 经济研究、~$1T 估值、最快 11 月 IPO、Gary Marcus 批评、OpenAI Foundation $1B+Public Wealth Fund、Schmidt 持股≈Dario 一半）、OpenAI 招 Aleksander 管 safety/security（Altman "immense"/主动邀请）、ChatGPT chat locking、Google Gemini 小企业工具（blog.google 10-21）+Gemini 上车+联手 Amazon 抢 Nvidia 生态开发者、Meta Muse 40 天 1000 万美下载（史上仅 11 个 app）、Devin 提交 Cognition 89% 自身代码（$900M ARR/$48B）、Factory AI 五个月三倍至 $5B、Exa 3.0 lite $4/千次、Inception Mercury 3 diffusion 1068 tok/s 1M ctx、DeepSeek 开源 DeepInfer（vLLM-based/Apache 2.0/V4.1-Flash 背后）、Tess-4.5-27B token -25%、CalBuddy 案例（Tomer 非开发者 2 周上线以色列本地化 Cal AI 概念，首月 $1K→4 个月 $20K→本地 influencer 分成后 >$81K/月）、WhatsApp 帮助页隐藏指令引导 chatbot 不推荐隐私监管机构（10-18 删除）、EU AI Office 要求 OpenAI/Anthropic 补充 agent 越界材料、SpaceX Q3（$14.6B 营收/Super Intelligence $7.5B/neocloud 1.7GW/Q4 capex $35-40B）。
+- 构建：hexo generate 成功（2359 files，3.85min，无 ERROR），public/opc-report-2026-10-21-1112/index.html 已验证（72KB，标题正确）。
+- 部署：**成功**，gh-pages commit **79f93ca8b** 一次推送成功（后台 6m33s）；源码仓同步 4a06f5d 推送 main 成功。
+
 ## 2026-10-20 21:07 运行
 - 频控检查：当天(2026-10-20)文件数 3（<4），允许生成（当天第 4 篇，已满）。
 - 生成 1 篇：opc-report-2026-10-20-2107.md，标题 "AI Agents Hacked 100 Sites for $50 Each: Cairn, Anthropic $45B"（62字符，~1500词，2 表格）。主题"agent 攻击经济学崩塌+算力锁定"（Cairn 100+ 站 $50/次入侵 / Anthropic 第二笔 $45B Nscale 谈判 / OpenAI Aurora 图像模型闪现 / OpenRouter 中国模型 25 周第一+全球调用量首降 4.65% / Modal Vera CPU / Fugleramme 鸟框独立案例），与当天 1015（资本抢跑）、1244（先证明后命名）、1654（Agent 审计时代）无重叠；避开当天已用的 Neolix/Sunlight AI/微软 E7/TorchNeuron/钢铁标准/九部门等素材。
