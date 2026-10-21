@@ -1,5 +1,12 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-21 15:39 运行
+- 频控检查：当天(2026-10-21)文件数 2（0925 执行层融资 / 1112 个人 AI 层，<4），允许生成（当天第 3 篇）。
+- 生成 1 篇：opc-report-2026-10-21-1539.md，标题 "Hinton RSI Paper: AI Now Writes 80% of Anthropic Code"（53字符，~1500词，2表格）。主题「AI 研发自动化闭环 + OPC 制度化」（Hinton/Bengio/Barto 等 22 人立场论文 arXiv:2609.36054 + τ²-bench 提示词记忆 + Akka 规格驱动移植 + 中国 OPC 政策波 + Walt 代理交易风险），与当天两篇及近日各篇无重叠（Anthropic 安全法案草案仅避开、Daytona/ASI 等不重复引用）。
+- 素材：Hinton et al. 立场论文（9-28 提交，22 作者含 Jakub Pachocki/Eric Horvitz/Dawn Song/Jack Clark，"AI systems now write most of the code"、政策建议=提升可见性/引导约束；Anthropic AI 合并代码占比个位数(2025-01)→>80%(2026-05)、高层监督下可完成研究占比 ~1%(3月)→26%(8月) 内部测量、OpenAI 研究员实验量 ~1.6x 2025 均值(8月)、六阶段研发链、Karpathy autoresearch 5 分钟固定预算 keep/revert）、ALTK-Evolve（τ²-bench retail gpt-4.1+指南 67.5% Pass^4 登顶 10-12 榜、超微调 RAFT-30B-A3B 61.4%；airline gpt-5.5 Pass^4 55→70 +15 点、准确率 72.5→82.5；无权重更新；输入 token +65% 可缓存回收）、Akka 65 个开源移植（99.3 小时/94.1 亿 token、57/65 改善、Sonnet 61min vs Opus 120min、Opus -40% token）、中国 OPC 政策（经济日报 10-21：2025 新设一人公司 731.5 万户 +42.3%；6 月工信部等七部门平台经济行动方案首写"AI OPC"；临港 3 年免租+80% 算力补贴+5 个社区+10-20 立法研讨会；苏州 2025-2028 计划；朝阳 SICN；韩月 ¥800/月 6 款 App、沪咪科技 3 人 4 个月日本 TikTok 品类第一单季破亿日元、傅强"AI 不自动带来变现/信用/合规"、郭放"标准化执行能力先贬值"）、ChatGPT 浏览器扩展 Chat/Work 模式+@Chrome（Chromium 免费、Atlas 8 月关停）、Walt Telegram 接 ChatGPT/Claude 交易杠杆永续（专用账户不可提现、默认关执行、2025-10 单日 $19B 强平）、Pichai 统一 Gemini agent（24/7 云持久、每查询 micro-VM、Argon 驱动）。
+- 构建：hexo generate 成功（2365 files，26s，无 ERROR），public/opc-report-2026-10-21-1539/index.html 已验证（73KB，标题正确）。
+- 部署：**成功**，gh-pages commit **ff342f0f5**（后台 4m34s 一次推送成功，2362 files changed）；源码仓同步 2b315bd 推送 main 成功。
+
 ## 2026-10-21 11:12 运行
 - 频控检查：当天(2026-10-21)文件数 1（0925 篇 Daytona/Arda/ASI 执行层融资，<4），允许生成（当天第 2 篇）。
 - 生成 1 篇：opc-report-2026-10-21-1112.md，标题 "Today AI $200M, TraceWeave On-Device Agents: The Personal AI Layer"（65 字符，~1500词，2 表格）。主题「个人 AI 层与端侧 Agent」，与当天 0925 篇（执行层融资）错开；Anthropic 5% 基金仅取最新增量细节（fund 结构/IPO 时间/Schmidt 持股对比）作背景段，未作主题。

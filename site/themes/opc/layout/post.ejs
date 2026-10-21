@@ -1,7 +1,8 @@
 <%
 /* article page — rebuilt from gh-pages artifacts */
 var post = page; /* Hexo 8: post layout exposes the post as `page` */
-var wordCount = 0;
+var wordCount = String(post.content).replace(/<[^>]*>/g, ' ').trim().split(/\s+/).length;
+var readMins = Math.max(1, Math.round(wordCount / 220));
 function esc(s){ return String(s).replace(/'/g, '&#39;'); }
 var shareId = 'cuid' + crypto_hash(post.path);
 function crypto_hash(s){
@@ -20,6 +21,7 @@ function crypto_hash(s){
     <% post.categories.each(function(cat, i){ if (i > 0) { %>&#9656;<% } %><a class="article-category-link" href="<%- url_for(cat.path) %>"><%= cat.name %></a><% }); %>
   </div>
   <% } %>
+    <span class="read-time"><i class="fa fa-clock-o"></i> <%= readMins %> min read · ~<%= wordCount.toLocaleString('en-US') %> words</span>
 
   </div>
   <div class="article-inner">
@@ -47,6 +49,12 @@ function crypto_hash(s){
   <ul class="article-tag-list" itemprop="keywords"><% page.tags.sort("name", 1).each(function(tag){ %><li class="article-tag-list-item"><a class="article-tag-list-link" href="<%- url_for(tag.path) %>" rel="tag"><%= tag.name %></a></li><% }); %></ul>
 
     </footer>
+  </div>
+
+  <div class="stay-loop-box">
+    <h4><i class="fa fa-line-chart"></i> One-person company intel, every day</h4>
+    <p>OPC Report tracks the one-person-company and AI-solopreneur economy with named sources and hard numbers — new reports up to 4x daily.</p>
+    <p><a href="<%- url_for('atom.xml') %>" class="stay-loop-rss"><i class="fa fa-rss"></i> Subscribe via RSS</a> &nbsp;·&nbsp; <a href="<%- url_for('start-here/') %>">New here? Read Start Here</a> &nbsp;·&nbsp; <a href="<%- url_for('dates/') %>">Browse by date</a></p>
   </div>
 
   <% if (post.prev || post.next) { %>
