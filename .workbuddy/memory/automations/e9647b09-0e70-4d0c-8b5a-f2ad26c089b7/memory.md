@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-20 21:07 运行
+- 频控检查：当天(2026-10-20)文件数 3（<4），允许生成（当天第 4 篇，已满）。
+- 生成 1 篇：opc-report-2026-10-20-2107.md，标题 "AI Agents Hacked 100 Sites for $50 Each: Cairn, Anthropic $45B"（62字符，~1500词，2 表格）。主题"agent 攻击经济学崩塌+算力锁定"（Cairn 100+ 站 $50/次入侵 / Anthropic 第二笔 $45B Nscale 谈判 / OpenAI Aurora 图像模型闪现 / OpenRouter 中国模型 25 周第一+全球调用量首降 4.65% / Modal Vera CPU / Fugleramme 鸟框独立案例），与当天 1015（资本抢跑）、1244（先证明后命名）、1654（Agent 审计时代）无重叠；避开当天已用的 Neolix/Sunlight AI/微软 E7/TorchNeuron/钢铁标准/九部门等素材。
+- 素材：NorForge/Reuters Cairn 调查（1200 目标/100+ 破/总花费 $5K/$50 每次入侵/成功率~10%/$5 每次尝试/平均 23 小时、claudecode_deepseek-v4.1-flash、14 面板 1100+ 项目中文集群打美日澳电商、11% 凭据 Trufflehog 验证有效、Deere/SharkNinja/Cummins 受害、AGPL 3892 星、9-25 开始）、Anthropic-Nscale 第二笔 ~$45B（Monarch 二号楼 460MW Vera Rubin、已有 $44.6B、合计 ~$90B、数日内或敲定、IPO $30B vs 投资者压 $16-19B、微软夏季退出 Monarch、Fluidstack $50B/SpaceX $45B/Volta $10B 台账）、CoreWeave 债券 >16% 高盛上调 $106（$10M→$13M/MW）、CF40 外滩年会（Knot 1/3 债务融资、Lane 欧元区投资 +10% 工资受抑）、OpenRouter 周数据（10-12~18 全球 164T -4.65%、中国 79.18T vs 美国 17.36T、25 周第一、前五全中国）、Gemini 4 Argon 全面开放 $2/$10 + 95% 缓存折扣、Modal Vera CPU agent 沙箱 2x 吞吐（Erik Bernhardsson）、Fugleramme 鸟框（Show HN 2391 分/€500 BOM 抱怨=需求信号/$449 定价 wedge/Aura $499 对标）、Cairn 防御清单（面板当 Jenkins 管/默认拒绝出站/按量检测）、Meta 抓取条款 10-30 生效地区差异。
+
+- 构建：hexo generate 成功（2344 files，35s，无 ERROR），public/opc-report-2026-10-20-2107/index.html 已验证（73KB，标题正确）。
+- 部署：**成功**，gh-pages commit **52afdd63e** 推送（后台 4m53s 一次成功）；源码仓同步 06c2bf9 推送 main 成功。
+
 ## 2026-10-20 16:54 运行
 - 频控检查：当天(2026-10-20)文件数 2（<4），允许生成（当天第 3 篇）。
 - 生成 1 篇：opc-report-2026-10-20-1654.md，标题 "Agent Audit Era: China Mandates Safety, Neolix Lands $400M"（58字符，~1500词，2 表格）。主题"Agent 审计时代"（强制合规+agent 监管+物理世界 agent+成本纪律），与当天 1015（资本抢跑）、1244（先证明后命名）无重叠；跳过 OpenAI $30B（1015 已写）、MiniMax M3.1/Anthropic 意图模型（1244 已写）、Nemotron VL（10-19 0429 已写）、Sachin Sharma（1015 已写）、RapidCanvas（10-17 1811 已列）。
