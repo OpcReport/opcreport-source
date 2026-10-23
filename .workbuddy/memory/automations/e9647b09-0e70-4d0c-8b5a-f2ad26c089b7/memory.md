@@ -1,5 +1,8 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-22 22:28 运行
+- 频控检查：当天(2026-10-22)文件数 4（0913/1330/1616/1802，已达日上限），按最高优先级规则**直接跳过**，无任何写入/构建/部署操作。
+
 ## 2026-10-22 16:16 运行
 - 频控检查：当天(2026-10-22)文件数 2（0913/1330，<4），允许生成（当天第 3 篇）。
 - 生成 1 篇：opc-report-2026-10-22-1616.md，标题 "Voxtral 3 at $0.04/min, Beacon $5.5M: The Agent Plumbing Layer"（62字符，~1500词，2表格）。主题「Agent 管件层成熟」（语音价格战/跨 harness 记忆/开源 agent 底座/agent 商务归因），与当天 0913（中立云/前沿成本/捷径贬值）、1330（个人经济/沃尔玛网关/中国 OPC 金融）无重叠。
@@ -133,3 +136,11 @@
 - 素材：State of AI Report 2026（OpenAI+Anthropic 合计 ~$105B 年化、Ramp 数据 Anthropic 52.4%/OpenAI 43.3%=96% 双寡头、Codex 周活 1.6M→25M 15x、智能价格年降 13x、头部 1% $7,205/人/月 vs 中位 $12.50 580x）、OpenAI 运行率 ~$50B vs 预期 $70B（-20B 缺口、2026-2030 累计负 FCF ~$278B）、Anthropic Q3 $16.8B 月环比降至 3.4-6.6%、B200/H200 租金跌 30-70%、Nasdaq 周跌 4%/PHLX 八连跌/CoreWeave $50B 债务、元环智能 MetaCircle 数亿元种子+种子+（顺为领投、98年清华博导刘子鸣、AI4AI 元模型）、Recursive Superintelligence $650M、超衍智能近 4 亿、Ortet $500M 承诺（Thoreau、Kyunghyun Cho、从零医疗基础模型无 demo）、OpenAI Dots+Space（GPT-6 Astra、Slack/Teams、GPT-6.1 扣发）、DeepSeek Search/Fetch API $0.75/千次成功请求（11-1 起计费、失败不计费）、Claude Code 2.1.302 Mods 插件正式化、Llmspeed 30 硬件×15 模型、Michelle Vaccaro 18 万次 agent 谈判注入尝试、Meta 撤回抓取 ToS 条款、Schwab 周报拦截"tens and twenties"+只读 MCP 模板、Omi 三周 ARR $5M→$10M 开源硬件、大学生田径 App 案例（¥3,500 成本/半年 ¥50 万）。
 - 构建：hexo generate 成功（2319 files，39s，无 ERROR），public/opc-report-2026-10-19-0905/index.html 已验证（75KB）。
 - 部署：**成功**，gh-pages commit c2065951e 一次推送；源码仓同步 17bf093 推送 main 成功。
+
+## 2026-10-22 18:02 运行
+- 频控检查：当天(2026-10-22)文件数 3（0913/1330/1616，<4），允许生成（当天第 4 篇，已满）。
+- 生成 1 篇：opc-report-2026-10-22-1802.md，标题 "ChatGPT Ads in 89 Countries, Meta's $25B Privacy Verdict"（56字符，2371词，2表格）。主题「广告支持的 AI 免费层 + 注意力经济司法重定价」，与当天 3 篇无重叠（Flapping Airplanes/Medvi/Walmart/Agent plumbing/中立云均已被用，刻意避开）。
+- 素材：ChatGPT Ads 扩至 89 国（OpenAI 10-21：+26 国含拉美 14 国/尼日利亚/南非/塞尔维亚/乌克兰/柬埔寨/孟加拉国/巴基斯坦；10 万广告主；8 月 $1B 年化、2026 目标 $2.5B；1.2B 周活；仅 Free/Go 有广告；9 月 AI 广告工具+企业赞助 agent 试点；亚马逊 9 月开放 ChatGPT 广告位；L'Oréal CDMO 引言）、Meta $25B 新墨西哥隐私判决（10-21：法官 Francis Mathew；4390 万次违规/29 项声明 26 项误导；$5000/次理论 ~$219B 降至 $25B；剑桥分析 8700 万人；48 州 8 月 $18B 和解+$17B 儿童安全和解；Q3 营收 $64.6B +26% 但营业利润 -37% 至 $13B；盘后 +4%；扎克伯格"不鼓励改隐私设置"证词）、Vercel durable-harness 开源（Apache-2.0 0.0.x；write-ahead log；finished calls 不重复计费；replay safe/never；Claude Code/Codex 仅限 Vercel Sandbox）、ThreatLocker ZTAIC（OS 级 agent 白名单）、headroom（tool 输出压缩省 20-95% token）、Agent-Reach（一 CLI 无 API 费访问 Twitter/Reddit/YouTube/GitHub）、小米 Lens-0 开源（4B/Qwen3.5-4B 底座/像素掩码/RefCOCO +5.6）。
+- 构建：hexo generate 成功（2394 files，46s，无 ERROR），public/opc-report-2026-10-22-1802/index.html 已验证（75KB，标题正确）。
+- 部署：deploy.sh 本地提交成功但 3 次推送均 connection reset；**手动重试成功**——gh-pages commit **9fd642789**（mihomo 代理 127.0.0.1:10090 直推 .deploy_git remote）；源码仓 **fb1f326**（plain URL 走 GCM 非交互被取消，改 .github-token 令牌 URL+代理推送成功）。
+- 经验沉淀：源码仓 origin 为 plain URL 时非交互环境 GCM 不吐凭据 → 源码仓推送一律用令牌 URL + http.proxy=127.0.0.1:10090；gh-pages 的 .deploy_git remote 已内嵌令牌，代理直推即可。系统时钟仍比注入时间慢 8h，命名/date 以注入时间为准。
