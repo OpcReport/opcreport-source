@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-25 10:16 运行
+- 频控检查：当天(2026-10-25)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟与注入时间一致（均 10-25 10:1x GMT+8）。
+- 生成 1 篇：opc-report-2026-10-25-1016.md，标题 "Kimi K3.1 Pro Tops Terminal-Bench, OpenAI Trains Offline"（56字符，正文 ~2570 词，2表格）。主题「信任缺口：开放权重摸到前沿 + 实验室断网训练 → agent 监督层成新品類，由独立开发者在 Show HN/PH 上搭建」，与近日各篇无重叠。
+- 素材：Kimi K3.1 Pro（10-23 发布：2.8T/104B MoE 896专家16激活、1M ctx、Terminal-Bench 4.0 自报 65.7% vs Astra 58.2%/Opus 5.5 66.4%，Artificial Analysis 实测 67% 全场第一超 Sonnet 5.5 64%、智能指数 55 全球第四/开源第一差 Opus 3 分、SWE-Marathon 51.7% vs 46.3/42.5、ALE 43.2 vs 42.6/32.8、带工具 HLE 70.0% 第一、$2/$10 降价 33% 缓存 $0.20、Highspeed 2-3x、thinking-only+medium 档、权重 11-4 前、游戏/Blender CAD/幻觉-65%/金融端到端）、OpenAI Offline World（10-23 博客：前沿训练全断网、缓存+模拟网页、9-20 DNS 配置错误致短暂联网接第三方 chatbot、9 月底停训、10-1 恢复、红队发现"几乎所有"研究服务有受限联网路径、纵深防御、Anthropic 早两周限制最强模型联网、前员工称离线训练近乎不可行）、Show HN 监督工具栈（task-view v1.0 MIT 对照 Git 校验 agent 变更+标记未描述改动行、Token Beggar v0.3.0 便宜模型跑子任务 18 修 1.42x 省配额 69% vs 70% 隐藏测试、Lcc 压缩旧工具输出 299 会话中位省 21.8% token/172 请求预注册测试 36.6% 少 token 同等召回、Slate Term agent 可建面板的 macOS 终端、TenseMem 当前事实解析器+新鲜度元数据、Mnemolith 文件 blob hash 变化即标记记忆过期）、PH 10-24 agent 管理品类（Monish 97 锁屏状态/Context Engine 106 共享记忆/Inyon 87 手机回 agent/Peras 81 防失控暂停+GitHub；MOVO AI 290/Ovren 192/ElevenLabs Realtime 178 570ms）、YC 开源 qm（15K+ stars、按人/频道隔离 memory/files/权限/定时任务+持久沙箱、后端可换 Claude Code/Pi、BYO key 自有云、只收文本建议）、GitHub 星图（opencode 220.6K +547/日、spec-kit 142.6K、codex 130.7K、cost-xray 6.3K +183/日按组件拆 agent API 成本、Superset 14K YC、Orca 72K）、中国 OPC 基建（自贡首个 OPC 专区 10-23：零成本入驻+最高 1.5 万补贴+个人 50 万/小微 600 万担保贷贴息 50%+优先 AI 应用/设计/电商/内容、试点限额；上海银行×闹海AI 框架协议+派单 NOW 上线，仅作 10-24 篇订单授信故事的增量）、MiniMax M3.1 Flash 权重落地（428B/23B、前三层稀疏注意力、W4A4 QAT、Tenstorrent Cloud 首日，10-20 匿名首发故事收尾）。
+- 已刻意避开：Daytona（10-21）、王益庆（10-22）、Polsia（10-17）、Sachin Sharma（10-20）、Marc Lou（10-22）、银行封杀 agent/HF breach 后续（10-24）、MiniMax 匿名首发细节（10-20）、上海银行授信核心事实（10-24）。
+- 构建：hexo generate 成功（2416 files，58s，无 ERROR），public/opc-report-2026-10-25-1016/index.html 已验证（82KB，标题正确）。
+- 部署：deploy.sh 本地提交成功（gh-pages b34658e9d、源码 main ad7b838）但两个仓库首次推送均失败（github.com:443 连接超时/认证失败，默认代理对 GitHub 不通）；**手动重试成功**——mihomo 代理 `git -c http.proxy=http://127.0.0.1:10090 push` 直推 gh-pages（358f1f2d8..b34658e9d）和源码仓令牌 URL（63bc5b9..ad7b838）均一次成功。经验复用以 10-20/10-22 沉淀：GitHub 推送一律走 127.0.0.1:10090 代理。
+
 ## 2026-10-24 11:18 运行
 - 频控检查：当天(2026-10-24)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟与注入时间一致。
 - 生成 1 篇：opc-report-2026-10-24-1118.md，标题 "Higgsfield $1B ARR, Warp Sciences $215M: Beyond the Text Token"（62字符，~2100词，2表格）。主题「后文本 token 时代：价值迁向视觉 token/湿实验室/受监管资产负债表 + 权威配给制反冲」，与近日各篇无重叠（Higgsfield/Warp Sciences/Pathos/BOB/Different/银行封杀/Downloads 投毒均为全新素材；Flapping Airplanes 与 BOC OPC 贷款、王益庆案例为已用素材，刻意避开；银行封杀仅对 10-18 0900 的购物 agent 封锁做了一句升级定位）。
