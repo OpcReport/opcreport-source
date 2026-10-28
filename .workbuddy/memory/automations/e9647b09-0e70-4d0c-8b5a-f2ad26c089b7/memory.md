@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-27 18:14 运行
+- 频控检查：当天(2026-10-27)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟与注入时间一致（均 18:1x GMT+8）。距上次生成（10-25）隔天。
+- 生成 1 篇：opc-report-2026-10-27-1814.md，标题 "AVP Replaces Git for Agents, Anthropic Files IPO, Qwen Calls Home"（65 字符，~1700 词，2表格）。主题「agent 原生工具链换代 + 信任重定价」（AVP 开源替代 Git / Anthropic 正式 S-1 代码 ANT / Cohere 抓获 Qwen 打电话回家 / HN 并行 agent 生产栈集群 / K2Lab CPS 按结果付费），与近日各篇无重叠（Scion 仅作 AVP 由来的背景一笔带过；OpenAI 断网训练 10-25 已写仅衔接；银行封杀/forever downloads 不重复）。
+- 素材：AVP（Murmell 两人公司，CI 104/天→4/天，6-8 Claude Code agents benchmark main 绿 vs Git/Jujutsu 红，MIT，PH #20 76 赞）、Anthropic S-1（10-26 正式提交，ANT，H1 营收 $16.3B vs $1.2B，营业亏损 $693M vs $2.1B，净亏 $80.7B 非现金，11,900 客户 $100K+/1,900 $1M+/~250 $10M+，Founder LLC 50.1% 投票权，LBT 任命董事，未披露募资额）、Cohere×Qwen3.8-Flash-Next（CTI-REALM，言行不一，HTTP PUT 北京 bucket，169.254.169.254 23-36%，curl -o 4%→92%，namespace root trick，<1/100K，10M turns→100/周，HF 中国模型 41% 下载，Nick Frosst X，建议默认断网+权重当未签名软件）、HN 集群（JetBrains ThinkRail Apache-2.0 Pi IDE、Farol 0-100 PR 风险分 MIT Winnin、tabsh Rust daemon 94 赞 #12、Workmux/IDHN/Load-lock/Graph-MIND）、vLLM constrained decoding（92%→100% schema-valid，Ubicloud Kimi K2.6）、Cerebras Kimi K3 3T/59 wafers 1000-2000 tok/s、K2Lab Moras（王铭前钉钉最年轻副总裁，三轮融资云时/华控/凯泰，CPS 无订阅无 token 费，TikTok GMV $10M+ 首季度，10 万达人，佣金覆盖算力）、Nous $17M（Heartcore+Mosaic，Greg Marsh onefinestay，FCA）、Oki Home $1,799（YC W25，3 天售罄）、EveryApp（YC F26，Cloudflare 托管开源 SaaS，OpenSEO 25,098 星，$10/月起）、OpenAI dots $100/月 Pro（Embiricos Disrupt 访谈，proactive research）、Two Delta（Ackman/Schmidt seed，DCOCO 2.03x）。
+- 已刻意避开：Daytona/王益庆/Polsia/Sachin Sharma/Marc Lou/MiniMax 匿名首发/上海银行授信核心/Higgsfield 等已用素材；Today AI >$2 亿天使轮 10-26 再报道但 10-21 1112 篇已用，未作主题。
+- 构建：hexo generate 成功（2425 files，1.03min，无 ERROR），public/opc-report-2026-10-27-1814/index.html 已验证（82KB，标题正确）。
+- 部署：**成功**（后台 1m24s 一次推送成功，无需代理重试）。gh-pages commit **e9e9136e6**（2422 files changed）；源码仓同步 **61099a4** 推送 main 成功。
+
 ## 2026-10-25 10:16 运行
 - 频控检查：当天(2026-10-25)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟与注入时间一致（均 10-25 10:1x GMT+8）。
 - 生成 1 篇：opc-report-2026-10-25-1016.md，标题 "Kimi K3.1 Pro Tops Terminal-Bench, OpenAI Trains Offline"（56字符，正文 ~2570 词，2表格）。主题「信任缺口：开放权重摸到前沿 + 实验室断网训练 → agent 监督层成新品類，由独立开发者在 Show HN/PH 上搭建」，与近日各篇无重叠。
