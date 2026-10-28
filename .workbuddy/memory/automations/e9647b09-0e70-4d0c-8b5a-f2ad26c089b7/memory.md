@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-10-28 09:08 运行
+- 频控检查：当天(2026-10-28)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟与注入时间一致（均 09:0x GMT+8）。距上次生成（10-27）隔天。
+- 生成 1 篇：opc-report-2026-10-28-0908.md，标题 "OpenCode 1M DAU, Replit Cloud Agents, Infisical $40M"（52字符，正文约2900词含表格，2表格）。主题「一人公司工具栈成熟：分发战争 + 凭据层 + 单人经济实证 + 资本后市场」，与近日各篇无重叠（Anthropic S-1 仅取 10-28 增量细节：现金$131.7B/承销团/11-16当周/Q2 +1368%/承诺$542-567B/基建 rally/Musk 整合警告；Polsia 仅取新增算力账 $500K→$1.2M→$100K/月自托管；OpenCode 仅取 1M DAU 新里程碑，10-25 星数数据不重复展开）。
+- 素材：OpenCode 2.0 1M DAU（创始人自报，两周，SST/Anomaly 团队，Go 重写，模型无关，220K+ 星，v2.2.0 桌面插件+prompt cache）、Replit Cloud Agents for existing repos（10-27，Pro/Enterprise，自然语言→带浏览器测试截图视频的 PR，沙箱跑真实 app，Slack @Replit，Teams  Soon，不自动合并）、Infisical $40M B@$600M（Elad Gil 领投，YC/Gradient 跟投，Agent Vault 前置代理把凭据挡在 agent 环境外，access bundles/sessions/日志，100+ 招聘）、Polotno（Anton Lavrenov，3人无融资，200+付费客户，~$60K MRR，盈利，200万次/月编辑器加载，Konva.js 开源社区获首批客户，Indie Hackers 9-29 采访）、Yadaphone（Denis Yurchak 维也纳，国际关系专业+6年工程师+前10个产品失败，Skype 关停公告后周末 MVP，credits 非订阅，月1 300用户/$4K→月3 $10.8K→现 ~$17.5K/月、2万+用户、~30家企业客户含背调/旅行社，0 广告，旧榜单换链 ~50注册/天，Levels 转发 20万曝光，二品 eSIMPal ~$2K/月）、Polsia 算力账（3月~$500K→4月~$1.2M→6月自托管开源模型压到~$100K/月；$50/月订阅+20%流水+20%广告代投）、Anthropic S-1 后续（$112.4B 现金+$19.3B 短投=$131.7B 超亚马逊/微软/Meta/SpaceX、仅次伯克希尔与 Alphabet；6年私募 $141B；传募资 >$100B 破 Aramco $29.4B；GS/MS 领衔+Mizuho/MUFG 加入；日英瑞澳加 EEA 公募、韩国仅私募；11-16 当周上市、$1.5-2T；Q2 营收 $11.55B +1368% vs 算力成本 +300%；H1 毛利率 ~85.4%；租赁义务 $321.4B+固定承诺 $265.6B+6-30 后新增 ~$245B；7 创始人各身家 >$13B）、市场反应（纳指 +1.2%，CoreWeave +8%/Nebius +11.2%/Dell +7.5%/Credo +10.8%/Astera +10.5%/WD +7%；Musk 警告 200+ neocloud 整合）、中国 OPC 二阶段（海南5月措施：2026年3个社区/2028年10+标杆、澄迈社区533主体422创客；江苏6月措施+7月全国首个省级 OPC 知识产权合规指引；嘉兴嘉里创中心10-27揭牌、2分中心、11导师、9路演项目；EU AI Act 罚款被视为单人公司生存风险）、发货节奏（Claude Code 2.1.312/Codex rust 0.165 Vertex+memory v2/Gemini CLI 0.66/Copilot CLI 1.0.104/OpenCode 2.2.0/Factory Droid 0.250/Amp 上 Android）。
+- 已刻意避开：Daytona/王益庆/Polsia 主故事（10-17）/Sachin Sharma/Marc Lou/MiniMax 匿名首发/上海银行授信核心/Higgsfield/Scion 与 AVP 主故事（10-27）/Today AI；Anthropic S-1 基本数字（10-27 已用）仅作增量引用。
+- 构建：hexo generate 成功（2433 files，1.05min，无 ERROR），public/opc-report-2026-10-28-0908/index.html 已验证（81KB，标题正确，grep ERROR=0）。
+- 部署：**成功**（后台 2m44s）。gh-pages commit **1077fd72b**（2429 files changed，两次 443 连接失败后重推成功 e9e9136e6..1077fd72b）；源码仓同步 **03c9b01** 推送 main 成功（61099a4..03c9b01）。
+
 ## 2026-10-27 18:14 运行
 - 频控检查：当天(2026-10-27)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟与注入时间一致（均 18:1x GMT+8）。距上次生成（10-25）隔天。
 - 生成 1 篇：opc-report-2026-10-27-1814.md，标题 "AVP Replaces Git for Agents, Anthropic Files IPO, Qwen Calls Home"（65 字符，~1700 词，2表格）。主题「agent 原生工具链换代 + 信任重定价」（AVP 开源替代 Git / Anthropic 正式 S-1 代码 ANT / Cohere 抓获 Qwen 打电话回家 / HN 并行 agent 生产栈集群 / K2Lab CPS 按结果付费），与近日各篇无重叠（Scion 仅作 AVP 由来的背景一笔带过；OpenAI 断网训练 10-25 已写仅衔接；银行封杀/forever downloads 不重复）。
