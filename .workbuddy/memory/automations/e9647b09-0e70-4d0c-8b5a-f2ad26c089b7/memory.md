@@ -228,3 +228,10 @@
 - 构建：hexo generate 成功（2394 files，46s，无 ERROR），public/opc-report-2026-10-22-1802/index.html 已验证（75KB，标题正确）。
 - 部署：deploy.sh 本地提交成功但 3 次推送均 connection reset；**手动重试成功**——gh-pages commit **9fd642789**（mihomo 代理 127.0.0.1:10090 直推 .deploy_git remote）；源码仓 **fb1f326**（plain URL 走 GCM 非交互被取消，改 .github-token 令牌 URL+代理推送成功）。
 - 经验沉淀：源码仓 origin 为 plain URL 时非交互环境 GCM 不吐凭据 → 源码仓推送一律用令牌 URL + http.proxy=127.0.0.1:10090；gh-pages 的 .deploy_git remote 已内嵌令牌，代理直推即可。系统时钟仍比注入时间慢 8h，命名/date 以注入时间为准。
+
+## 2026-11-01 08:44 运行
+- 频控检查：当天(2026-11-01)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟注入 08:44 GMT+8。
+- 生成 1 篇：opc-report-2026-11-01-0844.md，标题 "OpenAI Cuts Raise to $200B, DeepSeek Ships Self-Fixing Agent"（60字符，~1500词，含表格）。主题「资本降温 vs 地面 agent 经济升温：OPC 模型成理性选择」，与近期各篇无重叠（grep 确认 Super-agent/Metronome/Paul Graham 全站首次；Orkas 仅 10-20 一篇一笔带过）。
+- 素材：OpenAI 募资目标 $300B→$200B(-33%)/估值 $1.4T→$1.25T(-10.7%)（10-31~11-01，AI 抛售+Anthropic IPO 分流，MGX 领投/软银/红杉/Coatue/Founders Fund/a16z，纳指100 -3.5%）；Anthropic S-1 已交、11 月中纳斯达克；五巨头 AI 基建承诺 >$3T（Alphabet >$1T 8x、Meta >$800B、租约 $1.3T+采购 $1.9T、Alphabet&Meta FCF 转负）；Barclays CDS（10 家核心 AI=8% CDX 权重/16% 隐含信用风险）；DeepSeek Super-agent（10-31，Router/Worker 双层+事件驱动+存算分离+外部 Watchdog，原型 dsh-superagent-prototype MIT ~1095 星/88 fork，内部实例静默复现修 bug，人限 3-5 会话）；Stripe（H1 2026 新注册 +50%、收购 Metronome 用量计费+OpenRouter token 路由、CMO Jeff Titterton）；OpenRouter 周榜中国模型包揽前五 86.74T tokens/周=4.5x 美、连 24 周（DeepSeek V4.1 Flash 41T/GLM5.3 Flash 12.2T/MiMo 11.5T）；Orkas（MIT 本地优先桌面 agent 团队、Commander+16 专家 agent、接管 Claude Code/Codex/OpenCode/OpenClaw/Hermes、~6150 星、10-31 活跃、4 月建仓）；Paul Graham 康奈尔 AI&Society 倡议演讲 "How to Turn Yourself Into a Startup Founder"（10-26 当周）；中国 OPC 盼月亮孵化器 1200+ 项目/72% 无网创经验/冷启<20天/月均 >¥23,000。
+- 构建：hexo generate 成功（2501 files，31s，无 ERROR）。注意：public/ 下 /2026/MM/DD/slug/ 路径是 scripts/apply-legacy-redirects.js 生成的「旧日期永久链接」meta-refresh 跳转桩（465B），真实全文在扁平规范 URL public/slug/index.html（76,793B，标题正确）——一度误判为桩，已核实正常。
+- 部署：deploy.sh 首次运行因 .deploy_git 残留 index.lock（前次孤儿 git 进程）失败；清理锁+杀孤儿进程后二次运行成功。gh-pages commit **d8d5c083c**（ls-remote 核对远端 HEAD 一致，文章已上线）；源码仓 main **019d97d**（含首跑提交的 82ff013 新文章 md，ls-remote 一致）。无代理重试，直连推送一次成功。
