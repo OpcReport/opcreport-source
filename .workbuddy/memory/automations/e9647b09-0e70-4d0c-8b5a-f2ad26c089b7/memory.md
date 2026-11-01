@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-11-01 12:47 运行
+- 频控检查：当天(2026-11-01)文件数 1（0844 篇，<4），允许生成（当天第 2 篇）。系统时钟注入 12:47 GMT+8。
+- 生成 1 篇：opc-report-2026-11-01-1247.md，标题 "TokenEconomizer Cuts Coding Agent Costs 31%, Baseten Eyes $30B"（62字符，~1500词，含表格）。主题「Agent 成本工程成为独立战场」（TokenEconomizer / Factory Droid 1.0 / Baseten $2B 轮 / Kingringo 85 应用收入数据集 / Solink），与当天 0844（OpenAI 募资缩水/DeepSeek Super-agent/Stripe/OpenRouter/Orkas/Paul Graham）及近日各篇无重叠（Droid 仅 10-28 篇作为发货节奏一句版本号提及，本次为 1.0 发布完整事实；TrustMRR 仅作数据核验平台背景，10-28 Shepd 后未展开）。
+- 素材：TokenEconomizer（微软研究院+UC Berkeley，Apache 2.0，arXiv 2610.22732：277 SWE-Bench 任务均值成本 -18.4%~-30.9%、30 个 repo×agent 组合全部更便宜、适配 Claude Code/Codex/Copilot CLI/Pi（opencode 实验性）；三机制=micro-skills/tool pruning/failure-loop guard；浪费源=5 任务后 30% 工具调用重复、23 个工具 schema 16 个从未调用 3 个覆盖 98%、失败循环 17% 任务占 32% 花费；Django 首请求 43351→16295 token；分项节省 pruning 13.2-17.7%/skills 11.8-14.3%/guard 5.4-7.1%；ReposVul 仅 6.4-9.3%、Opus 4.8 Pass@1 -1.0；状态存 ~/.tokeneconomizer；~1600 星/两周）、Factory Droid 1.0（10-29 发布：程序化工具调用默认、沙箱 JS Script 工具、base prompt 20887→13055 -37%、工具定义 11→2、TB4 Opus 5.5 65.2% vs Cursor/OpenCode 62.1/Devin 59.6/Claude Code 57.6、$4.73/通过任务、GPT-6.1 Sol 57.6%@$0.79 vs Codex 54.0%、vs Claude Code -17% token -26% 时间、151 issue 清理 2 请求 ~61K token vs 36 请求 ~3.1M、5384 job CI sweep 2 请求、macOS/Win 桌面+终端+Node SDK、10 模型、自报无独立复现）、Baseten（Bloomberg 10-31：~$2B 轮、估值最高 $30B、两阶段 $26B/$30B、Sands Capital 预计领投、6 月 $1.5B@$13B Blackbird 记录投、9 月 Axios $26B 谈判、NVIDIA 1 月 $150M；对照 Modal $750M@$15.75B、Fireworks 7 月 $1.5B@$17.5B+传 $30-40B 谈判）、Kingringo 数据集（Indie Hackers 10-27：85 个 AI 编程工具做的应用、有受众 9 个中位 $40K/月 vs 小受众 19 个 $2K=20x、可核验 26/85 中位 $2,280、自述 $16K、截图 $33K、可核验 18 个中 11 个 <$10K、82 个渠道案例仅 10 个单一渠道、85 个仅 4 个零受众）、Solink >$100M 增长轮（Vertu Capital 领投、渥太华、50 万摄像头/35K+ 网点/65 国、Jack in the Box/PGA TOUR Superstore、估值未披露）。
+- 已刻意避开：Wabi $55M@$1.25B（10-30 已用）；DeepSeek Super-agent（当天 0844 已用）；OpenAI 募资/五巨头 $3T（0844 已用）；EMBRACE Codex/VS Code 漏洞（仅 rAI.nvent 一条聚合源，细节不足弃用）；智澄AI 具身（中文向，站定位不符未采用）。
+- 构建：hexo generate 成功（2507 files，18s，无 ERROR），public/opc-report-2026-11-01-1247/index.html 已验证（77KB，标题正确）。
+- 部署：**成功**（deploy.sh 后台 1m5s，一次推送成功，无需代理重试）。gh-pages commit **0748eada0**（d8d5c083c..0748eada0，2503 files changed）；源码仓 main **47e6be4**（019d97d..47e6be4）。
+
 ## 2026-10-31 17:36 运行
 - 频控检查：当天(2026-10-31)文件数 2（0911/1326，<4），允许生成（当天第 3 篇）。系统时钟注入 17:36 GMT+8。
 - 生成 1 篇：opc-report-2026-10-31-1736.md，标题 "Easol $30M, Neuron $10M: Agents Move Into the Real World"（56字符，~1500词，含表格）。主题「AI agent 跨出浏览器进入物理/非技术域」（Easol $30M Series A ext 直播活动 agent Teammates / Neuron $10M seed 工业控制器 Cortex 替 PLC / LightSprint $6.1M YC S26 非工程师软件工厂 / Simantic YC F26 固件仿真），与当天 0911（Android ACP/DoorDash）、1326（Entire/Plato 开源工具链）及近日各篇无重叠（Collective/Mintive 等 10-30 已用素材刻意避开）。
