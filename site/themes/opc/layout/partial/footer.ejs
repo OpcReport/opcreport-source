@@ -65,7 +65,7 @@ window.BSZ_BASE = { pv: <%= theme.busuanzi.pv_base %>, uv: <%= theme.busuanzi.uv
   }
 
   // New domain: add the frozen base on top of the fresh busuanzi count
-  var timer = setInterval(function() {
+  var timer = setInterval(function poll() {
     var allDone = true;
     for (var id in ids) {
       var el = document.getElementById(id);
@@ -78,13 +78,37 @@ window.BSZ_BASE = { pv: <%= theme.busuanzi.pv_base %>, uv: <%= theme.busuanzi.uv
     if (allDone) clearInterval(timer);
   }, 400);
 
-  // Fallback on new domain: if busuanzi fails to load, show frozen base counts
+  // Retry: busuanzi is a free public service and goes down regularly.
+  // If it never loaded, show frozen base counts, then retry once after 60s.
+  function bszRetry() {
+    var s = document.createElement('script');
+    s.src = 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js';
+    s.async = true;
+    document.head.appendChild(s);
+    clearInterval(timer);
+    timer = setInterval(function() {
+      for (var id in ids) {
+        var el = document.getElementById(id);
+        if (!el || el.dataset.bszOffset) continue;
+        var val = parseInt(el.innerText.replace(/,/g, ''), 10);
+        if (isNaN(val) || val < 1) continue;
+        el.dataset.bszOffset = '1';
+        el.innerText = (val + ids[id]).toLocaleString('en-US');
+      }
+    }, 1000);
+    setTimeout(function() { clearInterval(timer); }, 30000);
+  }
   setTimeout(function() {
     clearInterval(timer);
+    var needsRetry = false;
     for (var id in ids) {
       var el = document.getElementById(id);
-      if (el && !el.dataset.bszOffset) el.innerText = ids[id].toLocaleString('en-US');
+      if (el && !el.dataset.bszOffset) {
+        el.innerText = ids[id].toLocaleString('en-US'); // frozen base fallback
+        needsRetry = true;
+      }
     }
+    if (needsRetry) setTimeout(bszRetry, 60000);
   }, 8000);
 })();
 </script>
