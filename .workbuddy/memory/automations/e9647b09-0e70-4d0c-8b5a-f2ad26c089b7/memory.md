@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-11-02 12:19 运行
+- 频控检查：当天(2026-11-02)文件数 1（0809 篇，<4），允许生成（当天第 2 篇）。系统时钟注入 12:19 GMT+8。
+- 生成 1 篇：opc-report-2026-11-02-1219.md，标题 "nunu.ai $6M for Game-Testing Agents, ChatGPT P1 Bounty $5,000"（61字符，~1500词，1表格）。主题「验证即付费层」：游戏 QA agent 垂直化（nunu.ai $6M）+ 漏洞赏金定价失衡（ChatGPT P1 $5K）+ 招聘 AI 信任崩塌（Greenhouse）+ Stripe 核验一人公司收入（EmailEngine/Lancer）。
+- 素材（grep 确认全站首次使用）：nunu.ai/Generai AG（瑞士 Vorderthal，$6M seed TIRTA Ventures+a16z speedrun 共同领投、YC 参投、累计 $8M；创始人 Jan Schnyder/Kyrill Hux/Nicolas Muntwyler 2017 ETH Zurich 相识；"Unembodied Minds" 虚拟环境自主 agent；Hogwarts Legacy 教程自然语言通关 demo；多家工作室每月数百次自动测试；GTA 6 预算 >$2B、CoD Black Ops Cold War ~$700M、QA 占预算 ~10%；四足机器人取可乐瓶实验；TIRTA 管理合伙人 Ben Feder=前 Take-Two CEO；"the pathway to embodied AI goes through gaming"）、Parameter Labs ChatGPT share-link ATO（10-18 报告→10-21 P2 升 P1→10-26 两版前端修复→10-28 披露，$5K 赏金；HTML Preview 沙箱未被打破、MathLive 主页面 postMessage 无 origin 校验+键盘布局数据夹带 raw HTML+innerHTML、helper createHTML 假消毒、无 sandbox iframe 继承 chatgpt.com origin、CSP 允许 YouTube→oEmbed callback 反射 JS；/share 链接全链路保留、精简版零点击；列举会话+读私聊+图片外传+任意已认证 API；Willison "a bit cheap"、对比 Meta $130K/微软 Identity $100K；MathLive 0.111.2 默认 same-origin）、Greenhouse 调查（TechRadar 11-1：1100 名英爱求职者、81% 从未与真人对话即被拒、42% 经历 AI 面试、年轻人手写简历防"AI 味"）、EmailEngine（Andris Reinman 爱沙尼亚一人 2020-05 创立 bootstrapped；TrustMRR Stripe API 核验 $19,583 MRR/238 订阅/$617,926 累计/$33,107 近 30 天；$1,450/年不限实例；IMAP/SMTP/Gmail API/MS Graph→REST+webhook；DR 64）、Lancer（Ivan Nedelkovski 马其顿，前 MB Masters 机构 7 位数营收~20 人；Upwork 提案 agent 周 revert 内部工具起家、上线 ~3 个月 $10K MRR、$0 广告；定价 $79/30 提案/$300/250/$500 月无限；"connector" 策略=Upwork 教练每人月签 5-20 客户付 $600-1000、两个 affiliate 驱动几乎全部增长、$1,000 付费买教练通话；平台月 20 万职位、人工 10 分钟/份）。
+- 已刻意避开：Lovable "$3B 融资谈判@$13.2B"（xix.ai 聚合站与百度百科冲突：8-12 已官宣 $400M@$13.3B Menlo+EUC 联合领投，疑旧闻回流，弃用）；DeepSeek Super-agent（11-01 0844 已用主题，本次仅几条新源）；Sema4.ai（前判疑似 2024 旧闻回流）；Polsia（10-17 已用）；Sachin Sharma（10-20 已用）；Replit Agent v2（低质聚合源）；singularity.kiwi 鼠标轨迹检测厂商（未具名，细节不足）。
+- 构建：hexo generate 成功（2523 files，18s，无 ERROR），public/opc-report-2026-11-02-1219/index.html 已验证（78.5KB，标题正确）。
+- 部署：**成功**（deploy.sh 后台 1m7s，两仓一次推送成功，无需代理重试）。gh-pages commit **bdce71501**（3d86669cb..bdce71501，2519 files changed）；源码仓 main **2a59d79**（29e2ca2..2a59d79）。
+
 ## 2026-11-02 08:09 运行
 - 频控检查：当天(2026-11-02)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟注入 08:09 GMT+8。
 - 生成 1 篇：opc-report-2026-11-02-0809.md，标题 "Backdoored Claude Code Hit 5,000 Users, Kling Closes $2.9B"（59字符，~1500词，1表格）。主题「OPC 工具链即公司：供应链投毒 + 拒答风险 + 资本流向"难做但值钱"的行业自动化」。
