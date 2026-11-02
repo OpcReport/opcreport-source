@@ -96,7 +96,20 @@ warning: in the working copy of 'archives/2026/10/16/index.html', LF will be rep
 warning: in the working copy of 'archives/2026/10/17/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'archives/2026/10/18/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'archives/2026/10/19/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/20/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/21/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/22/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/23/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/24/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/25/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/27/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/28/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/30/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/10/31/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'archives/2026/10/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/11/01/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/11/02/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'archives/2026/11/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'archives/2026/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'archives/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'atom.xml', LF will be replaced by CRLF the next time Git touches it
@@ -316,20 +329,41 @@ warning: in the working copy of 'categories/AI-Startup-Trends/Solopreneur/index.
 warning: in the working copy of 'categories/AI-Startup-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup-Trends/page/2/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup-Trends/page/3/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Agents/Cloud-Computing/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Agents/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Infrastructure/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Policy/Funding/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/AI-Policy/Robotics/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Policy/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/AI-Policy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/AI-Safety/Open-Source/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/AI-Safety/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Security/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Security/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/AI-Tools/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Agent-Infrastructure/One-Person-Company/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Agent-Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Agent-Tools/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Agent-Tools/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Agents/Business-of-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Agents/Open-Source/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Agents/Policy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Agents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Biotech/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Biotech/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Business-of-AI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Developer-Tools/One-Person-Company/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Developer-Tools/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Entrepreneurship/Business-Innovation/One-Person-Company/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Entrepreneurship/Business-Innovation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Entrepreneurship/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Funding/AI-Policy/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Funding/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Market-Analysis/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Monetization/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Monetization/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/OPC-Monitoring/Solo-Founder-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/OPC-Monitoring/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/OPC-Trend-Report/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -344,13 +378,19 @@ warning: in the working copy of 'categories/AI-Startup/OPC/Solopreneur/AI-Agent/
 warning: in the working copy of 'categories/AI-Startup/OPC/Solopreneur/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/OPC/Startup-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/OPC/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/One-Person-Company/Agent-Infrastructure/AI-Coding/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/One-Person-Company/Agent-Infrastructure/AI-Funding/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/One-Person-Company/Agent-Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/One-Person-Company/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/One-Person-Company/Solopreneur/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/One-Person-Company/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Solo-Founder/AI-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solo-Founder/Agents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Solo-Founder/Fintech/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solo-Founder/OPC/AI-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solo-Founder/OPC/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/Solo-Founder/page/2/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solopreneur/Agent-Infrastructure/Developer-Tools/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solopreneur/Agent-Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/Solopreneur/Agent-Stack/Entrepreneurship/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -366,6 +406,9 @@ warning: in the working copy of 'categories/AI-Startup/page/2/index.html', LF wi
 warning: in the working copy of 'categories/AI-Startup/page/3/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/page/4/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startup/page/5/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/page/6/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/page/7/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/AI-Startup/page/8/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startups/Business-Trends/Entrepreneurship/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startups/Business-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/AI-Startups/Entrepreneurship/AI-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -691,6 +734,9 @@ warning: in the working copy of 'categories/One-Person-Company/index.html', LF w
 warning: in the working copy of 'categories/Policy/AI/Solo-Business/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/Policy/AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/Policy/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/Solo-Founder/AI-Startup/Agent-Commerce/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/Solo-Founder/AI-Startup/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'categories/Solo-Founder/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/Trend-Report/AI-Entrepreneurship/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/Trend-Report/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'categories/Trend-Report/page/2/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1518,6 +1564,33 @@ warning: in the working copy of 'opc-report-2026-10-19-0018/index.html', LF will
 warning: in the working copy of 'opc-report-2026-10-19-0429/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'opc-report-2026-10-19-0905/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'opc-report-2026-10-19-1400/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-20-1015/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-20-1244/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-20-1654/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-20-2107/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-21-0925/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-21-1112/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-21-1539/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-22-0913/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-22-1330/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-22-1616/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-22-1802/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-23-0804/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-24-1118/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-25-1016/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-27-1814/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-28-0908/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-28-1316/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-28-1723/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-28-2135/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-30-0945/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-31-0911/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-31-1326/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-10-31-1736/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-11-01-0844/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-11-01-1247/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-11-01-1653/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-11-02-0809/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'page/10/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'page/11/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'page/12/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1598,6 +1671,8 @@ warning: in the working copy of 'page/8/index.html', LF will be replaced by CRLF
 warning: in the working copy of 'page/80/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'page/81/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'page/82/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'page/83/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'page/84/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'page/9/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'privacy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'search.xml', LF will be replaced by CRLF the next time Git touches it
@@ -1610,11 +1685,13 @@ warning: in the working copy of 'tags/2026-AI-Trends/index.html', LF will be rep
 warning: in the working copy of 'tags/2026-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/2026/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/A2A/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/ACP/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AEO/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Agent-Governance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Automation/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/AI-Back-Office/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Bubble/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Business-Model/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Business/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1633,6 +1710,7 @@ warning: in the working copy of 'tags/AI-Costs/index.html', LF will be replaced 
 warning: in the working copy of 'tags/AI-Debt/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Detection/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Distribution/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/AI-Drug-Discovery/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Economics/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Ecosystem/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Employee/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1641,6 +1719,7 @@ warning: in the working copy of 'tags/AI-Engineering/index.html', LF will be rep
 warning: in the working copy of 'tags/AI-Entrepreneurship-2026/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Entrepreneurship/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Factory/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/AI-Finance-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Financing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Finops/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/AI-Funding/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1693,14 +1772,18 @@ warning: in the working copy of 'tags/AIOPC/index.html', LF will be replaced by 
 warning: in the working copy of 'tags/AI工具链/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/API-Monetization/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/API-Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/ASI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/AVP/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Accio-Work/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Acquisitions/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Accountability/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Architecture/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Autonomy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Browsers/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Client-Protocol/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Commerce/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Compliance/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Compute-Engine/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Connectors/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Coordination/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Cost/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1746,13 +1829,19 @@ warning: in the working copy of 'tags/Agent-Security/index.html', LF will be rep
 warning: in the working copy of 'tags/Agent-Skills/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Sprawl/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Stack/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Substrate/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Supervision/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Swarm/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Swarms/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-To-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Tooling/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Traffic/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Training/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-UI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Vault/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agent-Verification/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agent-Versioning/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Agentic-AI-Foundation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agentic-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agentic-Agencies/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Agentic-Coding/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1771,13 +1860,17 @@ warning: in the working copy of 'tags/Agents/index.html', LF will be replaced by
 warning: in the working copy of 'tags/Aiagents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Always-On/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Analytics/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Android-Studio/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Answer-Engine-Optimization/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Anthropic-IPO/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Anthropic-Watermark/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Anthropic/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Anti-Slop/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/App-Monetization/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Arda/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Article-50/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Artificial-Intelligence/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Attention-Economy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Attestation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Auto-Mode/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Automation-Tools/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1789,11 +1882,18 @@ warning: in the working copy of 'tags/Autonomous-Coding/index.html', LF will be 
 warning: in the working copy of 'tags/Autonomous-Companies/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Autonomous-Company/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Autonomous-Execution/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Azoma/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/BOB/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/BYO-Model/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/BYOA/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/BYOK/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Base44/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Baseten/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Beacon/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Benchmark/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Benchmarks/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Bika-ai/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Biotech/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Blacksmith/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Bolt-new/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Bootstrap/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1814,13 +1914,16 @@ warning: in the working copy of 'tags/Business-Model/index.html', LF will be rep
 warning: in the working copy of 'tags/CI-CD/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/COBOL/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cactus-Needle/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Cairn/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Capability-Sandboxing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Capital-Markets/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Chat-Native-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/ChatGPT-Ads/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/ChatGPT/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cheap-Inference/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/China-AI-Policy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/China-AI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/China-OPC/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/China-Policy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/China-Tech-Policy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/China-Tech/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1857,8 +1960,11 @@ warning: in the working copy of 'tags/Codex/index.html', LF will be replaced by 
 warning: in the working copy of 'tags/Coding-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Coding-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Coding-Tools/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Cody-Tranbarger/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cognition/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cognitive-Debt/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Cohere/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Collective/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Commoditization/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Community/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Company-OS/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1866,6 +1972,7 @@ warning: in the working copy of 'tags/Compliance-Tech/index.html', LF will be re
 warning: in the working copy of 'tags/Compliance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Compute-Voucher/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Compute-Vouchers/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Computer-Use-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Computer-Use/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Confidence-Routing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Containment/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1878,6 +1985,7 @@ warning: in the working copy of 'tags/Context-Engineering/index.html', LF will b
 warning: in the working copy of 'tags/Context-Handoff/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Context-Layer/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Copilot/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/CopperPilot/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Copyright-Compliance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cost-Control/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cost-Discipline/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1893,8 +2001,10 @@ warning: in the working copy of 'tags/Credential-Management/index.html', LF will
 warning: in the working copy of 'tags/Critic-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cursor-Origin/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Cursor/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Cybersecurity/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Data-Compliance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Data-Residency/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Daytona/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Decision-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/DeepSeek-Harness/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/DeepSeek-V4-Flash/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1926,7 +2036,9 @@ warning: in the working copy of 'tags/Docker-Sandboxes/index.html', LF will be r
 warning: in the working copy of 'tags/Documentation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Domain-Expertise/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Domestic-Large-Model/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/DoorDash/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/EU-AI-Act/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Easol/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Edge-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Edge-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Edge-Inference/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1935,6 +2047,7 @@ warning: in the working copy of 'tags/Elevenlabs/index.html', LF will be replace
 warning: in the working copy of 'tags/Embedded-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Embedded-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Enterprise-AI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Entire/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Entrepreneurship-2026/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Entrepreneurship-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Entrepreneurship/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1949,10 +2062,12 @@ warning: in the working copy of 'tags/Expertise-Premium/index.html', LF will be 
 warning: in the working copy of 'tags/Export-Controls/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Faceless-Content/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Faceless-Video/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Factory-Droid/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Factory/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Fastmcp/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Fine-Tuning/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Finops/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Flapping-Airplanes/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Flat-Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Flowise/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Flux-3/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1963,6 +2078,8 @@ warning: in the working copy of 'tags/GLM-5-3/index.html', LF will be replaced b
 warning: in the working copy of 'tags/GLM-5/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/GLM/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/GPT-5-6/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/GPT-6-1-Terra/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/GPT-6/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/GPU-Economics/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/GPU-Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Gemini-3-7-Flash/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1971,9 +2088,13 @@ warning: in the working copy of 'tags/Gemini-CLI/index.html', LF will be replace
 warning: in the working copy of 'tags/Gemini-Flash/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Gemini-Spark/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Gemini/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/General-Compute/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Generative-Engine-Optimization/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Git/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/GitHub-Alternatives/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/GitHub-Copilot/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Google-Cloud/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Google/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Goose/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Governance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Gross-Margin/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1982,6 +2103,7 @@ warning: in the working copy of 'tags/Guangdong-AI-Policy/index.html', LF will b
 warning: in the working copy of 'tags/Guardrails/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/HACR/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Hacker-News/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/HackerTube/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Hainan-Free-Trade-Port/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Hainan-Policy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Hangzhou/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -1989,16 +2111,27 @@ warning: in the working copy of 'tags/Hardware-Supply/index.html', LF will be re
 warning: in the working copy of 'tags/Hardware/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Harness-Economics/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Harness-Engineering/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hashed/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Herdr/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hex/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Higgsfield/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hinton/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hone/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Hong-Kong/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Hugging-Face/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Human-AI-Cost-Ratio/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Human-In-The-Loop/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Humanoid-Robots/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hunan/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hyperbolic/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Hyphenate/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/IETF/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/IPO/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Identity/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Implementation-Economy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Incident-Response/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Independent-Developer/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Index-Ventures/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Indie-Dev/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Indie-Developer/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Indie-Hacker/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2012,11 +2145,14 @@ warning: in the working copy of 'tags/Inference-Economics/index.html', LF will b
 warning: in the working copy of 'tags/Inference-Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Inference-Providers/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Inference/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Infisical/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Infrastructure-Risk/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Intelligent-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Karpathy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Kilo-Code/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Kimi-CLI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Kimi-K3-1-Pro/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Kimi-K3/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Kling-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/LLM-Cost/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2032,9 +2168,12 @@ warning: in the working copy of 'tags/LLM-Tooling/index.html', LF will be replac
 warning: in the working copy of 'tags/LLM/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/LangGraph/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Last-Mile/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/LayerFS/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Lead-Generation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Legacy-Migration/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Legacy-Systems/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Legora/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/LightSprint/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Litellm/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Livekit/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Llama-cpp/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2053,6 +2192,7 @@ warning: in the working copy of 'tags/Long-Horizon-Agents/index.html', LF will b
 warning: in the working copy of 'tags/Long-Horizon-Coding/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Lovable/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Low-Code/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Lumaril/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/M-A/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/MCP-Analytics/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/MCP-Protocol/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2063,10 +2203,12 @@ warning: in the working copy of 'tags/Machine-Legibility/index.html', LF will be
 warning: in the working copy of 'tags/Machine-Readable-Web/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Machine0/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Managed-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/ManyAgents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Marc-Lou/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Market-Dilution/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Market-Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Marketplaces/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Medvi/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Meta-Harness/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Meta-Muse-Code/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Meta/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2074,7 +2216,12 @@ warning: in the working copy of 'tags/Metered-Pricing/index.html', LF will be re
 warning: in the working copy of 'tags/Micro-SaaS/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Micropayments/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Microsoft-Frontier/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Microsoft/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/MiniMax/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Mintive/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Mirrorcode/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Mistral/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Mithril-Medicine/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Moats/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Model-Context-Protocol/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Model-Cost-Routing/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2086,21 +2233,29 @@ warning: in the working copy of 'tags/Model-Pricing/index.html', LF will be repl
 warning: in the working copy of 'tags/Model-Routing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Model-Selection/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Monitoring/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Moonshot-AI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Morgan-Stanley/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Multi-Agent-Systems/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Multi-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Multi-Model-Orchestration/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Multi-Model/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Multi-Tenancy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Multimodal/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Murmell/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Muse-Code/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Muse-Glimmer/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Muse-Spark-1-3/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/NIST/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/NVIDIA-Nemotron/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/NVIDIA/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/NanoClaw/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/NanoCo/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Nemotron/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Neolix/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Neuron-Industries/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/No-Code-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/No-Code/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Nscale/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/OPC-Challenge/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/OPC-Community/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/OPC-Ecosystem/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2131,6 +2286,7 @@ warning: in the working copy of 'tags/Open-Source/index.html', LF will be replac
 warning: in the working copy of 'tags/Open-Weight-Models/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Open-Weight/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Open-Weights/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/OpenAI-Decisions-API/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/OpenCSG/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/OpenClaw/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Openai-Agents-API/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2141,6 +2297,7 @@ warning: in the working copy of 'tags/Openai/index.html', LF will be replaced by
 warning: in the working copy of 'tags/Opencode/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Openjdk/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Openrouter/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Oracle/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Orchestration/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Originality-Risk/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Outcome-Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2148,20 +2305,27 @@ warning: in the working copy of 'tags/Owned-Audience/index.html', LF will be rep
 warning: in the working copy of 'tags/PR-Review/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Passive-Income/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Patents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Pathos-AI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Paul-Graham/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Peer-Review/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Perplexity/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Persistent-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Personal-AGI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Personal-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Personal-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Personal-Branding/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Personal-Software/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Personalized-Software/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Photon/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Pipeline-in-a-Person/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Planner-Worker/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Platform-Risk/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Plato/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Plugin-Ecosystem/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Policy-Enforcement/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Policy-Support/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Policy/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Polotno/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Positioning/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Post-Training/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2174,15 +2338,19 @@ warning: in the working copy of 'tags/Product-Strategy/index.html', LF will be r
 warning: in the working copy of 'tags/Production-Readiness/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Programmable-Wallets/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Prompt-Caching/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Prompt-Engineering/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Prompt-Injection/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Provenance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Qwen/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Qwen3-8-27B/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/RSI/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Radical-Numerics/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Reasoning-Effort/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Reasoning-Extraction/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Reasoning-Leakage/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Regulation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Reliability/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Replit/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Report/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Review-Bottleneck/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Review-Compression/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2192,6 +2360,7 @@ warning: in the working copy of 'tags/SEO/index.html', LF will be replaced by CR
 warning: in the working copy of 'tags/SWE-Rebench/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/SaaS-Valuation/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/SaaS/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Salesforce/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Sandbox-Security/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Sandboxing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Sapiom/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2205,8 +2374,10 @@ warning: in the working copy of 'tags/Self-Hosted/index.html', LF will be replac
 warning: in the working copy of 'tags/Self-Hosting/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Service-As-Software/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Session-Portability/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/ShipFast/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Show-HN/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Side-Hustle/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Simantic/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Skill-Distribution/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Skill-Packs/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Small-Models/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2224,6 +2395,7 @@ warning: in the working copy of 'tags/Solopreneur/index.html', LF will be replac
 warning: in the working copy of 'tags/Spec-Driven-Development/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Speech-To-Speech/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Stablecoin/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Stack-Overflow/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Stagehand/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Startup-Economics/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Startup-Exit/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2246,6 +2418,10 @@ warning: in the working copy of 'tags/Synthetic-Content/index.html', LF will be 
 warning: in the working copy of 'tags/TRAE/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Telnyx/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Tenant-Isolation/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Tenstorrent/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Terminal-Bench/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Thomas-Dohmke/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Today-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Token-Billing/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Token-Cost/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Token-Costs/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2254,13 +2430,17 @@ warning: in the working copy of 'tags/Token-Efficiency/index.html', LF will be r
 warning: in the working copy of 'tags/Token-Governance/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Token-Overhead/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Token-Pricing/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/TokenEconomizer/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Tooling/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Town/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/TraceWeave/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Trends/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Trust-Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Trust-Layer/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Tsinghua-University-OPC-Report/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Tycoon/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/USDC/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Uber/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Unbundling/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Unicorn/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Unit-Economics/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2270,6 +2450,7 @@ warning: in the working copy of 'tags/Validation-Engineering/index.html', LF wil
 warning: in the working copy of 'tags/Vapi/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Vendor-Lock-In/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Venture-Capital/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Vercel/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Verification-Economy/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Verification-Infrastructure/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Verification-Layer/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2282,14 +2463,19 @@ warning: in the working copy of 'tags/Vertical-SaaS/index.html', LF will be repl
 warning: in the working copy of 'tags/Vibe-Coding-Security/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Vibe-Coding/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Vibecoding/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Video-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Virtual-Company/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Voice-AI/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Voice-Agent/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Voice-Agents/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Voxtral/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/WAIC-2026/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/WAIC-OPC-Challenge/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/WAIC/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/WAIC2026/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Wabi/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Walmart/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Warp-Sciences/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Web-Scraping/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Webmcp/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Weekly-Report/index.html', LF will be replaced by CRLF the next time Git touches it
@@ -2309,38 +2495,36 @@ warning: in the working copy of 'tags/YC-S26/index.html', LF will be replaced by
 warning: in the working copy of 'tags/YC-Startups/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/YC-W26/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/YC/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Yadaphone/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Yunnan/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/ZHC/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Zero-Click-Search/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/Zero-Employee/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Zhejiang-OPC/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/fal/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/n8n/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/robots-txt/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/tau-bench/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/v0-dev/index.html', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'tags/杠杆化系统/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of '2026/10/20/opc-report-2026-10-20-1015/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'archives/2026/10/20/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'categories/AI-Startup/AI-Policy/Funding/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'opc-report-2026-10-20-1015/index.html', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tags/Tenstorrent/index.html', LF will be replaced by CRLF the next time Git touches it
-[gh-pages 5219a24] Deploy: 2026-10-20 02:29 UTC auto content update
- 2324 files changed, 24874 insertions(+), 25386 deletions(-)
- create mode 100644 2026/10/20/opc-report-2026-10-20-1015/index.html
- create mode 100644 archives/2026/10/20/index.html
- create mode 100644 categories/AI-Startup/AI-Policy/Funding/index.html
- create mode 100644 opc-report-2026-10-20-1015/index.html
- create mode 100644 tags/Tenstorrent/index.html
-To https://github.com/OpcReport/OpcReport.github.io.git
-   2d435cd0a..5219a244e  gh-pages -> gh-pages
->> 部署完成: 5219a244e 2026-10-20 10:30 Deploy: 2026-10-20 02:29 UTC auto content update
-warning: in the working copy of '.workbuddy/memory/automations/e9647b09-0e70-4d0c-8b5a-f2ad26c089b7/memory.md', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'deploy.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'hexo-build.log', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'site/source/_posts/opc-report-2026-10-20-1015.md', LF will be replaced by CRLF the next time Git touches it
-[main 4e6fb08] Source sync: 2026-10-20 02:32 UTC
- 4 files changed, 4763 insertions(+)
- create mode 100644 deploy.log
- create mode 100644 hexo-build.log
- create mode 100644 site/source/_posts/opc-report-2026-10-20-1015.md
-fatal: unable to access 'https://github.com/OpcReport/opcreport-source.git/': schannel: server closed abruptly (missing close_notify)
-fatal: unable to access 'https://github.com/OpcReport/opcreport-source.git/': schannel: server closed abruptly (missing close_notify)
->> 源码仓推送失败（网络），下次部署重试
+warning: in the working copy of '2026/11/02/opc-report-2026-11-02-1219/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'opc-report-2026-11-02-1219/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'page/85/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Bug-Bounty/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/EmailEngine/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Game-QA/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/Greenhouse/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/TrustMRR/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tags/nunu-ai/index.html', LF will be replaced by CRLF the next time Git touches it
+[gh-pages bdce71501] Deploy: 2026-11-02 04:22 UTC auto content update
+ 2519 files changed, 28390 insertions(+), 24261 deletions(-)
+ create mode 100644 2026/11/02/opc-report-2026-11-02-1219/index.html
+ create mode 100644 opc-report-2026-11-02-1219/index.html
+ create mode 100644 page/85/index.html
+ create mode 100644 tags/Bug-Bounty/index.html
+ create mode 100644 tags/EmailEngine/index.html
+ create mode 100644 tags/Game-QA/index.html
+ create mode 100644 tags/Greenhouse/index.html
+ create mode 100644 tags/TrustMRR/index.html
+ create mode 100644 tags/nunu-ai/index.html

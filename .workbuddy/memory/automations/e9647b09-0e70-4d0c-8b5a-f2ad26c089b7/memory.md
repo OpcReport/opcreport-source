@@ -1,5 +1,13 @@
 # Automation e9647b09 执行记录
 
+## 2026-11-02 08:09 运行
+- 频控检查：当天(2026-11-02)文件数 0（<4），允许生成（当天第 1 篇）。系统时钟注入 08:09 GMT+8。
+- 生成 1 篇：opc-report-2026-11-02-0809.md，标题 "Backdoored Claude Code Hit 5,000 Users, Kling Closes $2.9B"（59字符，~1500词，1表格）。主题「OPC 工具链即公司：供应链投毒 + 拒答风险 + 资本流向"难做但值钱"的行业自动化」。
+- 素材（grep 确认全站首次使用）：Cursor 市场 Claude Code 扩展投毒（10-29 约 11 小时，anthropic.claude-code 2.1.312/313 被篡改，最多 5000 用户，66 行 loader、SSH key svc-telemetry、LaunchAgent/计划任务持久化、macOS 缺管理员权限致反向隧道大多失败、Cursor 下架+关服+轮换密钥+清理脚本、官方 2.1.313 从未发布→下一版直接跳 2.1.314、HN 972 分/547 评论，痛点=无签名验证 394 评论/全文件系统访问 412/无后门扫描 189；Rescana High、无 CVE；一周内第三起冒用 Claude 名义）；Anthropic 分类器拒答摩擦（封"特定现有游戏"逆向、研究员被标"训练竞品"、HK+VPN 触发、42 评论共识=provider-agnostic）；Anthropic 订阅改版（Max 5x→Max $100、Max 20x→Ultra $200、Ultra 取消 5 小时限制，量子位 11-1）；Lumaril $66M A 轮@$400M（WSJ，工厂现有控制系统上的 AI 层，对比 10-31 Neuron 替换式路线差 10 倍）；可灵 AI ¥19.802B 交割（11-1 证券时报：低于上限 ¥645M、达康兰五/BFI MIDCO 两人违约退出、金蝶 ¥300M+沐曦 ¥55M+45M 承接、快手 66.68% 股权/52.45% 表决权、阿里 1.38%/腾讯 0.56%/百度 0.28%、Q2 营收 >¥850M +200%；注意 10-24 篇仅一句 Kling $2.8B@$15B 对比，本次为交割细节增量）；Mistral Large 4 全权重+$0.70/$2.10 降价 50%（10-18 篇仅基准对比）；Coincide（MIT Mac 多 harness 并排 6 agent、线程中途交接+recap、后台 host、PH 11-2 上架，dev.to）；AmEx agentic commerce 客户意图验证框架（Automation Today 11-1）；GitHub 周趋势 impeccable 1338 星 +124%/t3code +147%/claude-mem 1723 星（DailyDawn 11-1）；Marc Lou 10 月收入帖（16 产品、robj3d3 SuperX 35% 毛利 vs 其他 95%、ErnestoSOFTWARE 单月 $170K 利润；Marc Lou 仅 10-22 ShipFast 衰退旧闻，本次为 10 月新 P&L）；Exin Therapeutics 活体小鼠注射（Wired，Sonnet 自主选药+定位+操作机器人注射器，Opus 中途以伦理为由拒答；区别于 10-24 PerturbAI 图谱/10-28 Mithril）。
+- 已刻意避开：FuriosaAI $620M（11-01 1653 已用）、VOLTA-AUTODOXER（11-01 1653 已用）、Sema4.ai $35.5M+收购 Robocorp（疑似 2024 旧闻回流，弃用）、Simantic（10-31 已用）、Sachin Sharma（10-20 已用）、Orkas（11-01 已用仅趋势一笔）、Binance $6.3B 被盗（加密向，站定位不符）。
+- 构建：hexo generate 成功（2515 files，26s，无 ERROR），public/opc-report-2026-11-02-0809/index.html 已验证（79.5KB，标题正确）。
+- 部署：**成功**（deploy.sh 后台 1m16s，两仓一次推送成功，无需代理重试）。gh-pages commit **3d86669cb**（0e0e035fc..3d86669cb，2511 files changed）；源码仓 main **29e2ca2**（7b5394f..29e2ca2）。
+
 ## 2026-11-01 16:53 运行
 - 频控检查：当天(2026-11-01)文件数 2（0844/1247，<4），允许生成（当天第 3 篇）。系统时钟注入 16:53 GMT+8。
 - 生成 1 篇：opc-report-2026-11-01-1653.md，标题 "Karpathy Ships HackerTube in 2 Hours, Claude Pens Root Exploit"（62字符，~1500词，3表格）。主题「一人公司周末交付实证 + harness 供给过剩 + AI 写漏洞利用 + 种子到 A 轮挤压」，与当天 0844（OpenAI 募资缩水/DeepSeek Super-agent/Stripe/OpenRouter/Orkas/Paul Graham）及 1247（TokenEconomizer/Factory Droid 1.0/Baseten/Kingringo/Solink）无重叠（Karpathy HackerTube/CVE-2026-98432/Imza/agent-hop/Palomino/SKI/telemetry.dev/Backenly/Publishub/Atomic/Arca/Crunchbase Q3 数据/VOLTA-AUTODOXER 均全站首次使用；Karpathy 仅 10-25 一句背书、10-27 一句 autoresearch 提及）。
