@@ -290,3 +290,11 @@
 - 素材：UniPat AI $300M（阿里领投/腾讯/红杉中国，投前 $2.5B，95年李宽通义实习生→WebSailor一作→创立18个月，BabyVision 人类94.1% vs Gemini 3 Pro 49.7%，Terminal-X，ExpertEval 21+评分项）、Fal $1.3B Series F @ $16B、11-6 全天 39 轮 $4.9B（Nooks $500M/Sand.ai $200M/Sentra $150M）、Trajectory $45M A轮（红杉领投+NVIDIA，$300M 估值，生产反馈后训练）、Physicl $10M 种子（Inovia，Studio 1万环境，SpAItial 重建错误率减半）、Kalepa $75M B轮 @$470M（保险，营收客户翻三倍、连续2年正现金流）、Finpilot $10M A轮（机构资本 AI OS）、Cohere E轮 CAD $7B、PowerUp Money $10M @$73M。
 - 构建：hexo generate 成功（2541 files，1.38min，无 ERROR），public/opc-report-2026-11-07-0803/index.html 已验证（80KB，标题正确）。
 - 部署：**一次成功**——gh-pages commit **7fd361ea8**（9742b7cef..7fd361ea8），源码仓 main **d0675e7**（0875e72..d0675e7）。无重试。
+
+## 2026-11-07 08:15 运行
+- 频控检查：当天(2026-11-07)已有 1 篇（08:03），<4，允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-07-0815.md，标题 "Cognition SWE-2 Flash Cuts Agent Cost 80%, Amp Adds Spaces"（58字符，~1500词，含数据表格）。主题「agent 经济的交互层：flash 档模型+语音交互+编排层」。
+- 去重确认：Physicl 已被当天 08:03 篇覆盖（剔除）；Everything Claude Code 已在 7-14/8-12 两篇覆盖（剔除）；Cognition SWE-2 Flash、Cursor Voice Chat、Amp Spaces、Guava $12.5M、Phonic $27.5M、Kolbo.AI $92K MRR 均全站首次。
+- 素材：SWE-2 Flash（3x 快/1/5 成本，Inkling-Small 276B MoE Apache2.0 底座闭源衍生，Terminal-Bench 0.9%→20.0%，ExploitBench 11.3%→34.8% 因安全闭权重，免费至 11-30）；Cursor Voice Chat with Agents（11-6，语音对语音，Grok Voice 驱动，Hey Siri call Cursor，Privacy Mode 零留存）；Amp Spaces（主 agent 编排并行线程+团队卡片）；Guava $12.5M seed（Acrew 领投，Daytona 模型日万级通话）；Phonic $27.5M A 轮（First Round 领投，全双工边说边调工具）；Kolbo.AI 零员工 $92K 月收入（$36K→$62K→$92K 三月连增，$27/月起）；Agent-as-a-Service 案例 $8K MRR/90天/97% 毛利；FormulaBot $40K+ MRR。
+- 构建：hexo generate 成功（2546 files，33s，无 ERROR），public/opc-report-2026-11-07-0815/index.html 已验证（80KB，标题正确）。
+- 部署：deploy.sh 一次成功。gh-pages commit **07b1652d6**（OpcReport.github.io）；源码仓 main **db54670**（opcreport-source）。无重试。
