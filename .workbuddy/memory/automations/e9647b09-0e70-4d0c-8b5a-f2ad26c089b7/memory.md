@@ -298,3 +298,11 @@
 - 素材：SWE-2 Flash（3x 快/1/5 成本，Inkling-Small 276B MoE Apache2.0 底座闭源衍生，Terminal-Bench 0.9%→20.0%，ExploitBench 11.3%→34.8% 因安全闭权重，免费至 11-30）；Cursor Voice Chat with Agents（11-6，语音对语音，Grok Voice 驱动，Hey Siri call Cursor，Privacy Mode 零留存）；Amp Spaces（主 agent 编排并行线程+团队卡片）；Guava $12.5M seed（Acrew 领投，Daytona 模型日万级通话）；Phonic $27.5M A 轮（First Round 领投，全双工边说边调工具）；Kolbo.AI 零员工 $92K 月收入（$36K→$62K→$92K 三月连增，$27/月起）；Agent-as-a-Service 案例 $8K MRR/90天/97% 毛利；FormulaBot $40K+ MRR。
 - 构建：hexo generate 成功（2546 files，33s，无 ERROR），public/opc-report-2026-11-07-0815/index.html 已验证（80KB，标题正确）。
 - 部署：deploy.sh 一次成功。gh-pages commit **07b1652d6**（OpcReport.github.io）；源码仓 main **db54670**（opcreport-source）。无重试。
+
+## 2026-11-07 12:11 运行
+- 频控检查：当天(2026-11-07)已有 2 篇（0803/0815），<4，允许生成（当天第 3 篇）。
+- 生成 1 篇：opc-report-2026-11-07-1211.md，标题 "OpenAI Confirms $11B at $1.25T, METR Finds AI Doubles R&D"（57字符，~1500词，2表格）。主题「资本重定价 vs 生产力证据层」。
+- 去重确认：METR 此前仅写过 10-18 入驻协议与 09-01 eval 事件，11-5 首份评估报告（1.9x/80% AI归因/AECI/三未发布模型/删减争议）为全新增量；Perplexity Teammates（1万内部agent/20x headcount/7 agent-hours）、OpenAI 漏洞管线 21→948 LPE（$1.2M/run、$1,265/对、Patch the Planet）、Replit microVM 重建（6211 CVE 96.1%）、Traversal $120M@$1B、village.dev 开源权重 3% price-performance、Inkling 2 Small（594B/17B/68h/12T tokens）、Shield AI $2B+Echodyne $5.3B、Microsoft 退租 Oracle 算力均全站首次。Applied Compute 今天 0803 已一句带过，未再展开；SWE-2 Flash/Cursor Voice/Amp Spaces（0815 已用）仅作衔接未重复。
+- 素材来源：Bloomberg（OpenAI $11B 首笔交割@$1.25T、Anthropic IPO 买方出价低至 $1.1T）、METR 11-5 报告（AECI 1.9x、95% CI 1.5-2.8x、~80% 归因 AI 辅助研发、全行业 1.4x、员工自报 12x 仅松证据、Anthropic 删减关键证据）、The Context 11-7 简报（中期选举日纳指 -5.5%/$2.5T）、Phoronix（948 LPE）、Replit 工程博客（microVM）、Crunchbase/DropsTab 周榜（Shield AI/Zipline/Traversal）。
+- 构建：hexo generate 成功（2549 files，19s，无 ERROR），public/opc-report-2026-11-07-1211/index.html 已验证（81KB，标题正确）。
+- 部署：**一次成功，无重试**。gh-pages commit **9a018ca79**（ls-remote 核对远端 gh-pages HEAD 一致）；源码仓 main **836e45e463**（ls-remote 一致）。
