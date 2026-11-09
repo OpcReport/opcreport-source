@@ -317,3 +317,10 @@
 
 ## 2026-11-07 20:18 运行
 - 频控检查：当天(2026-11-07)已有 4 篇（0803/0815/1211/1615），达到日上限，**跳过，未做任何写入**。下次运行窗口为 2026-11-08。
+
+## 2026-11-09 09:29 运行
+- 频控检查：当天(2026-11-09)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-09-0929.md，标题 "1,122 Repos Leak Secrets via Claude Code, AI Super PACs Lose $79M"（65字符，~1600词，2表格）。主题「agent 安全欠账 + 政策重置 + 整合窗口」。
+- 去重确认：Apiiro 1,122 仓库泄密（104,185 扫描/1,379 secrets/379 DB 密码/23 AWS key/4 个 bug report 被自动关闭）、AI 超级 PAC $79M 68 场中期选举败北（Public First vs Leading the Future、联邦 preemption 路径丧失）、60 万颗 H200 滞留香港（每家大陆公司批约 1 万颗/NYT 空壳买家）、Anthropic 英国散户 IPO 渠道（RetailBook/Hargreaves Lansdown/AJ Bell/eToro/Revolut/伦敦 3x ETP；估值区间 $1.25-1.75T 与 Polymarket 80%→50% 为新口径）、OpenAI Model Spec 重写（'love humanity' 降级/Zvi 评述）、Meta 收购 Conductor（Cloud 11/13 只读、11/20 关停、本地维护到 2027 初）、Anthropic 内部三模型 RSI 实验 80% 缩短、Archiboost AI $6.2M 种子（550K 图纸/$3.5B 项目/6x 检出率）、Vercel agent-desktop（19K 星 +14K/7d）、craft-anything（20.5K 星 +20K/7d）、Supastack 独立案例（$254 Stripe 验证/$349-599 一次性）均全站首次。weight-space（11-03 已用，仅引 Simon Willison 本地复现一笔）、T3Code（11-02/11-03 已用）、mattpocock/skills（7-26 已用）、FormulaBot/$8K MRR 案例（11-07 已用）均剔除。
+- 构建：hexo generate 成功（2563 files，40s，无 ERROR），public/opc-report-2026-11-09-0929/index.html 已验证（82.6KB，标题正确）。
+- 部署：deploy.sh 后台运行一次成功（1m22s，无重试）。gh-pages commit **75e933934**（37cabf8b0..75e933934）；源码仓 main **f597e43**（07fb2a0..f597e43）。
