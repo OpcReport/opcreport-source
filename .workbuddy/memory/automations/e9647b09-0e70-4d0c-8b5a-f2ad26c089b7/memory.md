@@ -324,3 +324,12 @@
 - 去重确认：Apiiro 1,122 仓库泄密（104,185 扫描/1,379 secrets/379 DB 密码/23 AWS key/4 个 bug report 被自动关闭）、AI 超级 PAC $79M 68 场中期选举败北（Public First vs Leading the Future、联邦 preemption 路径丧失）、60 万颗 H200 滞留香港（每家大陆公司批约 1 万颗/NYT 空壳买家）、Anthropic 英国散户 IPO 渠道（RetailBook/Hargreaves Lansdown/AJ Bell/eToro/Revolut/伦敦 3x ETP；估值区间 $1.25-1.75T 与 Polymarket 80%→50% 为新口径）、OpenAI Model Spec 重写（'love humanity' 降级/Zvi 评述）、Meta 收购 Conductor（Cloud 11/13 只读、11/20 关停、本地维护到 2027 初）、Anthropic 内部三模型 RSI 实验 80% 缩短、Archiboost AI $6.2M 种子（550K 图纸/$3.5B 项目/6x 检出率）、Vercel agent-desktop（19K 星 +14K/7d）、craft-anything（20.5K 星 +20K/7d）、Supastack 独立案例（$254 Stripe 验证/$349-599 一次性）均全站首次。weight-space（11-03 已用，仅引 Simon Willison 本地复现一笔）、T3Code（11-02/11-03 已用）、mattpocock/skills（7-26 已用）、FormulaBot/$8K MRR 案例（11-07 已用）均剔除。
 - 构建：hexo generate 成功（2563 files，40s，无 ERROR），public/opc-report-2026-11-09-0929/index.html 已验证（82.6KB，标题正确）。
 - 部署：deploy.sh 后台运行一次成功（1m22s，无重试）。gh-pages commit **75e933934**（37cabf8b0..75e933934）；源码仓 main **f597e43**（07fb2a0..f597e43）。
+
+## 2026-11-09 09:49 运行
+- 频控检查：当天(2026-11-09)已有 1 篇（0929），<4，允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-09-0945.md，标题 "Marvell Buys Lumentum for $115B, GPT-6 Cyber Ships"（52字符，~1600词，2表格）。主题「算力供应链整合 + 编码 agent 人才战 + agent 能力诚实测量」。
+- 去重确认：Marvell 收购 Lumentum $115B（全站首次）、Crusoe 怀俄明烂尾数据中心卖给 Google（$17B，09-19 仅写过 Crusoe 融资）、OpenAI 挖 Cat Wu（Claude Code 产品负责人）+ Anthropic 编码 agent 团队流失（Thariq Shihipar/Austin Lau）、GPT-6 Cyber 发布（数千漏洞/防御审计）、开源权重模型进攻性网络能力追平前沿实验室、9 个 agent 全部未过国家实验室自主研究专家线（The Decoder）、MaxxBench 防记忆污染基准（89 道改装 DeepSWE 题）、Opus 4.8 系统卡公开 24+ 内部安全评测（GUI reward hacking/注入 k=1/10/100/代码摘要不诚实/宪法遵守）、Claude 银行账户直连 Personal Finance、Palantir 季收 $2.3B 商用超联邦、Flibbo 无代码 $55K MRR/50万用户、Vaultaire 3周 $40K 月销、独立 SaaS 增长基准数据均全站首次。Fal $1.65B E+F（0815 已写 $1.3B@$16B 同一交易）、Wabi/Collective/Lumaril/Hyphenate/&Truth/Infisical/Hyperbolic/Micro1/Tokenmaxxing（Rippling 8月已写）/Android Bench 2.0（10-31 已写 40% 通过率）/Perplexity Teammates（11-07 已写）均剔除；Nvidia 东南亚追踪仅一句衔接 0929 H200 话题不展开。
+- 素材来源：ainewstodays/TechCrunch/The Decoder/rlresearch.ai/AI Times/MRR Story/Indie Hackers/Fathom tracker（11-07~08 汇总）。
+- 构建：hexo generate 成功（2570 files，1.4min，无 ERROR），public/opc-report-2026-11-09-0945/index.html 已验证（83KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **ed71574f61**（75e933934c..ed71574f61）；源码仓 main **0eb6bf4**（f597e43..0eb6bf4）。
+- 备注：当天 2/4 篇已用。
