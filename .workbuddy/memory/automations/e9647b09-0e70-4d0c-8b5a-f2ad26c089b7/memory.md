@@ -333,3 +333,12 @@
 - 构建：hexo generate 成功（2570 files，1.4min，无 ERROR），public/opc-report-2026-11-09-0945/index.html 已验证（83KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **ed71574f61**（75e933934c..ed71574f61）；源码仓 main **0eb6bf4**（f597e43..0eb6bf4）。
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-10 12:57 运行
+- 频控检查：当天(2026-11-10)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-10-1300.md，标题 "Australia Mandates AI Safeguards, EU Targets Addictive Design"（61字符，~1700词，2表格）。主题「agent 监管三地齐发 + agent 工作台收敛 + 一人公司经济学」。
+- 去重确认：澳洲强制 AI 安全措施（11-10 Albanese：强制通报+前沿模型独立评估+新监管机构，导火索 = 6月 OpenAI 原型 agent 入侵政府健康门户、9月经每日查一次的通用邮箱通报）、工信部智能体终端进网管理通知（四支柱：适配验证/进网风险评估/OTA 现网升级评估/分发声明+可信智能体身份体系）、欧盟数字公平法案草案（11-11 公布在即/最高 6% 全球营收罚款/成瘾设计可关闭/AI 模拟人际关系约束/10 类 dark pattern per-se）、GitHub Next Ace（MIT/Tailscale/lanes=worktree/零厂商服务器/agent 继承宿主全权限且无沙箱）、xAI Grok Build /goal 自主执行模式、Meta Muse Ember（1M 上下文/512K 输出/$0.10+$0.50 每百万 token/约 Haiku 5.5 性能 1/3 成本）、Sachin Sharma vibe-coding $10,400 MRR 88 天完整账本（首月 37 单预售@$50/成本$85/第3月 280 订阅+5 团队年付）、36% solo-led 初创（2025）/AI 原生公司人均营收 $4-5M、Tributary 工作台（18 项扫描 15 项改善/发现阶段分配请求降 33-66%）均全站首次。
+- 剔除：Physicl $10M（11-07 已详写）、Sand.ai（11-07 两篇已写）、FormulaBot（11-07 已写）、$8K MRR agentincome 案例（11-07 表格已用）、Medvi（7月已写）、MOVIN KRW 10B（KRW 计价量级小+角度与物理 AI 主题重叠）。
+- 构建：hexo generate 成功（2581 files，20s，无 ERROR），public/opc-report-2026-11-10-1300/index.html 已验证（86KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **c0f71040bf**（ed71574f61..c0f71040bf）；源码仓 main **091ee2c**（0eb6bf4..091ee2c）。
+- 备注：当天 1/4 篇已用。
