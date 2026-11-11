@@ -342,3 +342,11 @@
 - 构建：hexo generate 成功（2581 files，20s，无 ERROR），public/opc-report-2026-11-10-1300/index.html 已验证（86KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **c0f71040bf**（ed71574f61..c0f71040bf）；源码仓 main **091ee2c**（0eb6bf4..091ee2c）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-10 17:10 运行
+- 频控检查：当天(2026-11-10)已有 1 篇（1300），<4，允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-10-1710.md，标题 "Claude Fable 5.2 Ships at $8, Agents Beat FlashInfer"（52字符，~1600词，1大表）。主题「Anthropic 新旗舰发布 + agent 编译内核突破 + RSI 治理分化」。
+- 去重确认：Claude Fable 5.2/Mythos 5.2 发布（$8/M+$40/M 较 5.1 降 20%/快 30%、Mythos 走 Cyber/Life Sciences 验证、9个月营收 $33.24B +1200%、IPO 估值区间 $2T→$1-1.5T）、Diode 硬件工程（3 台实物设备/PCB Gym 69% vs 25%/BenchCAD 83.5%/Fermat 30h）、preserved thinking 全账号 + EFS 私测（Bridgewater/Salesforce/Stripe/ZDR）、UC Berkeley Evolving Agent Teams 跑赢 FlashInfer（0.74x 同预算 vs 固定队 0.31x/超预算 1.2x/36-47）、Elvis Saravia 拒答争议（Opus 5.5 拒 kernel/优化任务+Fable 5.2 自我加速被限制）、TokenRhythm NeoHorse-1.5-Flash（180B/6B 激活/Qwen3.8-Flash 基座/RSI 第二圈/OpenSquilla 升档路由）、TensorWorld $105M 种子（物理原生基座/2026-07 成立）、中国周度 53 家 $1.74B、Truffle AI Dexto 开源 agent harness（YAML/50+LLM/30+ MCP 工具/内置编码 agent）、B200 租金 +74%（X 来源已标注未验证）均全站首次。Sachin Sharma 第二篇 build-in-public 文（7 天预售循环+三案例 $22.4K/$14.8K/$6.2K）未用避免与今早 1300 篇同作者同质化；Grok Build/Muse Ember/Ace/澳洲/欧盟均剔除（1300 篇已写）。
+- 构建：hexo generate 成功（2593 files，1.13min，无 ERROR），public/opc-report-2026-11-10-1710/index.html 已验证（82KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **4d043e91a9**（c0f71040bf..4d043e91a9）；源码仓 main **ee93eb8**（091ee2c..ee93eb8）。
+- 备注：当天 2/4 篇已用。
