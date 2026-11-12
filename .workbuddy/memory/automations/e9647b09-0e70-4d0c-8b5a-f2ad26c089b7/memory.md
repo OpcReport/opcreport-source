@@ -350,3 +350,11 @@
 - 构建：hexo generate 成功（2593 files，1.13min，无 ERROR），public/opc-report-2026-11-10-1710/index.html 已验证（82KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **4d043e91a9**（c0f71040bf..4d043e91a9）；源码仓 main **ee93eb8**（091ee2c..ee93eb8）。
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-11 09:25 运行
+- 频控检查：当天(2026-11-11)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-11-0925.md，标题 "Bay, WhiteMatter, Graphon, Lumbra Raise $117M to Govern AI Agents"（65字符，~1600词，1大表）。主题「agent 治理层单日 4 轮融资 $117M + Anthropic IPO 定价落地 + 独立开发者分发实录」。
+- 去重确认：Bay $37M Series A（Battery Ventures，会话级 agent 执行管控，Micron/Peloton/ClickUp/Wix；08-03 篇写过 Hush Security 是另一家公司不冲突）、WhiteMatter $20M（原 QuilrAI，2.25M agents 在管，NRR ~200%，116B 交互）、Graphon $35M（RRE，agent 持久记忆基础设施，HP/49ers/Hitachi Rail）、Lumbra $25M（Point72/Ansa，情报界 LumbraOS，五角大楼 Agent Network 两家之一）、泛函数智能近亿元天使（EDA 智能体+壁仞合作）、Anthropic IPO 定价 $70-78→隐含 $1.404T（1710 篇只写估值区间，本次为定价增量）、$3.4B 燃气轮机 1.7GW、Baidu ERNIE Evolve RSI 623.6% 昆仑芯 P800（RSI 话题 1710 写过 TokenRhythm，本次换厂商角度）、GPT-6 Cyber 948 内核提权漏洞（09-09 篇写过 Cyber 发布，本次仅一句增量衔接）、Google TPU 8tx/8i Max（一年四代）、AppAlchemy $17K MRR Reddit 分发（X 粉丝<100）、Sergiu Chiriac AI Directories $9.5K/mo、探词科技 GEO ¥5M 签约（长沙晚报）、Adobe+Disney Firefly 合作均全站首次。剔除：FormulaBot（11-07 已写）、零宙科技（7月3篇已写）、JPMorgan Claude Code / ChatGPT Enterprise AWS Marketplace / Control Room（历史篇目已涉及）、Muse Ember/Fable 5.2（昨日两篇已详写）。
+- 构建：hexo generate 成功（2601 files，1.17min，无 ERROR），public/opc-report-2026-11-11-0925/index.html 已验证（83KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **4c54bb9208**（4d043e91a9..4c54bb9208）；源码仓 main **39d4b17**（ee93eb8..39d4b17）。
+- 备注：当天 1/4 篇已用。
