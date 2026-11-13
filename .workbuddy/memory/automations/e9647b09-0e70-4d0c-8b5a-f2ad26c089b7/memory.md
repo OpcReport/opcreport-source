@@ -358,3 +358,11 @@
 - 构建：hexo generate 成功（2601 files，1.17min，无 ERROR），public/opc-report-2026-11-11-0925/index.html 已验证（83KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **4c54bb9208**（4d043e91a9..4c54bb9208）；源码仓 main **39d4b17**（ee93eb8..39d4b17）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-12 09:53 运行
+- 频控检查：当天(2026-11-12)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-12-0953.md，标题 "AWS Emulator Shipped by AI Agents Alone, Mercor Raises $750M"（54字符，~1700词，1大表）。主题「agent 端到端交付落地 + 验证层定价 + agent 安全事件」。
+- 去重确认：AWS Emulator（全 agent 写码/无人工审查/3 组 agent 团队/438 API 模型起步/CC0 开源/SQS 15 分钟，全站首次）、Mercor $750M@$20B（ARR $1M→$3B/100+ 客户/三创始人各 $4.2B/此前仅作团队出处提及，融资首次）、DeepMind agent 形式化验证 Signal 协议（600 万行 Lean/4 周/1% 人工复核/植入双 bug 验证）、纽约 RAISE Act 注册门户（11-10 开放/1-1 截止/$500M 门槛/72h 事件通报/$1M-3M 罚款/DIGIT）、Fireworks AI 数据泄露（10 月 eval/微调账户/披露拖 1 个月）、Grok Build 泄露 SpaceX 机密（Ars Technica）、Claude Code 文件泄露、OpenAI Q3 营收 ~$10B +50%、CoreWeave Q3（$3.66B +168%/backlog $132.5B/净亏 $709M）、Anthropic IPO 路演（8.25 亿股/最高募 $64.4B，0925 篇只写价格区间，此为增量）、阿里平头哥秘密递表港交所、Gemini 4 Carbon 正式上线（11-30 优惠价截止）、Databricks Genie 自主排班（Ontology/OntoRank/MCP 连接器）、Adobe 开放原生文件格式给第三方 agent（2027 初私测）、独立开发者案例（1 人 AI 学习 App 37 万用户/$47.5K 月收入/$32K 净利/$10 每周定价，阿里云开发者社区）均全站首次。剔除：FormulaBot/agentincome $8K/Sachin Sharma（已用过）、Medvi（7月已写）。
+- 构建：hexo generate 成功（2611 files，1.38min，无 ERROR），public/opc-report-2026-11-12-0953/index.html 已验证（85.6KB）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **1f13a7e6af**（4c54bb9208..1f13a7e6af）；源码仓 main **673544c**（39d4b17..673544c）。
+- 备注：当天 1/4 篇已用。
