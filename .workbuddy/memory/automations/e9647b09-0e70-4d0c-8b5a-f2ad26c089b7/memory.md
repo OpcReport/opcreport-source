@@ -374,3 +374,11 @@
 - 构建：hexo generate 成功（2631 files，1.33min，无 ERROR），public/opc-report-2026-11-13-1035/index.html 已验证（88.5KB，标题正确）。
 - 部署：deploy.sh 本地提交成功但首次推送遇网络重置（GitHub 直连+代理 10090 均不通，mihomo 未运行）；手动重试：gh-pages 第 1 次重试成功，源码仓第 2 次重试成功。gh-pages commit **c7b2d6eccc**（1f13a7e6af..c7b2d6eccc）；源码仓 main **d6ce664**（673544c..d6ce664）。
 - 备注：当天 1/4 篇已用。网络波动时段直连重试通常第 2-3 次可过，无需急着找代理。
+
+## 2026-11-15 09:56 运行
+- 频控检查：当天(2026-11-15)文件数 0（<4），允许生成（当天第 1 篇）。11-14 无运行记录（积压一天素材）。
+- 生成 1 篇：opc-report-2026-11-15-0956.md，标题 "Jensen Huang Resigns as Nvidia CEO, LangChain Raises $300M"（58字符，~1800词，1大表18行）。主题「英伟达 CEO 辞任冲击 + agent 支付/编排基础设施资本化 + 独立开发者组合策略」。
+- 去重确认：黄仁勋辞任（11-12宣布/立即生效/Kress 临时 CEO/Harvey Jones 首任董事长/丑闻起因/Stand with Jensen 10万人请愿含5248在职员工/Musk 背书/FT 报董事会接触 Arm CEO Haas，全站首次）、$500B 融资平台零成交（25% 兜底 vs 博通 72.5%）、LangChain $300M C轮 @$3B（CapitalG 领投/LangSmith 7000组织）、OpenAI ChatGPT 钱包（agent 代付/18+ Pro 美国用户）、Agentcard $8M 种子（Peak XV/Fin/YC/Paul Graham/Tobi Lütke/Vault+Issuing+Voice+opencommerce 5000店）、Parallel $100M A轮 @$740M（Kleiner Perkins/Index）、Hex $100M D @$1.2B、垂直 agent 融资群（Broccoli AI $22M+30M/Tutor $75M/Kalepa $75M/Larridin $30M/Ocient $100M/Pliant $80M）、Claude 误删教授全年笔记（Tom's Hardware）、AgentSSL/CRAM 论文、微软 M365 全球宕机、独立开发者案例（Adam Lyttle $50K/mo 30+app 组合/Corey Chiu 深圳 $3.6K 30天 -11%/Crew Claw $2,158 SOUL.md 配置）均全站首次。剔除：Bay $37M（11-11 已写）、FormulaBot（历史已写）。
+- 构建：hexo generate 成功（2642 files，23s，无 ERROR），public/opc-report-2026-11-15-0956/index.html 已验证（89.4KB，标题正确）。
+- 部署：deploy.sh 两次运行 GitHub 直连均不通；deploy.sh 本地提交成功（gh-pages 7e8f28e108 / 源码 2ecb5fa），手动经代理 127.0.0.1:10090 推送成功。gh-pages commit **7e8f28e108**（c7b2d6eccc..7e8f28e108）；源码仓 main **2ecb5fa**（d6ce664..2ecb5fa）。
+- 备注：当天 1/4 篇已用。本机代理 10090 通、直连不通时：在 site/.deploy_git 和根目录手动 `git -c http.proxy=http://127.0.0.1:10090 push`，token 嵌入 URL 需 sed 脱敏。
