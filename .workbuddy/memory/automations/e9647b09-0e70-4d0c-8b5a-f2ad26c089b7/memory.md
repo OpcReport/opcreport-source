@@ -366,3 +366,11 @@
 - 构建：hexo generate 成功（2611 files，1.38min，无 ERROR），public/opc-report-2026-11-12-0953/index.html 已验证（85.6KB）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **1f13a7e6af**（4c54bb9208..1f13a7e6af）；源码仓 main **673544c**（39d4b17..673544c）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-13 10:35 运行
+- 频控检查：当天(2026-11-13)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-13-1035.md，标题 "Nonprofits Sue to Halt Frontier AI, United Blocks Agent Bookings"（64字符，~1700词，1大表）。主题「非营利组织起诉叫停前沿模型 + 企业侧反制 agent + agent 经济定价」。
+- 去重确认：四非营利组织诉五大厂（Public Citizen 等/加州UCL/63页/前新泽西州检察长 Platkin/紧急禁令求冻结下一代训练，全站首次）、United Airlines 封禁 agent 订票（WSJ/TechCrunch/Reuters）、OpenAI 收购 Odessia（IATA 牌照/$60M 年化预订/即刻关停）、Microsoft Lazarus 后门（<10 神经元/免重训/躲过安全评估）、Zendesk Outcome AI 按结果付费、Plurai $13M 种子（Waymo/Nexar 背景/Opus 4.8 复杂企业任务仅 76.8%）、Palo Alto 拟 $500M 收 Clutch、Fiddler ~$400M（Axios）、Gemini 4 Hydrogen（11-12 替代 3.8 Flash/Antigravity Orchestrator）、Gemini Decisions API（单请求 1000 选项）、开源周（ZONOS3-Mini 100M 激活/Praxis-1/Granite 4.1 LLMON 预览/ERNIE 5.5 Flash API/Qwen Code 1.0 开源 agent 核心）、Qwen Office 2.0（3000万注册/事件驱动 7×24/申通落地）、CodeRabbit 20x、KODIF+Cavalry $19M、Omdia $200B/字节个人 agent 数周内、IMF 监测波动、独立开发者案例（Guidejar $4.8K MRR/AI Designer $8.3K MRR MCP 分发/Vasco $70K/mo YouTube 日更）均全站首次。剔除：林俊旸 Pragmatik Labs（报道日期疑为 8 月存疑未用）、Anthropic IPO（前两篇已详写）。
+- 构建：hexo generate 成功（2631 files，1.33min，无 ERROR），public/opc-report-2026-11-13-1035/index.html 已验证（88.5KB，标题正确）。
+- 部署：deploy.sh 本地提交成功但首次推送遇网络重置（GitHub 直连+代理 10090 均不通，mihomo 未运行）；手动重试：gh-pages 第 1 次重试成功，源码仓第 2 次重试成功。gh-pages commit **c7b2d6eccc**（1f13a7e6af..c7b2d6eccc）；源码仓 main **d6ce664**（673544c..d6ce664）。
+- 备注：当天 1/4 篇已用。网络波动时段直连重试通常第 2-3 次可过，无需急着找代理。
