@@ -382,3 +382,11 @@
 - 构建：hexo generate 成功（2642 files，23s，无 ERROR），public/opc-report-2026-11-15-0956/index.html 已验证（89.4KB，标题正确）。
 - 部署：deploy.sh 两次运行 GitHub 直连均不通；deploy.sh 本地提交成功（gh-pages 7e8f28e108 / 源码 2ecb5fa），手动经代理 127.0.0.1:10090 推送成功。gh-pages commit **7e8f28e108**（c7b2d6eccc..7e8f28e108）；源码仓 main **2ecb5fa**（d6ce664..2ecb5fa）。
 - 备注：当天 1/4 篇已用。本机代理 10090 通、直连不通时：在 site/.deploy_git 和根目录手动 `git -c http.proxy=http://127.0.0.1:10090 push`，token 嵌入 URL 需 sed 脱敏。
+
+## 2026-11-15 14:35 运行
+- 频控检查：当天(2026-11-15)文件数 1（<4），允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-15-1435.md，标题 "Mirendil Raises $1B as One Researcher and Agents Build a Model"（61字符，~1800词，1大表16行）。主题「Mirendil $1B A轮（agent 写 99% 代码预训练模型）+ Val Town 关停平台风险 + 已验证独立开发者收入数据」。
+- 去重确认：Mirendil $1B Series A（Kleiner Perkins+Clearlake 联投/Google 跟投/5个月$1.2B/ex-Anthropic 创始人 Neyshabur+Mehta/Mirendil-Base 3.5月<$10M/agent 写>99%代码/Fern 10M context/Lor 私测 102 agent 8分钟PR/未官方披露估值，全站首次）、Val Town 关停（11-10宣布/12-10只读/2027-1-10停服/2027-2-1开源/$7M融资/Accel/无法竞争云计算，全站首次）、Trajectory $45M A轮 @$300M（Sequoia 领投/Nvidia 跟投/6个月3倍/客户 Harvey+Mercor+Nvidia）、Week46 融资统计（FundraiseBase 68轮$6.2B/AI占83%/11大轮占79%/四周均值-48%/YC 8周24轮）、ClickHouse 收购 Xata（11-11/托管 Postgres GA 无 branching）、Mercatus 非雇主申请数据（AI暴露行业+26.8% Q1'24→Q1'26/222K→281K季度/Alex Willen 12品牌$2.5-3M零雇员/Kristin Ginn $250K）、The AI Receipts 11-14 榜单（69家中位数$22K/仅6家破$100K/$100+定价19家中位$30K vs <$25定价18家$13K/Stencil AI $48.8K/Heyron $17.2K/CreativeClaw $14.6K）、OpenAI Verified Business Profiles（11-10）、Automattic Spacefast、微软 APM lockfile、Apple $49.99 预付AI积分（2027 开发者限制）均全站首次。剔除：Claude Fable 5.2 定价（11-10 已写）、LangChain $300M（今日0956已写）、Flibbo/Zigpoll/Postiz/AEO Engine/Pieter Levels/Corey Chiu/FormulaBot/Sachin Sharma（历史已用）。
+- 构建：hexo generate 成功（2649 files，29s，无 ERROR），public/opc-report-2026-11-15-1435/index.html 已验证（89.7KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **f465b12a36**（7e8f28e108..f465b12a36）；源码仓 main **d40ea59**（2ecb5fa..d40ea59）。
+- 备注：当天 2/4 篇已用。
