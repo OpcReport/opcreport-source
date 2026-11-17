@@ -390,3 +390,11 @@
 - 构建：hexo generate 成功（2649 files，29s，无 ERROR），public/opc-report-2026-11-15-1435/index.html 已验证（89.7KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **f465b12a36**（7e8f28e108..f465b12a36）；源码仓 main **d40ea59**（2ecb5fa..d40ea59）。
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-16 16:50 运行
+- 频控检查：当天(2026-11-16)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-16-1650.md，标题 "Garry Tan Reveals YC Straylight Agent; Grok Bot Team Playbook"（63字符，~1500词，1表17行）。主题「YC 内部 agent Straylight + Garry Tan 年 $100-200K token 支出 + Grok Bot 团队 Lightcone 运营手册 + 数据中心公投 + TrustMRR 退出案例」。
+- 去重确认：Straylight/Garry Tan $100-200K token 支出/80-90K 申请 funnel（Teahose 访谈）、Grok Bot 团队 Lightcone 细节（7周原型/200条 Slack 线程 Tan 未开 Cursor/agent 自合并 PR/营销 bot 自有广告账号预算/渐进权限/Ugarte 瓶颈=roadmap）、数据中心公投 40/41 限制均值 49 个百分点（Howden/EIA：DC 电力需求年增 19% vs 电网 2%，0.1%→5%）、TrustMRR 11-15 Confidential Startup（$19,556 MRR/$48,023 全部/65 订阅/$129-599 定价/$1.7M brand deals/60% 利润/90% 自动化/出售中）、AgentBus 11-15 开源跨厂商 agent 互检、codeg 4.5k stars、llama.cpp 1.0.0、Oura $625M 收购 Counsel Health 均全站首次。剔除：Nebuly $21M（11-12 已写）、Graphon $35M（11-11 已写）、黄仁勋/LangChain/ChatGPT Wallet/Gemini 4 Hydrogen（11-15/13 已写）、Anthropic $3.4B 燃气轮机 1.7GW（11-11 已写，仅提及）、Polsia（8-10月多次）、AI 训练退出令牌（10-31 等多次）。
+- 构建：hexo generate 成功（2658 files，1.82min，无 ERROR），public/opc-report-2026-11-16-1650/index.html 已验证（87.7KB，标题正确）。
+- 部署：deploy.sh 本地提交成功（gh-pages 14d611b200 / 源码 a937b43），GitHub 推送失败（直连 Connection reset，本地代理 10090 及全部常见端口关闭、mihomo/clash 进程未运行）。规范内 2 次重试（含直连重试）均失败。**推送未完成：gh-pages 停在 14d611b200（待推），源码 main 停在 a937b43（待推）。下次代理恢复后在 site/.deploy_git 和根目录 `git -c http.proxy=http://127.0.0.1:10090 push` 即可。**
+- 备注：当天 1/4 篇已用。
