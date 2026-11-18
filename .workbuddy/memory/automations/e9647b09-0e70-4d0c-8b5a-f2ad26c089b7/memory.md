@@ -406,3 +406,11 @@
 - 构建：hexo generate 成功（2682 files，23s，无 ERROR），public/opc-report-2026-11-17-1830/index.html 已验证（89.8KB，标题正确）。
 - 部署：deploy.sh gh-pages 一次成功（commit **30e7124116**，6a06d4ffba..30e7124116）；源码仓本地提交 270db29 成功但推送失败（直连 Connection reset + 手动直连推送卡死 7 分钟后终止 + 代理 10090 未运行）。**源码仓待推：下次部署或代理恢复后在根目录 `git push` 即可。线上站点（gh-pages）已正常发布，不受影响。**
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-18 09:55 运行
+- 频控检查：当天(2026-11-18)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-18-0955.md，标题 "Model ML Raises $250M for Personal AI Agents; Kalshi Nears $65B"（64字符，~1800词，1大表23行）。主题「个人 AI agent 资本化集中爆发 + compute 金融化（期货/清算）+ 独立开发者验证收入基率」。
+- 去重确认：Model ML $250M B轮@$1.5B（GA+QED 联投/YC 等/兄弟创始人 Englander/ARR 12x DAU 26x/自有微调开源模型 2% 成本 5x 速度/数据不出客户环境不训练，全站首次）、Isomorphic $5B C轮正式交割（11-07 篇写的是谈判传闻，本次为 Greenoaks+Sequoia 联投+a16z 新进+Alphabet 续投的确认，增量；附 Patrick Kidger $7B 无治愈批评）、Kalshi $65B 估值+AI-compute 期货+创始人 Utah 法庭 13 项重罪传唤（全站首次）、ComputeDesk $45M 清算基础设施（全站首次，与 Kalshi 组成 compute 金融化主题）、FirstPerson Labs $10M 种子（a16z/Mozilla/Jeff Dean/Percy Liang，便携个人模型 Second）、Voyage Labs Atlas $12M（Kleiner Perkins/ex-Uber CPO/Live+Proactive+Computer 三 agent 架构）、BigIdeasDB 11-05 更新基率（1350 AI 产品中位 $190/332 过 $1K/73 过 $10K/7 过 $100K/top1%=54.6% MRR/毛利 80% vs SaaS 90%，10-17 篇写过 10 月旧切面，本次为新 AI 专项切面）、AiSDR $198.5K MRR 挂牌 $12M 出售（~5x ARR）、Anupam Raj Lucknow $3.5K MRR 案例（B级来源）、August $12M、Incredibuild Islo $15M、LanceDB $57.5M、Remanence $30M、General Flash $128M、AMD 完成 Taalas 收购、Kotoba 并入 ElevenLabs、Yixing Robotics 6个月解散、Sarvam ₹98.68 crore GPU 补贴均全站首次。剔除：Collective $40M+$60M（10-30 篇已详写同一轮）、Kolbo/FormulaBot/Corma/Sarvam 主报道（历史已用）。
+- 构建：hexo generate 成功（2697 files，1.37min，无 ERROR），public/opc-report-2026-11-18-0955/index.html 已验证（90KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试（首次连接失败自动重试后通过）。gh-pages commit **ebfe28a7a6**（30e7124116..ebfe28a7a6）；源码仓 main **0a7bc72**（d40ea59..0a7bc72，顺带推上了 11-16 a937b43 与 11-17 270db29 两个积压提交）。
+- 备注：当天 1/4 篇已用。积压源码推送已清零。
