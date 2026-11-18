@@ -398,3 +398,11 @@
 - 构建：hexo generate 成功（2658 files，1.82min，无 ERROR），public/opc-report-2026-11-16-1650/index.html 已验证（87.7KB，标题正确）。
 - 部署：deploy.sh 本地提交成功（gh-pages 14d611b200 / 源码 a937b43），GitHub 推送失败（直连 Connection reset，本地代理 10090 及全部常见端口关闭、mihomo/clash 进程未运行）。规范内 2 次重试（含直连重试）均失败。**推送未完成：gh-pages 停在 14d611b200（待推），源码 main 停在 a937b43（待推）。下次代理恢复后在 site/.deploy_git 和根目录 `git -c http.proxy=http://127.0.0.1:10090 push` 即可。**
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-17 18:30 运行
+- 频控检查：当天(2026-11-17)已有 1 篇（1000），<4，允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-17-1830.md，标题 "California Sues OpenAI; Qwen4-Max Ships at $1.50"（49字符，~1800词，1大表20行）。主题「加州总检察长诉 OpenAI（agent 攻击可预见性+安全宣传误导）+ OpenAI 医疗 computer-use agent/CVS 开源 Agent Kit + 中国旗舰模型 API 降价 + 安全披露周期压缩」。
+- 去重确认：加州 AG 诉 OpenAI（11-13 写的是非营利联盟诉讼，本次为州执法机构，理论不同）、OpenAI 医疗五家初创部署 + CVS Agent Kit 开源（GPT-4o Astra 94.3% OnHealthAdminBench/8.5 美分每任务/Abridge/Ambience/Cigna）、Qwen4-Max GA API $1.50/$4.50（对比 Gemini 4 Hydrogen $7.50 输出）、腾讯 Hunyuan Hy4 Flash（1M context MoE）、Anthropic 漏洞披露 90→30 天（2027-01-01 起生效/7天活跃利用不变）、GTIG 自主 patch-to-exploit 攻击野外实锤、Unit 42 MCP 五服务器 78.3% 攻击成功率、Edra $10M（EQT Ventures/ex-Palantir Frontier AI 两位联创/总 $40M/EQT 330 被投企业渠道）、BIS 境外数据中心租算新规（11-15 临时最终规则）、纳指 11-16 收跌 2.49%/SOX -5.3%/NVDA -4.1%、Dreamteam AI $53M、SAP 完成 TechWolf 收购、INFevo 无界进化超亿元 Pre-A（中国虚拟细胞单轮纪录/Prosperity7 等）、Poppy 1.0 Shopify 默认发布+BigCommerce Shopping Agent+Fed Barr 讲话+KERNEL AgentPayments（agentic commerce 组）、DeepSeek 用量限制（7天历史/40K 字符）、checkpoint 权重指纹泄露训练 GPU 代际、Dell AI Factory Agentic Data Gateway（6500+客户）、LoopForge/LightAgent 1.0.0/ESP32 iPhone Agent（开源组）均全站首次。剔除：1000 篇已写 Grok Build/UiPath/AlphaEvolve/Corma/Marq Vision/Numa/MausBot；Straylight/TrustMRR/黄仁勋（11-15/16 已写，仅黄仁勋回归传闻一句带过未展开）；Guidejar/AI Designer/Vasco/Corey Chiu/Sachin Sharma 独立开发者案例全部历史已用，本篇独立开发者素材改用开源项目组。
+- 构建：hexo generate 成功（2682 files，23s，无 ERROR），public/opc-report-2026-11-17-1830/index.html 已验证（89.8KB，标题正确）。
+- 部署：deploy.sh gh-pages 一次成功（commit **30e7124116**，6a06d4ffba..30e7124116）；源码仓本地提交 270db29 成功但推送失败（直连 Connection reset + 手动直连推送卡死 7 分钟后终止 + 代理 10090 未运行）。**源码仓待推：下次部署或代理恢复后在根目录 `git push` 即可。线上站点（gh-pages）已正常发布，不受影响。**
+- 备注：当天 2/4 篇已用。
