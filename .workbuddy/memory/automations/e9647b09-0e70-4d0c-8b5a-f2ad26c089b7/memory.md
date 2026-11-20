@@ -430,3 +430,11 @@
 - 构建：hexo generate 成功（2717 files，1min，无 ERROR），public/opc-report-2026-11-19-1045/index.html 已验证（91.8KB，标题正确）。
 - 部署：deploy.sh 本地提交成功但推送全失败（直连 000 + schannel CRYPT_E_REVOCATION_OFFLINE + 代理 10090 起初同样报撤销错误）。排查发现：**git 2.55 schannel 后端遇 CRL 撤销检查失败时，`-c http.sslBackend=openssl` + `http.proxy=127.0.0.1:10090` 可绕过并推送成功**；且本机 9790 端口现在也是开的（历史上 9790 不通）。规范内重试后手动推送：gh-pages **80522b8022**（60519e8258..80522b8022）；源码仓 main **5ec3b6e**（a66da78..5ec3b6e，源码仓首次推送遇 GCM 凭据槽冲突报 GeekQin 403，改用 .github-token 内嵌 URL 解决）。
 - 备注：当天 1/4 篇已用。**新增排障经验：直连+代理均报 CRYPT_E_REVOCATION_OFFLINE 时，加 `-c http.sslBackend=openssl` 即可，无需禁用 revocation check。**
+
+## 2026-11-19 17:15 运行
+- 频控检查：当天(2026-11-19)文件数 1（<4），允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-19-1715.md，标题 "Mercor Hires Jason Wei; NGINX RCE Bugs Hit Solo Developer Servers"（65字符，~1600词，1表16行）。主题「Jason Wei/Edward Hu 离 Meta 加入 Mercor（CoT一作任首席科学家，Mercor $20B 估值）+ NGINX 五个 9.2 分未认证 RCE（AI 辅助发现，2015 年老漏洞，1.30.7/1.31.9 修复）+ Docker Hub 蜜罐密钥 7.86 秒被滥用 + Salesforce 按岗位 token 预算 + NVIDIA $115.8B 季度 + Musk 称 SpaceX 对 OpenAI 算力销售为零」。
+- 去重确认：Jason Wei/Mercor 人事变动（全站首次，此前仅 11-12 写过 Mercor 融资）、NGINX HTTP/2 RCE（8 月写过 NGINX 但为旧事件，本次全新 CVE-2026-123007/123633 等）、Docker Hub 蜜罐/密钥滥用（全站首次）、Salesforce token 预算备忘录（Salesforce 之前写过但为产品/投资，非 token 预算）、NVIDIA $115.8B 季度（全站首次）、Musk-SpaceX-OpenAI 算力争论（11-13 写过诉讼，本次为需求口径分歧，增量）。剔除：Genesis AI $500M（11-18 已写）、Nooks $500M（11-07 已写）、Voyage Labs $12M（11-18 已写）、MAI Code 2（11-18 已写）、GPT-6.2 Astra/Sol（11-18 已写，仅定价细节作风险项引用）、Stitch Loop（1045 已写）。
+- 构建：hexo generate 成功（2723 files，29s，无 ERROR），public/opc-report-2026-11-19-1715/index.html 已验证（89.8KB，标题正确）。
+- 部署：deploy.sh 本地提交成功但推送被墙（直连 reset/无法连接）。手动用 `-c http.sslBackend=openssl -c http.proxy=http://127.0.0.1:10090` 重推一次成功：gh-pages **9f586ff331**（80522b8022..9f586ff331）；源码仓 main **25e3432**（5ec3b6e..25e3432）。
+- 备注：当天 2/4 篇已用。直连被墙是常态，openssl+10090 代理路径稳定可用。
