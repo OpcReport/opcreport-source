@@ -446,3 +446,11 @@
 - 构建：hexo generate 成功（2733 files，38s，无 ERROR），public/opc-report-2026-11-20-0925/index.html 已验证（89.1KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages **4d931dee29**（9f586ff331..4d931dee29）；源码仓 main **163cd44**（25e3432..163cd44）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-20 13:30 运行
+- 频控检查：当天(2026-11-20)已有 1 篇（0925），<4，允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-20-1330.md，标题 "Linq Lands $90M From a16z; Ex-DeepSeek Founder Ships Linger"（60字符，~1700词，1表15行）。主题「Linq $90M B轮（a16z 领投/Ben Horowitz 进董事会/agent 消息基础设施 10亿+消息/DoorDash/Apple MSP）+ Simplex AI（ex-DeepSeek-VL 负责人 Tony Zhang）开源 Linger 本地个人 agent（LoCoMo 95%/RTX 3060 跑 125B Qwen3.8 45.5 tok/s）+ Anthropic 上市首日 $83 定价 $111 开盘 +33% $2T（$156B 慈善/UK+欧盟散户 $1.1B/孙正义认错）+ OpenAI Performance Factory（Codex agent 自动修 ChatGPT 性能）」。
+- 去重确认：Linq/Simplex AI+Linger/Performance Factory/Foxconn 富智康 OpenAI 手机/Boltz $110M/HF 180B MoE 32GB 内存/Rest of World gig 化报告/Meta Muse Charm $300/三星 neocloud 8% 表态均全站首次（grep 验证：10-22 篇仅匹配到 Plinq 非本 Linq）；Anthropic 首日交易数据为 11-18 1410 定价篇的增量（此前写过 $83 超区间）；Gemini 4 Neon 官方定价 $3/$15 为 11-19 1045 OpenRouter 上架的增量，仅简写未展开。剔除：Oregon $2.35B 诉 OpenAI（11-18 已写）、Everful/Slotbound/Unsiloed/First Person Labs（今日 0925 已写）。
+- 构建：hexo generate 成功（2739 files，1.47min，无 ERROR），public/opc-report-2026-11-20-1330/index.html 已验证（87.4KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages commit **2c6f56c171**（4d931dee29..2c6f56c171）；源码仓 main **2e5dd7d**（163cd44..2e5dd7d）。
+- 备注：当天 2/4 篇已用。GitHub 直连本次通畅，无需代理。
