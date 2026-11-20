@@ -438,3 +438,11 @@
 - 构建：hexo generate 成功（2723 files，29s，无 ERROR），public/opc-report-2026-11-19-1715/index.html 已验证（89.8KB，标题正确）。
 - 部署：deploy.sh 本地提交成功但推送被墙（直连 reset/无法连接）。手动用 `-c http.sslBackend=openssl -c http.proxy=http://127.0.0.1:10090` 重推一次成功：gh-pages **9f586ff331**（80522b8022..9f586ff331）；源码仓 main **25e3432**（5ec3b6e..25e3432）。
 - 备注：当天 2/4 篇已用。直连被墙是常态，openssl+10090 代理路径稳定可用。
+
+## 2026-11-20 09:25 运行
+- 频控检查：当天(2026-11-20)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-20-0925.md，标题 "Everful Raises $48.5M; AI-Built Slotbound Sells 200K Copies"（59字符，~1500词，1表15行）。主题「Everful $48.5M A 轮（Vertex SEA&India+January Capital，3万工厂/2000万SKU/月发500万件/年化$100M，前阿里高管+Orbeus创始人）+ LATO $4.7M 种子（YC S26，100天$1M ARR，1000+专家访谈35国，PE客户管$500B+）+ First Person Labs ~$10M 出隐身（a16z infra，Stanford，per-user models）+ Slotbound 独立开发者 AI 辅助游戏一周卖 20 万份（Codex+Gemini+Nano Banana 2+ElevenLabs 全套披露，48h $356K，SteamDB 22K CCU）+ Lovable Adyen/Airwallex 支付连接器 + Mitiga AI Agent Security 发布 + GAO 红队报告（4 家聊天机器人 12 小时内产出可行攻击计划）+ Anthropic 游说安全法案/Amodei "Pace the Frontier" + Gemini 临时聊天保留 72h→60 天 + Nvidia neocloud 承诺缩至 $32B + Antigravity CLI 1.5.13/Factory Droid 1.15.0」。
+- 去重确认：Everful/LATO/First Person Labs/Slotbound/GAO 报告/Lovable 支付/Mitiga 产品发布/Amodei 论文游说/Gemini 保留期变更/Nvidia $32B 削减均全站首次。剔除：Polsia（10-28 已两篇详写，frederick.ai 新文仅回顾增量）、镁伽 $200M（中国机器人，OPC 相关性弱）、Hinton 国会简报（10-20/21 已写过 Hinton，本次仅一句带过）、GAO 已核实无覆盖。
+- 构建：hexo generate 成功（2733 files，38s，无 ERROR），public/opc-report-2026-11-20-0925/index.html 已验证（89.1KB，标题正确）。
+- 部署：deploy.sh 一次成功无重试。gh-pages **4d931dee29**（9f586ff331..4d931dee29）；源码仓 main **163cd44**（25e3432..163cd44）。
+- 备注：当天 1/4 篇已用。
