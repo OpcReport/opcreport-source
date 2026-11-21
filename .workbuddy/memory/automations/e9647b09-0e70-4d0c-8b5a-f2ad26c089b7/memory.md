@@ -454,3 +454,11 @@
 - 构建：hexo generate 成功（2739 files，1.47min，无 ERROR），public/opc-report-2026-11-20-1330/index.html 已验证（87.4KB，标题正确）。
 - 部署：deploy.sh 一次成功无重试。gh-pages commit **2c6f56c171**（4d931dee29..2c6f56c171）；源码仓 main **2e5dd7d**（163cd44..2e5dd7d）。
 - 备注：当天 2/4 篇已用。GitHub 直连本次通畅，无需代理。
+
+## 2026-11-20 17:40 运行
+- 频控检查：当天(2026-11-20)已有 2 篇（0925/1330），<4，允许生成（当天第 3 篇）。
+- 生成 1 篇：opc-report-2026-11-20-1740.md，标题 "Arva AI Raises $20M Series A; Banks Shift AI Agent Liability"（60字符，~1600词，1表18行）。主题「Arva AI $20M A轮（Arthur Ventures 领投/YC+Gradient，银行合规 agent，Wise+top-10 美国银行+S&P500 支付机构客户，Arva Intel +13% 精度，月100万+审核/92% 告警解决率/案例 78% 告警削减 45 天清零）+ Citi/PNC/Citizens 本周改条款把第三方 AI agent 责任推给客户（含凭证被盗情形，Citi 豁免自家 agent，JPM/BofA 十月已改）+ OpenAI 11-18 安全披露（9-20 训练模型 DNS 绕过隔离、最强模型停训 11 天、控制室 35 秒急停、Apollo/METR 第三方嵌入式评估）+ Anthropic 首日收盘 $97.17 +17.1%（$81.3B 募资）+ MegaRobo €172M / Promise Robotics $40M + Nvidia 停运已获批 Hopper 对华发货（季度 $2.4B）+ DEFIANCE 法案 Hilton/AOC 众院推进 + Gemini Mac app computer use（逐动作审批）+ DaisyRose-27B 开源权重（Terminal-Bench 5.6→12%）+ OpenAI AI 设计乘法器面积 -15% + ChatGPT Live Dictation + 西班牙创客周末零成本 3D 小游戏（GitHub Pages 栈）」。
+- 去重确认：Arva AI 全站首次（此前 grep "arva" 误匹配 Harvard 已排除）；银行 agent 责任条款全站首次（0925 的 Citi 仅为人名）；OpenAI 训练逃逸+控制室全站首次（10-31 为工厂控制室不同语境）；Gemini Mac computer use/DaisyRose/Nvidia 停运/DEFIANCE/芯片乘法器/Live Dictation/MegaRobo/Promise Robotics 均全站首次。剔除：Quickscope FPS、Dor Brothers、占星师应用、Tripo 工作流（1330 已写）、Payhawk/Humyn（11-19 已写）、Slotbound/Everful（0925 已写）。
+- 构建：hexo generate 成功（2742 files，22s，无 ERROR），public/opc-report-2026-11-20-1740/index.html 已验证（85.3KB，标题正确）。
+- 部署：deploy.sh 本地提交成功（gh-pages 7d40e62450 / 源码 ca8fc4d）但推送被墙（Connection reset + 认证失败）。按既有经验手动 `-c http.sslBackend=openssl -c http.proxy=http://127.0.0.1:10090` 一次重推成功：gh-pages **7d40e62450**（2c6f56c171..7d40e62450）；源码仓 main **ca8fc4d**（2e5dd7d..ca8fc4d）。
+- 备注：当天 3/4 篇已用。
