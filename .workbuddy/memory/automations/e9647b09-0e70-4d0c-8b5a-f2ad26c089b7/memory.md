@@ -462,3 +462,11 @@
 - 构建：hexo generate 成功（2742 files，22s，无 ERROR），public/opc-report-2026-11-20-1740/index.html 已验证（85.3KB，标题正确）。
 - 部署：deploy.sh 本地提交成功（gh-pages 7d40e62450 / 源码 ca8fc4d）但推送被墙（Connection reset + 认证失败）。按既有经验手动 `-c http.sslBackend=openssl -c http.proxy=http://127.0.0.1:10090` 一次重推成功：gh-pages **7d40e62450**（2c6f56c171..7d40e62450）；源码仓 main **ca8fc4d**（2e5dd7d..ca8fc4d）。
 - 备注：当天 3/4 篇已用。
+
+## 2026-11-21 11:00 运行
+- 频控检查：当天(2026-11-21)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-21-1100.md，标题 "Mirai Tech Raises $10M; Thinking Machines Ships Inkling 2 Mini"（62字符，~1600词，1表20行）。主题「Mirai Tech $10M 种子（Uncork 领投，Reface+Prisma 创始人，Rust Apple Silicon 端侧推理 37% 提速/8行代码接入，天使含 ElevenLabs/Snowflake 联创）+ Thinking Machines Inkling 2 Mini 开源权重（Apache 2.0，26.4B/3.4B MoE 循环 transformer，NVFP4 约20GB，Ollama 32GB Mac 可跑；11-07 已写 Inkling 2 Small，本篇为增量新发布）+ Noxtua €80.7M B轮（C.H.Beck/Dentons/Northern Data 联投，欧洲主权法律 AI，5500万法律文档）+ Tristar AI $12.4M A轮（Isogon，边侧产线质检 500+ 产线）+ TrustMRR 11-20 复核数据（CreativeClaw $14.7K/notis.ai $13K/GETebook $11.9K/Mono $11.1K；Heyron $17.2K→$16.9K 衰减确认）+ Codex CLI 0.171.0（GPT-6.2 Sol 设默认+exec --remote；模型本身 11-18 已写，本篇为 CLI 增量）+ Claude Code v2.1.330（easel 自动图表/定时任务延至30天/rm 审批收紧无人值守直接拒绝）+ Foolscap HN 103分（AI 编辑非代写定位模板）+ agenterm（MIT 多 agent CLI 编排）+ Mistral Vibe 3.1.4 桌面版 + Kelt Forge $25/mo 上线」。
+- 去重确认：Mirai Tech/Noxtua/Tristar/Foolscap/agenterm/Kelt Forge/Claude Code 2.1.330/Mistral Vibe 3.1.4 均全站首次（grep 验证）；Heyron 11-15 已写仅作衰减增量带过；Inkling 2 Small 11-07 已写、GPT-6.2 11-18 已写，均仅取新发布增量；剔除：Atlas/Voyage Labs $12M（11-18 已写）、Dor Brothers（11-20 1330 已写）、Unsiloed（11-20 0925 已写）。
+- 构建：hexo generate 成功（2749 files，1.37min，无 ERROR），public/opc-report-2026-11-21-1100/index.html 已验证（86.6KB，标题正确）。
+- 部署：deploy.sh 源码仓一次成功（ca8fc4d..9073598）；gh-pages 推送被墙（认证+连接失败），按既有经验手动 `git -c http.sslBackend=openssl -c http.proxy=http://127.0.0.1:10090 push` 一次重推成功：gh-pages **6090958ab7**（7d40e62450..6090958ab7）。
+- 备注：当天 1/4 篇已用。
