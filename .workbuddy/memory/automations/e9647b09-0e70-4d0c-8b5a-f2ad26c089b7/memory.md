@@ -486,3 +486,12 @@
 - 构建：hexo generate 成功（2765 files，24s，无 ERROR），public/opc-report-2026-11-23-0853/index.html 已验证（86KB，标题正确）。
 - 部署：deploy.sh 一次全成功：gh-pages **05e1e59850**（13a865530c..05e1e59850）；源码仓 main **5825f2c**（01c7ea4..5825f2c）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-23 10:11 运行
+- 频控检查：当天(2026-11-23)文件数 1（<4），允许生成（当天第 2 篇）；当天尚无复刻型，本次优先产复刻型（全站首篇 Copy-This）。
+- 生成 1 篇：opc-report-2026-11-23-1035.md，标题 "From $40 to $10K MRR: The One-Person MCP Playbook"（49字符，~1750词，2表）。复刻型结构：This Week's Blueprint / The Tool Stack（按环节分组）/ 0 to 1 Steps（5问自诊+30天冲刺+本周第一步）/ Micro-Opportunities（5个）/ Signals Worth Knowing（2条，各带 What it means for you）/ Quick Data Reference。tags 含 Copy-This。
+- 案例清单（均 TrustMRR 支付核验）：PlugKit（Antoine Blanco，~$40起步，Aug 2026创立→Nov 20 $10,046 MRR/198 subs，MCP包装社媒官方API+客户自带AI零模型成本，Meta ads €269/客）；Laper（香港2-5人团队赵纯想，100% Claude Code 搭建，$46,865 MRR/1,444 subs，~40%非品牌词搜索流量，$595(4月)→$46,079(9月)，挂牌$1.47M-2M）；Post Bridge 增量（Jack Friks，~$48.5K MRR/1,600 subs/$582K累计，ChatGPT plugin listing 9月触发注册记录，infra<$2K/月）。
+- 去重确认：PlugKit/Laper 全站首次（grep 验证）；Friks/Post Bridge 仅 7 月旧文提过 $35K，本次增量=connector 目录分发+$48.5K 新核验数；Kolbo.AI 11-07/11-18 已写、TrustMRR 11-20 批次（CreativeClaw/notis.ai/GETebook）11-21 已写，均未复用。Signals 用 Gemini Tool Retrieval（11-19）+ 免费档盘点（perq.sh 11-22 核验），避开已写的 Gemini 4 Neon/GPT-6.2 模型本体。
+- 构建：hexo generate 成功（2772 files，1.28min，无 ERROR），public/opc-report-2026-11-23-1035/index.html 已验证（84.6KB，标题正确）。
+- 部署：deploy.sh 一次全成功：gh-pages **2e9f71b3a7**（05e1e59850..2e9f71b3a7）；源码仓 main **d6485fb**（5825f2c..d6485fb）。
+- 备注：当天 2/4 篇已用。
