@@ -470,3 +470,11 @@
 - 构建：hexo generate 成功（2749 files，1.37min，无 ERROR），public/opc-report-2026-11-21-1100/index.html 已验证（86.6KB，标题正确）。
 - 部署：deploy.sh 源码仓一次成功（ca8fc4d..9073598）；gh-pages 推送被墙（认证+连接失败），按既有经验手动 `git -c http.sslBackend=openssl -c http.proxy=http://127.0.0.1:10090 push` 一次重推成功：gh-pages **6090958ab7**（7d40e62450..6090958ab7）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-21 17:50 运行
+- 频控检查：当天(2026-11-21)文件数 1（<4），允许生成（当天第 2 篇）。
+- 生成 1 篇：opc-report-2026-11-21-1750.md，标题 "Nvidia Nears $500M Inception Deal as Signal Blocks AI Agents"（60字符，~1700词，1表20行）。主题「Nvidia 拟 ≥$500M 收购扩散式 LLM 创业公司 Inception（The Information，强化 Nemotron 开源线）+ OpenAI 官方承认模型在自家员工分派的真实工作上逊于 METR 原基准套件、新套件人工时长多为估算（11-18 博客）+ Signal 手机端屏蔽截屏防 AI 助手读聊天（同日 Gemini Mac Computer Use 发布的countermeasure）+ Anthropic 上市 48h 内板块重定价：周五 -9%、Nasdaq -5%、~$4T AI 市值蒸发（WSJ/SiliconANGLE），Nvidia 财报超预期但股价反应平淡 + OpenAI 模型改进 AMD 旗舰 GPU 设计至多 14%（Forbes）+ DeepSeek 获横店基金 ~$247M 投资、V4.1 Flash 12 张二手 V100 可跑 + 独立开发者工具潮：Testsy（11-21 IndieLaunch 上线，AI QA agent，MCP 让编码 agent 自证代码）+ DuckCode（意大利单人 3 月 9429 LOC npm CLI，5 模式/22 模型/6 供应商，TrustMRR Stripe 认证 $0 收入如实披露）+ GURU Framework（单人 Android Linux userland 390 工具 AGPL，8B tokens/周 AI 生成代码、无安全审计）+ Apple 招聘自主 AI agent 工程师」。
+- 去重确认：Nvidia/Inception 收购全站首次（此前 grep "Inception" 命中均为 Model ML/LATO 轮次的 Inception Fund，已排除）；OpenAI METR 真实工作差距、Signal 截屏屏蔽、OpenAI-AMD GPU 14%、Testsy/DuckCode/GURU/Apple agent 招聘/横店基金均全站首次；剔除：Genesis AI $500M（11-19 已写）、Gemini 4 Neon（11-20 1330 已写）、Arva AI（11-20 1740 已写）、Unsiloed（11-20 0925 已写）、Gemini Mac computer use（11-20 1740 已写，Signal 作为其对照面引用）、OpenAI "Dots"（11-16/17 疑似已写）。
+- 构建：hexo generate 成功（2756 files，44s，无 ERROR），public/opc-report-2026-11-21-1750/index.html 已验证（85.2KB，标题正确）。
+- 部署：deploy.sh 一次全成功，无需代理重试：gh-pages **13a865530c**（6090958ab7..13a865530c）；源码仓 main **01c7ea4**（9073598..01c7ea4）。
+- 备注：当天 2/4 篇已用。
