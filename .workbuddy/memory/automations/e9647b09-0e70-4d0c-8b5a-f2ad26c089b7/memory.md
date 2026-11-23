@@ -478,3 +478,11 @@
 - 构建：hexo generate 成功（2756 files，44s，无 ERROR），public/opc-report-2026-11-21-1750/index.html 已验证（85.2KB，标题正确）。
 - 部署：deploy.sh 一次全成功，无需代理重试：gh-pages **13a865530c**（6090958ab7..13a865530c）；源码仓 main **01c7ea4**（9073598..01c7ea4）。
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-23 08:53 运行
+- 频控检查：当天(2026-11-23)文件数 0（<4），允许生成（当天第 1 篇）。
+- 生成 1 篇：opc-report-2026-11-23-0853.md，标题 "Hoplite Raises $5.5M From Stripe Founders as AI Designs a CPU"（61字符，~1600词，1表20行）。主题「Hoplite $5.5M 种子（Collison 兄弟领投+Paul Graham/Des Traynor/YC，都柏林/旧金山，云端并行 coding agent 沙箱，824B tokens/18k 用户/100+ 团队，Free 5 agent / Team $60/seat；8-04 已写产品发布，本篇为融资+ traction 增量）+ Architect Labs Frostbite AI 全程设计 CPU（11-18 博客，11-20 HN 568分；interaction nets，4.59x perf/W geomean（调优 6.02x/保留 3.83x）+8.77x perf/area，80万行 Lean 形式化验证防 reward-hacking，pre-silicon 7nm GDS 无流片，基线为匿名 dual-issue in-order，含大量 caveats）+ Replit Agent 双能力（11-12 发布：Browserbase+Stripe Link 购物 checkout 代码级强制审批 vs Google Ads 日预算非硬上限的自认风险；Stripe 连接 9 倍增长）+ Subnano PH 上线（11-22，Nano XNO/Base USDC x402 微支付，agent-to-agent 交易市场，MCP 0.3.71，49 agent/148 agent 互购/125 人购/69 零账户 x402，滚动花费限额 5 XNO+5 USDC/24h）+ Cardboard for Mac（YC W26 班加罗尔，本地 Apple Silicon 剪辑+BYO Claude/ChatGPT 订阅，$8/29/59/175）+ 周融资盘面（104 轮 ~$28.2B，AI/ML 23 轮，seed 居首）+ ArcherAI $10M A轮（Volition，英国招聘 agent）」。
+- 去重确认：Frostbite/Architect Labs/Subnano/Cardboard/ArcherAI/Claude-BugHunter/周融资盘面均全站首次（grep 验证）；剔除：Stitch Loop（11-19 已写）、Tyler Denk $500K/Marc Lou 4h-336h/Levels video-to-3D（11-18 已写）、Anthropic $17B/$23.3B S-1（11-18 已写）、Unsiloed（11-20 已写）、TrueFoundry（10-20 已写旧闻不再增量）。Replit Google Ads 为 11-12 发布但全站未写过，作增量收录。
+- 构建：hexo generate 成功（2765 files，24s，无 ERROR），public/opc-report-2026-11-23-0853/index.html 已验证（86KB，标题正确）。
+- 部署：deploy.sh 一次全成功：gh-pages **05e1e59850**（13a865530c..05e1e59850）；源码仓 main **5825f2c**（01c7ea4..5825f2c）。
+- 备注：当天 1/4 篇已用。

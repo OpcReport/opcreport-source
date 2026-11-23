@@ -21,7 +21,11 @@
 - **md date 必须无时区格式 `YYYY-MM-DD HH:MM:SS`**（hexo-front-matter 对 ISO 偏移解析 -16h bug）
 - 文章命名 opc-report-YYYY-MM-DD-HHMM.md（HHMM 北京时间）， permalink :title/ 平铺
 - front matter：title / date / description（英文 ≤200 字符）/ categories / tags
-- 内容结构（参照 8-9 月范文）：Key Insights / Market Trends / Build Directions / Risk Factors / Action Recommendations / Quick Data Reference，英文 ~1500 词，具名来源+具体数字
+- **办刊初衷（2026-11-23 秦总定调，最高优先级）**：本站服务"想入局一人公司的个人与小团队"，卖的是"我也能这么干"的复刻路径，不是行业陈述。个人/小投入案例（具名、有收入数字、有渠道投入时间线）是主体，每篇至少 2-3 个；融资/大厂新闻最多 2 条且必须翻译成"对一人公司意味着什么"，纯资本动态陈述禁止。
+- 内容结构（2026-11-23 改版）：This Week's Playbook（案例库）/ How to Copy This（核心：复刻步骤清单+本周第一步）/ Micro-Opportunities（3-5个可切入需求点）/ Signals Worth Knowing（≤2条，各带 What it means for you）/ Quick Data Reference，英文 ~1500 词，具名来源+具体数字
+- **"小而美"标准（2026-11-23 秦总定调）**：最佳素材区间 = 总投入 ≤ $300（约¥2000）、月收益 ≥ $2,800（约¥20,000）、一人可做可持续；略超但投入产出比优的可收（须写实际数字）；天价融资/巨额估值一律不作为主体素材。
+- **每日保底一篇"复刻型"报告（tags 含 Copy-This）**：结构 = Blueprint / Tool Stack（按环节分组表+为什么选它+成本）/ 0 to 1 Steps（5问自诊+30天冲刺时间线+本周第一步）/ Micro-Opportunities / Signals / Quick Data。**格式范本 = site/source/_posts/opc-report-2026-06-28-2200.md（6-7月老报告风格，写前必读对齐）**。其余篇可为案例集型/机会清单/信号速览，个人案例配比对所有篇生效。
+- 标题优先"可复制动作+具体数字"，复刻型突出投入→产出数字对（Under $300 to $2,800 a Month 式），搜索意图词前置；融资额不做主标题
 - 部署 = hexo generate → public/ 推 gh-pages → GitHub Pages 自动发布；域名/AdSense/验证文件一律不动
 - GA4: G-92GE48C3Y0；不蒜子 BSZ_BASE {pv:5737, uv:5271}；捐赠卡 USDT TRC20 TSA1q55N3UZhztmFybchZXnNouqQSTcshp
 
