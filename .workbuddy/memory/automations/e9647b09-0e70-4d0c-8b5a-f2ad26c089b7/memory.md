@@ -510,3 +510,13 @@
 - 当天已有 4 篇（0853 / 1035 / 1320 / 1350），达到日上限，按频率规则直接跳过，未做任何写入。
 - 复刻型检查：1035 已含 tags Copy-This，当日保底已满足。
 - 无构建、无部署。
+
+## 2026-11-24 09:15 运行
+- 频控检查：当天(2026-11-24)文件数 0（<4），允许生成；当天无复刻型，本次优先产复刻型（当天 1/4 篇）。
+- 生成 1 篇：opc-report-2026-11-24-0925.md，标题 "From $0 to $6K MRR in 90 Days: The Solo Agent Skills Play"（57字符，~1900词，2表）。复刻型 2-A 结构完整（Blueprint / Tool Stack / 0 to 1 Steps / Micro-Opportunities / Signals / Quick Data）。tags 含 Copy-This。
+- 案例清单（均支付核验）：Skillry（熠辉 @yihui_indie，中国人独人，Agent Skills 卖给 Claude Code/Codex/Cursor 用户，~$0 投入，MRR $1,673(10/8)→$4,184(10/30)→$6,085 + 475 subs(11/19 Stripe)，$21,337 累计，10/19 旧文已写本次为增量 $2,170→$6,085）；House Goals（Jordan，英国，装修可视化 App，6月上线 $277→8月 30天 $20,685，现 $8,179 MRR/623 subs/累计 $60,532 RevenueCat 验证，唯一渠道 TikTok 前后对比轮播零广告，硬付费墙 $12.99/周 or $39.99/年，11/17 挂牌 $600K 出售）；Yaps（Rich @RichDoesTech，英国独人，本地离线 AI 工具套件（听写/语音/笔记/字幕），设备端模型零模型账单，3月因大客户没钱启动，$3,014 MRR/226 subs/累计 $17,525 Stripe 验证，$15/月或 $144/年，安卓键盘永久免费引流，坑=Google Play 2.7/5 分）。
+- Signals（2条）：开源模型占企业 token 流量 7.3%→30.9%（SaaStr 读 Databricks Unity Gateway，11/20，GLM 5.2 占开源流量 40%）+ 640 站 AI 爬虫误封审计（HackerNoon 11/20，100/640 拦截、仅 4 家 robots.txt 声明、96 家 Cloudflare/防火墙静默拦截）。
+- 去重确认：House Goals/Yaps 全站首次（grep 验证）；Skillry 为增量更新（10-19 已写 $2,170，文中明示增量口径）；剔除 Caveman 上下文压缩（8-21 已写 33.2% 数据重复）、beehiiv 涨价/Databricks 本体（多次写过）。三者均在"小而美"区间（投入≈$0-300、MRR $3,014/$6,085/$8,179 ≥$2,800）。
+- 构建：hexo generate 成功（2791 files，36s，无 ERROR），public/opc-report-2026-11-24-0925/index.html 已验证（87.5KB，标题正确）。
+- 部署：deploy.sh 一次全成功：gh-pages **d412764599**（795fea9400..d412764599）；源码仓 main **b01a71a**（75441b9..b01a71a）。
+- 备注：当天 1/4 篇已用。
