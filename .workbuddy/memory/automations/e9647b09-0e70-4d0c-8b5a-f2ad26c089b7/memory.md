@@ -495,3 +495,18 @@
 - 构建：hexo generate 成功（2772 files，1.28min，无 ERROR），public/opc-report-2026-11-23-1035/index.html 已验证（84.6KB，标题正确）。
 - 部署：deploy.sh 一次全成功：gh-pages **2e9f71b3a7**（05e1e59850..2e9f71b3a7）；源码仓 main **d6485fb**（5825f2c..d6485fb）。
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-23 13:00 运行
+- 频控检查：当天(2026-11-23)文件数 2（<4），允许生成；当天已有复刻型（1035 Copy-This），本次产案例集型 2 篇（当天 3-4/4 用满）。
+- 生成 2 篇：
+  1) opc-report-2026-11-23-1320.md，标题 "$39K in Three Weeks: A Solo Founder's Pay-Once Dev Tool Play"（61字符，~1600词）。主题「付费买断型开发者工具」：Bencho（Lorenzo Cabra，Dodo 验证累计 $39,251/30天 $23,008 +47%，54 subs/MRR $432，Pro €99年/€129买断，160+ 组件+MCP server，300K pv/月，80% 利润率）+ QuickSilicon（印度单人芯片面试题库，4年累计 ~$106K Razorpay 验证，8000 工程师，月费会员 0 付款的诚实披露）+ Task Pocket（Bohdan Stefaniuk 多伦多，$193 累计/$8 MRR 诚实小数字，$59.99 买断）。去重：三者全站首次（grep 验证）。
+  2) opc-report-2026-11-23-1350.md，标题 "One Person, $16.5K a Month: The Vertical B2B Tool Play"（55字符，~1650词）。主题「垂直 B2B 工具」：CallCloud（Richard Tattory 独人，2022-10 创立，Stripe 验证累计 $280,304、183 订阅、30天 ~$16.5K（TrustMRR MRR 字段 $33,022 已注明取保守值），$60/$125 座位价对标 $99-$299 竞品、930K 通话/月、AI搜索+LinkedIn 渠道）+ Aisma（3个月累计 $4,993、30天 $3,928 +274%、MRR $1,948）+ Quizado（爱沙尼亚双胞胎，€199/月/场地，27 付费场地，~$3,989/30天）。去重：三者全站首次。
+- 剔除已写过：Stencil AI（11-14/15 已写 $48.8K）、Heyron（11-15/21 已写）、Postiz（4次）、TypingMind（8-29）、Mono/CaptureFlow（11-21）、CreativeClaw/notis/GETebook（11-21）。
+- 构建：hexo generate 成功（2786 files，22s，无 ERROR），public/opc-report-2026-11-23-1320/index.html（83.4KB）与 -1350/index.html（83.1KB）已验证标题正确。
+- 部署：deploy.sh 首跑 GitHub 连接重置失败 → 代理 127.0.0.1:10090 重跑 gh-pages 成功 **795fea9400**（2e9f71b3a7..795fea9400）；源码仓 GCM 弹窗取消认证失败 → 用 .github-token 显式 URL 推送成功 **75441b9**（d6485fb..75441b9）。
+- 备注：当天 4/4 篇已用满。
+
+## 2026-11-23 17:15 触发（跳过）
+- 当天已有 4 篇（0853 / 1035 / 1320 / 1350），达到日上限，按频率规则直接跳过，未做任何写入。
+- 复刻型检查：1035 已含 tags Copy-This，当日保底已满足。
+- 无构建、无部署。
