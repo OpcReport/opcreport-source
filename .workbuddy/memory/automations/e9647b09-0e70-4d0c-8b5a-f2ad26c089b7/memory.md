@@ -520,3 +520,13 @@
 - 构建：hexo generate 成功（2791 files，36s，无 ERROR），public/opc-report-2026-11-24-0925/index.html 已验证（87.5KB，标题正确）。
 - 部署：deploy.sh 一次全成功：gh-pages **d412764599**（795fea9400..d412764599）；源码仓 main **b01a71a**（75441b9..b01a71a）。
 - 备注：当天 1/4 篇已用。
+
+## 2026-11-24 13:25 运行
+- 频控检查：当天(2026-11-24)已有 1 篇（0925，tags 含 Copy-This 复刻型，当日保底已满足），<4，允许生成（当天 2/4 篇）；本次产案例集型 2-B。
+- 生成 1 篇：opc-report-2026-11-24-1325.md，标题 "How a Solo Dev Hit $40K MRR in Six Months: Faceless Video Play"（63字符，~1700词，1表8列）。案例集型结构完整（Playbook / How to Copy This / Micro-Opportunities / Signals / Quick Data）。
+- 案例清单：AutoShorts（Eric Smith，独人，无脸短视频一键生成+定时队列，MRR Story 自报非审计——首付费 2/1→2月底 $1K→6个月 ~$40K MRR，月成本~$10K、毛利~75%，冷启动投放买来前 $1K，增长主燃料=头部用户自录屏演示触发联盟返佣计划，文中已标注自报口径与流失风险）；Solo Content Studio（Jason Zook，美国独人，4月创立，AI 写作 app 只做教练一个职业，TrustMRR Stripe 验证 $3,626 MRR/64 subs/累计 $31,203/30天 +9%，$99/$199 双价，React+Convex+Cloudflare+Stripe，渠道=创始人 28K X 粉丝，DR 14 零 SEO）；PostClaw（Adrien，法国独人，2月创立，OpenClaw 之上聊天式社媒管理 agent 13平台，Stripe 验证 $2,485 累计/现 $154 MRR/2 subs，首月 $670 MRR 零广告→衰减，创始人挂牌出售——作为"验证面板实时展示衰减曲线"的警示案例）；LocalEditor（Nikhil Yadav，独人，Mac 本地 agent 上下文审阅工作区 131K LOC，Dodo 验证 $24 累计/10 个付费用户/150 beta——作为"地板"案例，分发≠产能）。
+- Signals（2条）：IndieMakerList 研究（11-24 数据：867 profiles 中仅 172 公布可用收入、中位 $24K/月，solo 中位 $9K vs 双人 $88K，到 $10K MRR 中位 5 年，80% 不公布数字=幸存者偏差）；The AI Receipts 33 个支付核验可复制 AI side hustle 盘点 + Adspirer $54.7K 自 6-29 未同步被除名（验证面板新鲜度问题）。
+- 去重确认：AutoShorts（7-24 旧文仅表格带过工具名，本次为案例详写）、Solo Content Studio/PostClaw/LocalEditor 均全站首次（grep 验证）；Corey Chiu（11-15 已写）、AEO Engine（10-19 已写）已剔除；Postiz/Stencil/Heyron 等已写名单未复用。
+- 构建：hexo generate 成功（2799 files，1.47min，无 ERROR），public/opc-report-2026-11-24-1325/index.html 已验证（88.3KB，标题正确）。
+- 部署：deploy.sh 一次全成功无需代理：gh-pages **d96fe59c42**（d412764599..d96fe59c42）；源码仓 main **0320407**（b01a71a..0320407）。
+- 备注：当天 2/4 篇已用。
