@@ -530,3 +530,12 @@
 - 构建：hexo generate 成功（2799 files，1.47min，无 ERROR），public/opc-report-2026-11-24-1325/index.html 已验证（88.3KB，标题正确）。
 - 部署：deploy.sh 一次全成功无需代理：gh-pages **d96fe59c42**（d412764599..d96fe59c42）；源码仓 main **0320407**（b01a71a..0320407）。
 - 备注：当天 2/4 篇已用。
+
+## 2026-11-24 17:40 运行
+- 频控检查：当天(2026-11-24)已有 2 篇（0925 Copy-This 复刻型、1325 案例集型），<4，允许生成（当天 3/4 篇）；当日保底已满足，本次产案例集型 2-B。
+- 生成 1 篇：opc-report-2026-11-24-1740.md，标题 "$19 to $40K MRR in a Year: The Reddit Reply Play You Can Copy"（62字符，~1800词，1表）。案例集型结构完整（Playbook / How to Copy This / Micro-Opportunities×5 / Signals×2 / Quick Data）。
+- 案例清单：Bazzly（Filip Panoski，北马其顿，Reddit 意图打分+代回复平台，7年5个失败产品后辞职（$7K/月）all-in，$19 MRR→$40K MRR/$500K ARR 约12个月（X 自报无审计，文中已标注），时间线 $0→$100 六个月→$25K→$40K 两周，$1K 阶段向 Tibo 让 50% 股权，$10K 后提价，增长过快关注册开 waitlist，渠道=自己用自家工具+X 仅7.5K粉）；Kleo 2.0（Cameron Trew/Jake Ward/Lara Acosta，英国，LinkedIn 免费扩展60K用户被 C&D 下架→4周重写付费版（Next.js/Vercel/Neon/Inngest/Claude/Clerk/Polar），首发500席$59/月4天售罄、第二批500席$79/月9天售罄、标准$99/月，Polar 面板 $62K MRR/932 subs（Starter Story 自报），edu-selling+waitlist 唯一入口+10封预热邮件+3场 webinar 各$5K+，零广告零PH）；StoicSoft（Khoa Nguyen，越南，12个 MCP 桌面应用，$29单买/$199全家桶，LemonSqueezy 核验 $10,540 累计/30天 $1,736 +76%/MRR $19/1 sub/76%利润率，创始人自认"会做不会卖"、挂牌$500K 出售——作为诚实地板案例）。
+- Signals（2条）：a16z "B2A economy"（Olivia/Justine Moore，agent 成互联网主要用户与买家→MCP/API/机器可读定价）+ 平台风险双刃（LinkedIn C&D 杀 Kleo 1.0 vs 重生、Reddit 管控 vs Bazzly 降封号设计，免费抓来的受众是租的不是自己的）。剔除：Polsia（10-28 已写过）、FormulaBot（11-07 已写过）、IndieMakerList（11-24 1325 已用）。
+- 构建：hexo generate 成功（2808 files，26s，无 ERROR），public/opc-report-2026-11-24-1740/index.html 已验证（85.5KB，标题正确）。
+- 部署：deploy.sh 首跑 GitHub 连接重置失败 → 代理 127.0.0.1:10090 重跑 gh-pages 成功 **9868af01ba**（d96fe59c42..9868af01ba）；源码仓 main **151659b**（0320407..151659b，脚本尾补推）。
+- 备注：当天 3/4 篇已用。
