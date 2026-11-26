@@ -549,3 +549,13 @@
 - 构建：hexo generate 成功（2814 files，1.17min，无 ERROR），public/opc-report-2026-11-25-0915/index.html 已验证（89KB，标题正确）。
 - 部署：deploy.sh 一次成功无需代理：gh-pages **aeb1ddd938**（9868af01ba..aeb1ddd938）；源码仓 main **1c562bd**（151659b..1c562bd）。
 - 备注：当天 1/4 篇已用；本日保底复刻型已满足，后续运行可产案例集型。
+
+## 2026-11-26 09:25 运行
+- 频控检查：当天(2026-11-26)已有 0 篇，<4 允许生成（当天 1/4 篇）；当日无复刻型，本次产复刻型 2-A（Copy-This）。
+- 生成 1 篇：opc-report-2026-11-26-0925.md，标题 "From $150 a Month to $8,600 MRR: The Solo Pivot You Can Copy"（61字符，~1900词）。结构完整（Blueprint / Tool Stack / 0 to 1 Steps / Micro-Opportunities×5 / Signals×2 / Quick Data）。
+- 案例清单：Visualizee（Piotr Obidowski，波兰独人，建筑师 AI 渲染，节点编辑器两年$100-150/月停滞→2025 底删节点换聊天助手 Vizzy+改 $15/35/80 订阅+7天试用，6个月后 MRR $8,600（10月底 Stripe $8,474/297 subs/$93,419 累计，AI Receipts 11-23 核 $7,300/-6.7%），仍未辞职）；Native Templates（Tomas Zeman，独人，26个 React Native 模板一次性 $59-149，Polar 核验 $88,221 累计/~90%利润率/500+客户，2026 因 AI 编程工具冲击销售下滑（30天 $1,278 -23%）挂牌出售——作为"AI 吃掉市场"的反面教材）；Private Venture（Vincy，英国独人，SwiftUI 自动追踪+AI 伴侣 iOS app，RevenueCat 核验 $1,455 MRR/364 subs/$13,604 累计/30天 $4,120 +24%，$4.99/周+$29.99/年，全部用户来自自跑 Meta+Apple Search Ads 无自然流量，挂牌 $22,500（0.5x）——作为"租来的分发"地板案例）。
+- Signals（2条）：TrustMRR 一周年（Marc Lou Cursor 6小时构建，2025-10-30 上线，自验累计 $409,915，广告位 $299→$1,499 三天售罄 $20,378，促成 216 笔网站交易→验证层已成分发+退出基础设施）；The AI Receipts 渠道研究（11-25：5 个填渠道的独人业务中位 11 条渠道 vs 团队 3 条，播客/推荐计划 3/5 独人 vs 0/20 团队，仅 2/5 投广告→独人优势=廉价渠道广度非预算深度）。
+- 去重确认：Visualizee/Obidowski/Native Templates/Zeman/Private Venture/Vincy 全站 grep 零命中；Stencil AI（11-15 已引用）、House Goals/Yaps（11-24 已写）、CallCloud（11-23 整篇）、EmailEngine（11-02/12）、Anupam（11-18）、CreativeClaw/Mono/CaptureFlow/notis/GETebook（11-21 信号带过）均剔除。
+- 构建：hexo generate 成功（2825 files，23s，无 ERROR），public/opc-report-2026-11-26-0925/index.html 已验证（89.6KB，标题正确）。
+- 部署：deploy.sh 首跑 GitHub 连接重置失败（gh-pages 与源码仓均未推）→ 代理 127.0.0.1:10090 重跑：gh-pages 成功 **e98d8edaa9**（aeb1ddd938..e98d8edaa9）；源码仓 main 手动补推成功 **50da246**（1c562bd..50da246）。
+- 备注：当天 1/4 篇已用；本日保底复刻型已满足，后续运行可产案例集型/机会清单/信号速览。
