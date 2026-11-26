@@ -539,3 +539,13 @@
 - 构建：hexo generate 成功（2808 files，26s，无 ERROR），public/opc-report-2026-11-24-1740/index.html 已验证（85.5KB，标题正确）。
 - 部署：deploy.sh 首跑 GitHub 连接重置失败 → 代理 127.0.0.1:10090 重跑 gh-pages 成功 **9868af01ba**（d96fe59c42..9868af01ba）；源码仓 main **151659b**（0320407..151659b，脚本尾补推）。
 - 备注：当天 3/4 篇已用。
+
+## 2026-11-25 09:15 运行
+- 频控检查：当天(2026-11-25)已有 0 篇，<4 允许生成（当天 1/4 篇）；当日无复刻型，本次产复刻型 2-A（Copy-This）。
+- 生成 1 篇：opc-report-2026-11-25-0915.md，标题 "One Month to $35K MRR: The Solo Alert App Play You Can Copy"（59字符，~1900词）。结构完整（Blueprint / Tool Stack / 0 to 1 Steps / Micro-Opportunities×5 / Signals×2 / Quick Data）。
+- 案例清单：Store Stock Checker（Bryce，美国独人，2026-10 创立，iPhone 到货提醒，Stripe 验证 $35,220 MRR/4,605 subs/$36,319 累计/30天 $31,101 +704%，$5/$10/$20 三档，Rust+Cloudflare+Stripe，DR 8，渠道=Reddit/X/PH/媒体/SEO，已挂牌出售）；DirectRoles（Sam，2026-07-14 创立，公司官网直招职位抓取（非 LinkedIn/Indeed），Whop 验证 $27,090 MRR +1,121%/565 subs/$58,910 累计，月度曲线 Jul $3,903→Aug $9,364→Sep $16,268→Oct $27,764，DR 0 纯社媒+推荐，~70% 毛利，11-02 挂牌 $79,950（0.3x ARR），listing 标 2-5 人已标注）；AutoClip SaaS（George，美国，2026-02 创立，贴链接自动剪 10 条竖屏短片+排期发布 7 平台，Whop 验证 $8,581(8-04)→$12,129(11-11)→$25,914 +118% MoM，$19.99/$39.99/$79.99 credit 制，TikTok+场景 SEO 页 DR 1；已注明与同名开源 GitHub 项目区分）。
+- Signals（2条）：Whop D 轮 $200M/$5.1B 估值（10-21，Sequoia Doug Leone+Shopify Ventures，年化 $400M+，卖家上月 $300M+，Blueprints 6 周 2.1 万店，费率 ~2.7%+30¢ 起）→收款/分发/验证一签搞定；Reddit MRR 里程碑帖泛滥（Vynixal 11-18）→非整数数字+花费明细+失败叙事赢信任，付款验证徽章是转化资产。
+- 去重确认：notis.ai/GETebook（11-21 已用）剔除；Store Stock Checker/DirectRoles/AutoClip/Whop 融资信号全站首次（grep 验证零命中）。
+- 构建：hexo generate 成功（2814 files，1.17min，无 ERROR），public/opc-report-2026-11-25-0915/index.html 已验证（89KB，标题正确）。
+- 部署：deploy.sh 一次成功无需代理：gh-pages **aeb1ddd938**（9868af01ba..aeb1ddd938）；源码仓 main **1c562bd**（151659b..1c562bd）。
+- 备注：当天 1/4 篇已用；本日保底复刻型已满足，后续运行可产案例集型。
